@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img">
+
+  <defs>
+    <linearGradient id="bg-braai-sausage-links" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#13100E"/>
+      <stop offset="0.55" stop-color="#1C1714"/>
+      <stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="key-braai-sausage-links" cx="0.5" cy="0.48999999999999994" r="0.62">
+      <stop offset="0" stop-color="#DE5A1C" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#F7A03C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0A0908" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig-braai-sausage-links" cx="0.5" cy="0.48" r="0.78">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="metal-braai-sausage-links" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8E4DE"/>
+      <stop offset="0.4" stop-color="#9A948C"/>
+      <stop offset="0.62" stop-color="#C9C3BB"/>
+      <stop offset="1" stop-color="#5E5852"/>
+    </linearGradient>
+    <linearGradient id="board-braai-sausage-links" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#54392B"/>
+      <stop offset="1" stop-color="#3A2A20"/>
+    </linearGradient>
+    <linearGradient id="meat-braai-sausage-links" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#C9634C"/>
+      <stop offset="0.45" stop-color="#A8352B"/>
+      <stop offset="1" stop-color="#661913"/>
+    </linearGradient>
+    <linearGradient id="meatDark-braai-sausage-links" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#A8352B"/>
+      <stop offset="0.6" stop-color="#661913"/>
+      <stop offset="1" stop-color="#4A120E"/>
+    </linearGradient>
+    <linearGradient id="bone-braai-sausage-links" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EFE2CB"/>
+      <stop offset="1" stop-color="#C9B795"/>
+    </linearGradient>
+    <linearGradient id="cream-braai-sausage-links" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FBF3E6"/>
+      <stop offset="1" stop-color="#D9C7AC"/>
+    </linearGradient>
+    <linearGradient id="ember-braai-sausage-links" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8B15A"/>
+      <stop offset="0.5" stop-color="#F7A03C"/>
+      <stop offset="1" stop-color="#DE5A1C"/>
+    </linearGradient>
+    <filter id="soft-braai-sausage-links" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="softer-braai-sausage-links" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow-braai-sausage-links" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="grain-braai-sausage-links" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="0.0020144213922321796" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg-braai-sausage-links)"/>
+  <rect width="1200" height="900" fill="url(#key-braai-sausage-links)"/>
+
+  <ellipse cx="600" cy="690" rx="330" ry="52.800000000000004" fill="#000" opacity="0.45" filter="url(#SOFT)"/>
+  <g filter="url(#shadow-braai-sausage-links)">
+    <g transform="rotate(-8 600 470)">
+      <path d="M330 330 C284 370 290 458 336 482 C384 504 442 470 446 412 C450 362 376 318 330 330 Z" fill="url(#meat-braai-sausage-links)"/>
+      <path d="M342 344 C374 396 372 442 342 470" stroke="#E9B585" stroke-opacity="0.35" stroke-width="8" fill="none"/>
+      <path d="M300 406 C340 396 404 398 440 412" stroke="#5C170F" stroke-opacity="0.4" stroke-width="7" fill="none"/>
+      <path d="M520 422 C474 462 480 550 526 574 C574 596 632 562 636 504 C640 454 566 410 520 422 Z" fill="url(#meat-braai-sausage-links)"/>
+      <path d="M532 436 C564 488 562 534 532 562" stroke="#E9B585" stroke-opacity="0.35" stroke-width="8" fill="none"/>
+      <path d="M490 498 C530 488 594 490 630 504" stroke="#5C170F" stroke-opacity="0.4" stroke-width="7" fill="none"/>
+      <path d="M710 514 C664 554 670 642 716 666 C764 688 822 654 826 596 C830 546 756 502 710 514 Z" fill="url(#meat-braai-sausage-links)"/>
+      <path d="M722 528 C754 580 752 626 722 654" stroke="#E9B585" stroke-opacity="0.35" stroke-width="8" fill="none"/>
+      <path d="M680 590 C720 580 784 582 820 596" stroke="#5C170F" stroke-opacity="0.4" stroke-width="7" fill="none"/>
+    </g>
+    <path d="M372 346.2 L828 364.2" stroke="#2A0E0A" stroke-opacity="0.30" stroke-width="12.404339582659304" stroke-linecap="round" fill="none"/><path d="M372 412.2 L828 430.2" stroke="#2A0E0A" stroke-opacity="0.47" stroke-width="9.669343727640808" stroke-linecap="round" fill="none"/><path d="M372 478.20000000000005 L828 496.20000000000005" stroke="#2A0E0A" stroke-opacity="0.34" stroke-width="9.276751211145893" stroke-linecap="round" fill="none"/><path d="M372 544.2 L828 562.2" stroke="#2A0E0A" stroke-opacity="0.54" stroke-width="10.846433549188077" stroke-linecap="round" fill="none"/>
+  </g>
+  <rect width="1200" height="900" fill="url(#vig-braai-sausage-links)"/>
+  <rect width="1200" height="900" filter="url(#grain-braai-sausage-links)" opacity="0.075" style="mix-blend-mode:overlay"/>
+</svg>

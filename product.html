@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Product | Izwelethu Butchery Demo Concept</title>
+<meta name="description" content="Demo product detail page for the Izwelethu Butchery concept. Prices, stock and product details are unconfirmed and require confirmation by Izwelethu, Umlazi.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#14100E">
+<meta property="og:type" content="product">
+<meta property="og:site_name" content="Izwelethu Butchery — Demo Concept">
+<meta property="og:title" content="Product detail | Izwelethu Butchery Demo Concept">
+<meta property="og:description" content="Demo product detail page: quantity selector, add to cart and WhatsApp ordering concept.">
+<meta property="og:image" content="assets/images/og-card.svg">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<p class="demo-ribbon">
+  Demo concept — not the official Izwelethu website. &nbsp;<strong>Prices, menu and services shown are unconfirmed.</strong>
+</p>
+
+<div class="topbar">
+  <div class="container topbar__inner">
+    <ul class="topbar__list">
+      <li><svg class="ico" aria-hidden="true"><use href="#ico-pin"></use></svg> Umlazi, KwaZulu-Natal</li>
+      <li><svg class="ico" aria-hidden="true"><use href="#ico-phone"></use></svg> Contact details to be verified before launch</li>
+    </ul>
+    <ul class="topbar__list">
+      <li>Butchery &middot; Eatery &middot; Shisanyama</li>
+      <li>Wholesale &amp; retail concept</li>
+    </ul>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="index.html" aria-label="Izwelethu Butchery — home">
+      <img class="brand__mark" src="assets/logo/izwelethu-mark.svg" alt="" width="44" height="44">
+      <span class="brand__text">
+        <span class="brand__name">IZWELETHU</span>
+        <span class="brand__sub">BUTCHERY</span>
+      </span>
+    </a>
+    <nav class="nav-desktop" data-nav aria-label="Primary navigation">
+      <ul class="nav-desktop__list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="shisanyama.html">Shisanyama</a></li>
+        <li><a href="wholesale.html">Wholesale</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <div class="header__actions">
+      <button class="icon-btn" type="button" data-search-open aria-label="Search products">
+        <svg class="ico" aria-hidden="true"><use href="#ico-search"></use></svg>
+      </button>
+      <button class="icon-btn" type="button" data-demo-note="Account area is a concept feature — production integration required." aria-label="Account (concept only)">
+        <svg class="ico" aria-hidden="true"><use href="#ico-user"></use></svg>
+      </button>
+      <a class="icon-btn" href="cart.html" aria-label="Cart, empty">
+        <svg class="ico" aria-hidden="true"><use href="#ico-cart"></use></svg>
+        <span class="cart-count" data-empty="true">0</span>
+      </a>
+      <button class="icon-btn header__menu-btn" type="button" data-drawer-open aria-label="Open menu" aria-controls="site-drawer">
+        <svg class="ico" aria-hidden="true"><use href="#ico-menu"></use></svg>
+      </button>
+    </div>
+    <button class="btn btn--accent header__cta" type="button" data-whatsapp="cart">Order now</button>
+  </div>
+</header>
+
+<div class="search" id="site-search" aria-hidden="true" role="dialog" aria-label="Search products">
+  <div class="container search__inner">
+    <div class="search__field">
+      <svg class="ico" aria-hidden="true"><use href="#ico-search"></use></svg>
+      <input class="search__input" type="search" placeholder="Search ribs, wors, chicken, lamb…" data-search-input aria-label="Search products">
+      <button class="icon-btn" type="button" data-search-close aria-label="Close search">
+        <svg class="ico" aria-hidden="true"><use href="#ico-close"></use></svg>
+      </button>
+    </div>
+    <p class="search__hint" data-search-hint>Type to search demo products, categories and descriptions. Press / anywhere to open search.</p>
+    <div class="search__results" data-search-results></div>
+  </div>
+</div>
+
+<div class="drawer-backdrop" id="drawer-backdrop"></div>
+
+<aside class="drawer" id="site-drawer" aria-hidden="true" aria-label="Mobile menu">
+  <div class="drawer__head">
+    <span class="brand__text">
+      <span class="brand__name">IZWELETHU</span>
+      <span class="brand__sub">BUTCHERY</span>
+    </span>
+    <button class="icon-btn" type="button" data-drawer-close aria-label="Close menu">
+      <svg class="ico" aria-hidden="true"><use href="#ico-close"></use></svg>
+    </button>
+  </div>
+  <nav class="drawer__nav" data-drawer-nav aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop meat</a>
+    <a href="shisanyama.html">Shisanyama</a>
+    <a href="wholesale.html">Wholesale</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="loyalty.html">Izwelethu Club</a>
+    <a href="cart.html">Cart</a>
+  </nav>
+  <div class="drawer__foot">
+    <button class="btn btn--ember btn--block" type="button" data-whatsapp="cart">Order on WhatsApp</button>
+    <a class="btn btn--ghost btn--block" href="shop.html">Shop all demo products</a>
+    <p class="drawer__note">Demo concept only. Prices, packs and services shown are not confirmed by Izwelethu Butchery.</p>
+  </div>
+</aside>
+
+<main id="main">
+
+  <section class="section">
+    <div class="container">
+
+      <nav class="crumbs" aria-label="Breadcrumb" style="color:var(--muted);margin-bottom:var(--sp-5)">
+        <a href="index.html">Home</a><span>/</span>
+        <a href="shop.html">Shop</a><span>/</span>
+        <span id="crumb-product">Product</span>
+      </nav>
+
+      <!-- product not found / missing id -->
+      <div id="pdp-missing" hidden>
+        <div class="empty">
+          <span class="empty__icon" aria-hidden="true">
+            <svg class="ico"><use href="#ico-search"></use></svg>
+          </span>
+          <h3>No results found</h3>
+          <p>We could not find that demo product. It may have been renamed, or the link may be incomplete.</p>
+          <div class="row" style="justify-content:center">
+            <a class="btn btn--accent" href="shop.html">Browse the demo shop</a>
+            <a class="btn btn--ghost" href="index.html">Back to home</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="pdp" hidden>
+        <div class="pdp">
+
+          <div class="pdp__media">
+            <span class="pdp__flags" id="pdp-flags"></span>
+            <img id="pdp-image" src="assets/images/beef-ribs.svg" alt="" width="1200" height="900" fetchpriority="high">
+          </div>
+
+          <div class="pdp__sticky stack stack--lg">
+            <div class="stack">
+              <span class="card__cat" id="pdp-cat">Category</span>
+              <h1 class="pdp__title" id="pdp-title">Product</h1>
+              <p class="lede" id="pdp-desc">Description</p>
+            </div>
+
+            <div class="pdp__price">
+              <span class="pdp__amount" id="pdp-price">—</span>
+              <span class="pdp__unit" id="pdp-unit">per kg</span>
+              <span class="badge badge--demo" id="pdp-price-badge">Demo price</span>
+            </div>
+
+            <div class="pdp__block">
+              <div class="pdp__row">
+                <label class="field-label" for="pdp-qty" id="pdp-qty-label">Quantity</label>
+                <div class="stepper" role="group" aria-labelledby="pdp-qty-label">
+                  <button type="button" id="pdp-step-down" aria-label="Decrease quantity">
+                    <svg class="ico" aria-hidden="true"><use href="#ico-minus"></use></svg>
+                  </button>
+                  <input type="number" id="pdp-qty" value="1" min="1" max="99" step="1" inputmode="decimal">
+                  <button type="button" id="pdp-step-up" aria-label="Increase quantity">
+                    <svg class="ico" aria-hidden="true"><use href="#ico-plus"></use></svg>
+                  </button>
+                </div>
+              </div>
+
+              <div class="summary__row">
+                <span>Line total (demo)</span>
+                <span class="strong" id="pdp-line-total">—</span>
+              </div>
+              <p class="tiny muted" id="pdp-qty-note">Demo figures only.</p>
+            </div>
+
+            <div class="pdp__actions" id="pdp-actions">
+              <button class="btn btn--accent btn--lg" type="button" id="pdp-add">
+                Add to cart
+              </button>
+              <button class="btn btn--ember btn--lg" type="button" id="pdp-whatsapp">
+                <svg class="ico" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>
+                Order on WhatsApp
+              </button>
+            </div>
+            <a class="link-arrow" href="cart.html">
+              View demo cart
+              <svg class="ico" aria-hidden="true"><use href="#ico-arrow-right"></use></svg>
+            </a>
+
+            <div class="note note--warn">
+              <svg class="ico" aria-hidden="true"><use href="#ico-alert"></use></svg>
+              <span>Demo product. Availability, cut specification and price must be confirmed by Izwelethu before launch.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="split" style="margin-top:var(--sp-7);align-items:start">
+          <div class="stack stack--lg">
+            <div class="stack" id="pdp-contents-wrap" hidden>
+              <h2 class="h3">What is included (demo)</h2>
+              <ul class="pack__list" id="pdp-contents" style="--gold:var(--accent)"></ul>
+            </div>
+
+            <div class="stack" id="pdp-specs-wrap">
+              <h2 class="h3">Product details</h2>
+              <dl class="spec-list" id="pdp-specs"></dl>
+            </div>
+
+            <div class="note">
+              <svg class="ico" aria-hidden="true"><use href="#ico-alert"></use></svg>
+              <span id="pdp-note">Demo content only.</span>
+            </div>
+          </div>
+
+          <div class="stack stack--lg">
+            <h2 class="h3">How ordering works</h2>
+            <ol class="stack small" style="counter-reset:step">
+              <li><strong class="text-accent">01 —</strong> Choose your quantity.</li>
+              <li><strong class="text-accent">02 —</strong> Add it to the demo cart or send it straight on WhatsApp.</li>
+              <li><strong class="text-accent">03 —</strong> Izwelethu confirms availability and the final price.</li>
+            </ol>
+            <div class="row">
+              <button class="btn btn--ghost" type="button" data-whatsapp="enquiry"
+                data-whatsapp-text="Hi Izwelethu, I have a question about a product on your website.">
+                Ask a question
+              </button>
+              <a class="btn btn--ghost" href="wholesale.html">Bulk orders</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-head__top">
+          <div class="stack">
+            <span class="eyebrow">You might also add</span>
+            <h2>Complete the order</h2>
+          </div>
+          <a class="link-arrow" href="shop.html">
+            Back to shop
+            <svg class="ico" aria-hidden="true"><use href="#ico-arrow-right"></use></svg>
+          </a>
+        </div>
+      </div>
+      <div class="product-grid" id="pdp-related"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="stack">
+        <a class="brand" href="index.html" style="margin-right:0">
+          <img class="brand__mark" src="assets/logo/izwelethu-mark.svg" alt="" width="44" height="44">
+          <span class="brand__text">
+            <span class="brand__name">IZWELETHU</span>
+            <span class="brand__sub">BUTCHERY</span>
+          </span>
+        </a>
+        <p class="footer__about">
+          Meat, braai, shisanyama and wholesale concepts for Umlazi, KwaZulu-Natal.
+          This website is a demonstration concept and is not the official Izwelethu website.
+        </p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul class="footer__list">
+          <li><a href="shop.html">All demo products</a></li>
+          <li><a href="shop.html?cat=beef">Beef</a></li>
+          <li><a href="shop.html?cat=chicken">Chicken</a></li>
+          <li><a href="shop.html?cat=wors-sausages">Wors &amp; sausages</a></li>
+          <li><a href="shop.html?cat=braai-packs">Braai packs</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit &amp; explore</h4>
+        <ul class="footer__list">
+          <li><a href="shisanyama.html">Shisanyama</a></li>
+          <li><a href="wholesale.html">Wholesale</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="loyalty.html">Izwelethu Club</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="admin-demo.html">Admin concept</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul class="footer__list">
+          <li><svg class="ico" aria-hidden="true"><use href="#ico-pin"></use></svg><span>Umlazi, KwaZulu-Natal, South Africa</span></li>
+          <li>
+            <svg class="ico" aria-hidden="true"><use href="#ico-phone"></use></svg>
+            <a href="tel:+27319073143">031 907 3143</a>
+            <span class="tiny">(unverified — to confirm)</span>
+          </li>
+          <li><svg class="ico" aria-hidden="true"><use href="#ico-clock"></use></svg><span>Operating hours to be confirmed</span></li>
+        </ul>
+        <div class="row" style="margin-top:var(--sp-4)">
+          <button class="btn btn--cream btn--sm" type="button" data-whatsapp="enquiry">WhatsApp</button>
+          <button class="btn btn--ghost btn--sm" type="button" data-demo-note="Account area is a concept feature — production integration required.">Account</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p style="margin:0">&copy; <span data-year>2026</span> Izwelethu Butchery — demo concept. Not an official website.</p>
+      <ul class="footer__legal">
+        <li>Demo disclaimer: prices, menu, packs and services are unconfirmed.</li>
+        <li>No personal data is collected, stored or transmitted by this demo.</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<nav class="bottom-nav" aria-label="Quick navigation">
+  <a class="bottom-nav__item" href="index.html"><svg class="ico" aria-hidden="true"><use href="#ico-fire"></use></svg>Home</a>
+  <a class="bottom-nav__item" href="shop.html"><svg class="ico" aria-hidden="true"><use href="#ico-cart"></use></svg>Shop</a>
+  <a class="bottom-nav__item" href="shisanyama.html"><svg class="ico" aria-hidden="true"><use href="#ico-sparkle"></use></svg>Braai</a>
+  <a class="bottom-nav__item" href="cart.html"><svg class="ico" aria-hidden="true"><use href="#ico-box"></use></svg>Cart</a>
+  <button class="bottom-nav__item" type="button" data-drawer-open><svg class="ico" aria-hidden="true"><use href="#ico-menu"></use></svg>More</button>
+</nav>
+
+<div class="sticky-cta">
+  <button class="btn btn--ember btn--block" type="button" data-whatsapp="cart">
+    <svg class="ico" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>
+    Order on WhatsApp
+  </button>
+</div>
+
+<div class="toast-stack" role="status" aria-live="polite"></div>
+
+<script src="js/demo-data.js" defer></script>
+<script src="js/products.js" defer></script>
+<script src="js/app.js" defer></script>
+<script src="js/cart.js" defer></script>
+<script src="js/whatsapp.js" defer></script>
+<script src="js/filters.js" defer></script>
+<script>
+/* --------------------------------------------------------------------------
+   Reusable product detail view. The product is resolved from ?id=<product id>
+   so a future API only has to change the data source in js/products.js.
+   -------------------------------------------------------------------------- */
+document.addEventListener('DOMContentLoaded', function () {
+  var year = document.querySelector('[data-year]');
+  if (year) year.textContent = String(new Date().getFullYear());
+
+  var params = new URLSearchParams(window.location.search);
+  var product = Products.byId(params.get('id'));
+
+  var pdp = document.getElementById('pdp');
+  var missing = document.getElementById('pdp-missing');
+
+  if (!product) {
+    missing.hidden = false;
+    document.querySelector('#crumb-product').textContent = 'Not found';
+    return;
+  }
+
+  /* ---------------- populate ---------------- */
+  pdp.hidden = false;
+  missing.hidden = true;
+  document.title = product.name + ' | Izwelethu Butchery Demo Concept';
+  document.querySelector('#crumb-product').textContent = product.name;
+
+  var image = document.getElementById('pdp-image');
+  image.src = product.image;
+  image.alt = product.alt;
+
+  var flags = [];
+  if (product.demo) flags.push('<span class="badge badge--dark">Demo product</span>');
+  if (product.packLabel) flags.push('<span class="badge badge--gold">' + product.packLabel + '</span>');
+  if (product.available === false) {
+    flags.push('<span class="badge badge--danger">Unavailable (demo)</span>');
+  } else if (product.stock === 'Limited') {
+    flags.push('<span class="badge badge--demo">Limited stock (demo)</span>');
+  }
+  document.getElementById('pdp-flags').innerHTML = flags.join('');
+
+  document.getElementById('pdp-cat').textContent = Products.categoryName(product.category);
+  document.getElementById('pdp-title').textContent = product.name;
+  document.getElementById('pdp-desc').textContent = product.long || product.description;
+
+  document.getElementById('pdp-price').textContent =
+    product.price ? Products.formatPrice(product.price) : 'Price to be confirmed';
+  document.getElementById('pdp-unit').textContent = product.unitLong || ('per ' + product.unit);
+  document.getElementById('pdp-price-badge').textContent =
+    product.price ? 'Demo price — to be confirmed' : 'Price to be confirmed';
+
+  var qty = document.getElementById('pdp-qty');
+  var down = document.getElementById('pdp-step-down');
+  var up = document.getElementById('pdp-step-up');
+  var lineTotal = document.getElementById('pdp-line-total');
+  var qtyNote = document.getElementById('pdp-qty-note');
+
+  qty.min = String(product.minQty || product.qtyStep || 1);
+  qty.max = String(product.maxQty || 99);
+  qty.step = String(product.qtyStep || 1);
+  qty.value = String(product.minQty || product.qtyStep || 1);
+  var qtyLabel = document.getElementById('pdp-qty-label');
+  qtyLabel.textContent = 'Quantity (' + (product.unit === 'kg' ? 'kg' : product.unit) + ')';
+  qtyNote.textContent = 'Demo figures only. Izwelethu confirms the final weight and price.';
+
+  function clamp(value) {
+    var step = product.qtyStep || 1;
+    var min = product.minQty || step;
+    var max = product.maxQty || 99;
+    value = Math.min(max, Math.max(min, Number(value) || min));
+    return Math.round(value / step) * step;
+  }
+
+  function paintTotal() {
+    qty.value = String(clamp(qty.value));
+    var value = Number(qty.value);
+    lineTotal.textContent = product.price
+      ? Products.formatPrice(product.price * value)
+      : 'Price to be confirmed';
+    /* keep the WhatsApp button in sync with the chosen quantity */
+    document.getElementById('pdp-whatsapp').setAttribute('data-wa-qty', String(value));
+  }
+
+  down.addEventListener('click', function () {
+    qty.value = String(clamp(Number(qty.value) - (product.qtyStep || 1)));
+    paintTotal();
+  });
+  up.addEventListener('click', function () {
+    qty.value = String(clamp(Number(qty.value) + (product.qtyStep || 1)));
+    paintTotal();
+  });
+  qty.addEventListener('change', paintTotal);
+  qty.addEventListener('input', paintTotal);
+
+  var addBtn = document.getElementById('pdp-add');
+  if (product.available === false) {
+    addBtn.disabled = true;
+    addBtn.textContent = 'Currently unavailable (demo)';
+  } else {
+    addBtn.addEventListener('click', function () {
+      if (Cart.add(product.id, Number(qty.value))) {
+        UI.toast(product.name + ' added to the demo cart');
+      }
+    });
+  }
+
+  var waBtn = document.getElementById('pdp-whatsapp');
+  waBtn.setAttribute('data-wa-product', product.id);
+  waBtn.addEventListener('click', function () {
+    WhatsApp.orderProduct(product, Number(qty.value));
+  });
+
+  /* ---------------- pack contents ---------------- */
+  var contentsWrap = document.getElementById('pdp-contents-wrap');
+  if (product.contents && product.contents.length) {
+    contentsWrap.hidden = false;
+    document.getElementById('pdp-contents').innerHTML = product.contents.map(function (line) {
+      return '<li><svg class="ico" aria-hidden="true"><use href="#ico-check"></use></svg><span>' + line + '</span></li>';
+    }).join('');
+  }
+
+  /* ---------------- specs ---------------- */
+  document.getElementById('pdp-specs').innerHTML = (product.specs || []).map(function (spec) {
+    return '<div><dt>' + spec.label + '</dt><dd>' + spec.value + '</dd></div>';
+  }).join('');
+
+  document.getElementById('pdp-note').textContent =
+    'This page is generated from js/products.js so a live catalogue could replace the demo data. ' +
+    'Nothing shown here has been confirmed by Izwelethu.';
+
+  /* ---------------- related ---------------- */
+  var related = Products.related(product, 4);
+  UI.renderInto('#pdp-related', related.map(function (item) {
+    return UI.productCard(item);
+  }).join(''));
+
+  paintTotal();
+  UI.initReveal();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img">
+
+  <defs>
+    <linearGradient id="bg-gallery-coals" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#13100E"/>
+      <stop offset="0.55" stop-color="#1C1714"/>
+      <stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="key-gallery-coals" cx="0.5" cy="0.48999999999999994" r="0.62">
+      <stop offset="0" stop-color="#DE5A1C" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#F7A03C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0A0908" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig-gallery-coals" cx="0.5" cy="0.48" r="0.78">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="metal-gallery-coals" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8E4DE"/>
+      <stop offset="0.4" stop-color="#9A948C"/>
+      <stop offset="0.62" stop-color="#C9C3BB"/>
+      <stop offset="1" stop-color="#5E5852"/>
+    </linearGradient>
+    <linearGradient id="board-gallery-coals" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#54392B"/>
+      <stop offset="1" stop-color="#3A2A20"/>
+    </linearGradient>
+    <linearGradient id="meat-gallery-coals" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#C9634C"/>
+      <stop offset="0.45" stop-color="#A8352B"/>
+      <stop offset="1" stop-color="#661913"/>
+    </linearGradient>
+    <linearGradient id="meatDark-gallery-coals" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#A8352B"/>
+      <stop offset="0.6" stop-color="#661913"/>
+      <stop offset="1" stop-color="#4A120E"/>
+    </linearGradient>
+    <linearGradient id="bone-gallery-coals" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EFE2CB"/>
+      <stop offset="1" stop-color="#C9B795"/>
+    </linearGradient>
+    <linearGradient id="cream-gallery-coals" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FBF3E6"/>
+      <stop offset="1" stop-color="#D9C7AC"/>
+    </linearGradient>
+    <linearGradient id="ember-gallery-coals" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8B15A"/>
+      <stop offset="0.5" stop-color="#F7A03C"/>
+      <stop offset="1" stop-color="#DE5A1C"/>
+    </linearGradient>
+    <filter id="soft-gallery-coals" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="softer-gallery-coals" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow-gallery-coals" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="grain-gallery-coals" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="0.003651088336482644" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg-gallery-coals)"/>
+  <rect width="1200" height="900" fill="url(#key-gallery-coals)"/>
+
+  <ellipse cx="600" cy="700" rx="520" ry="150" fill="#DE5A1C" opacity="0.42" filter="url(#softer-gallery-coals)"/>
+  <ellipse cx="183" cy="757" rx="39" ry="24" fill="#2A1512"/>
+      <ellipse cx="183" cy="753" rx="27" ry="16" fill="#F7A03C" opacity="0.77"/><ellipse cx="900" cy="577" rx="26" ry="16" fill="#2A1512"/>
+      <ellipse cx="900" cy="573" rx="18" ry="11" fill="#F7A03C" opacity="0.70"/><ellipse cx="386" cy="685" rx="36" ry="22" fill="#2A1512"/>
+      <ellipse cx="386" cy="681" rx="25" ry="15" fill="#F7A03C" opacity="0.83"/><ellipse cx="669" cy="587" rx="48" ry="30" fill="#2A1512"/>
+      <ellipse cx="669" cy="583" rx="34" ry="19" fill="#F7A03C" opacity="0.75"/><ellipse cx="938" cy="642" rx="47" ry="29" fill="#2A1512"/>
+      <ellipse cx="938" cy="638" rx="33" ry="19" fill="#F7A03C" opacity="0.73"/><ellipse cx="516" cy="584" rx="28" ry="18" fill="#2A1512"/>
+      <ellipse cx="516" cy="580" rx="20" ry="11" fill="#DE5A1C" opacity="0.49"/><ellipse cx="580" cy="625" rx="43" ry="27" fill="#2A1512"/>
+      <ellipse cx="580" cy="621" rx="30" ry="17" fill="#DE5A1C" opacity="0.49"/><ellipse cx="793" cy="617" rx="39" ry="24" fill="#2A1512"/>
+      <ellipse cx="793" cy="613" rx="27" ry="16" fill="#F7A03C" opacity="0.85"/><ellipse cx="202" cy="722" rx="33" ry="21" fill="#2A1512"/>
+      <ellipse cx="202" cy="718" rx="23" ry="13" fill="#F7A03C" opacity="0.70"/><ellipse cx="687" cy="703" rx="53" ry="33" fill="#2A1512"/>
+      <ellipse cx="687" cy="699" rx="37" ry="21" fill="#F7A03C" opacity="0.86"/><ellipse cx="856" cy="673" rx="43" ry="27" fill="#2A1512"/>
+      <ellipse cx="856" cy="669" rx="30" ry="17" fill="#DE5A1C" opacity="0.67"/><ellipse cx="878" cy="768" rx="29" ry="18" fill="#2A1512"/>
+      <ellipse cx="878" cy="764" rx="20" ry="12" fill="#F7A03C" opacity="0.73"/><ellipse cx="727" cy="568" rx="26" ry="16" fill="#2A1512"/>
+      <ellipse cx="727" cy="564" rx="19" ry="11" fill="#F7A03C" opacity="0.78"/><ellipse cx="985" cy="572" rx="54" ry="33" fill="#2A1512"/>
+      <ellipse cx="985" cy="568" rx="38" ry="22" fill="#F7A03C" opacity="0.70"/><ellipse cx="584" cy="608" rx="57" ry="35" fill="#2A1512"/>
+      <ellipse cx="584" cy="604" rx="40" ry="23" fill="#F7A03C" opacity="0.81"/><ellipse cx="758" cy="613" rx="56" ry="35" fill="#2A1512"/>
+      <ellipse cx="758" cy="609" rx="39" ry="22" fill="#DE5A1C" opacity="0.55"/><ellipse cx="814" cy="752" rx="48" ry="30" fill="#2A1512"/>
+      <ellipse cx="814" cy="748" rx="33" ry="19" fill="#F7A03C" opacity="0.82"/><ellipse cx="834" cy="703" rx="38" ry="24" fill="#2A1512"/>
+      <ellipse cx="834" cy="699" rx="27" ry="15" fill="#DE5A1C" opacity="0.52"/><ellipse cx="586" cy="765" rx="38" ry="24" fill="#2A1512"/>
+      <ellipse cx="586" cy="761" rx="27" ry="15" fill="#DE5A1C" opacity="0.51"/><ellipse cx="371" cy="702" rx="48" ry="30" fill="#2A1512"/>
+      <ellipse cx="371" cy="698" rx="33" ry="19" fill="#F7A03C" opacity="0.86"/><ellipse cx="619" cy="709" rx="33" ry="21" fill="#2A1512"/>
+      <ellipse cx="619" cy="705" rx="23" ry="13" fill="#DE5A1C" opacity="0.65"/><ellipse cx="202" cy="768" rx="27" ry="17" fill="#2A1512"/>
+      <ellipse cx="202" cy="764" rx="19" ry="11" fill="#F7A03C" opacity="0.77"/>
+  <g fill="url(#ember-gallery-coals)" opacity="0.9">
+    <path d="M520 640 C540 520 590 560 600 440 C626 540 660 520 672 430 C690 540 720 540 726 650 Z" opacity="0.55" filter="url(#soft-gallery-coals)"/>
+  </g>
+  <g fill="#E8B15A" opacity="0.8">
+    <circle cx="669" cy="450" r="4.8"/><circle cx="274" cy="291" r="4.6"/><circle cx="308" cy="348" r="3.8"/><circle cx="452" cy="663" r="5.4"/><circle cx="861" cy="409" r="5.9"/><circle cx="523" cy="603" r="4.5"/><circle cx="439" cy="328" r="5.6"/><circle cx="872" cy="385" r="3.8"/><circle cx="393" cy="679" r="3.5"/><circle cx="838" cy="542" r="5.7"/><circle cx="516" cy="607" r="4.6"/><circle cx="570" cy="459" r="4.2"/><circle cx="823" cy="477" r="3.6"/><circle cx="566" cy="265" r="5.3"/><circle cx="314" cy="637" r="5.2"/><circle cx="366" cy="238" r="4.8"/>
+  </g>
+  <rect width="1200" height="900" fill="url(#vig-gallery-coals)"/>
+  <rect width="1200" height="900" filter="url(#grain-gallery-coals)" opacity="0.075" style="mix-blend-mode:overlay"/>
+</svg>

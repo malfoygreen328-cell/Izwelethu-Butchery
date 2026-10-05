@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img">
+
+  <defs>
+    <linearGradient id="bg-whole-chicken" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#13100E"/>
+      <stop offset="0.55" stop-color="#1C1714"/>
+      <stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="key-whole-chicken" cx="0.5" cy="0.48999999999999994" r="0.62">
+      <stop offset="0" stop-color="#DE5A1C" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#F7A03C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0A0908" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig-whole-chicken" cx="0.5" cy="0.48" r="0.78">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="metal-whole-chicken" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8E4DE"/>
+      <stop offset="0.4" stop-color="#9A948C"/>
+      <stop offset="0.62" stop-color="#C9C3BB"/>
+      <stop offset="1" stop-color="#5E5852"/>
+    </linearGradient>
+    <linearGradient id="board-whole-chicken" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#54392B"/>
+      <stop offset="1" stop-color="#3A2A20"/>
+    </linearGradient>
+    <linearGradient id="meat-whole-chicken" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#C9634C"/>
+      <stop offset="0.45" stop-color="#A8352B"/>
+      <stop offset="1" stop-color="#661913"/>
+    </linearGradient>
+    <linearGradient id="meatDark-whole-chicken" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#A8352B"/>
+      <stop offset="0.6" stop-color="#661913"/>
+      <stop offset="1" stop-color="#4A120E"/>
+    </linearGradient>
+    <linearGradient id="bone-whole-chicken" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EFE2CB"/>
+      <stop offset="1" stop-color="#C9B795"/>
+    </linearGradient>
+    <linearGradient id="cream-whole-chicken" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FBF3E6"/>
+      <stop offset="1" stop-color="#D9C7AC"/>
+    </linearGradient>
+    <linearGradient id="ember-whole-chicken" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8B15A"/>
+      <stop offset="0.5" stop-color="#F7A03C"/>
+      <stop offset="1" stop-color="#DE5A1C"/>
+    </linearGradient>
+    <filter id="soft-whole-chicken" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="softer-whole-chicken" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow-whole-chicken" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="grain-whole-chicken" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="0.0012590114492923021" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg-whole-chicken)"/>
+  <rect width="1200" height="900" fill="url(#key-whole-chicken)"/>
+
+  <ellipse cx="600" cy="700" rx="320" ry="51.2" fill="#000" opacity="0.45" filter="url(#SOFT)"/>
+  <g filter="url(#shadow-whole-chicken)">
+    <path d="M360 470 C336 366 424 288 566 286 C700 284 812 336 838 428 C862 512 812 596 706 634 C596 674 430 640 386 566 C362 526 356 500 360 470 Z" fill="url(#meat-whole-chicken)"/>
+    <path d="M392 452 C430 386 520 350 606 352 C700 354 780 396 806 462 C742 420 640 402 546 408 C470 412 418 434 392 452 Z" fill="#E9B585" opacity="0.75"/>
+    <path d="M520 604 C500 654 520 690 566 700 C604 708 634 690 636 656 C600 664 556 646 520 604 Z" fill="#C9724A"/>
+    <path d="M378 404 C352 356 386 322 436 330 C470 336 486 372 470 404 C436 386 404 388 378 404 Z" fill="#D9A377"/>
+    <path d="M812 386 C842 350 890 366 898 412 C904 452 878 482 840 480 C826 448 818 414 812 386 Z" fill="#D9A377"/>
+    <path d="M432 434.65 L768 450.65" stroke="#2A0E0A" stroke-opacity="0.30" stroke-width="11.09214998409152" stroke-linecap="round" fill="none"/><path d="M432 484.15 L768 500.15" stroke="#2A0E0A" stroke-opacity="0.49" stroke-width="11.23264294443652" stroke-linecap="round" fill="none"/><path d="M432 533.6500000000001 L768 549.6500000000001" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="15.646288271527737" stroke-linecap="round" fill="none"/><path d="M432 583.1500000000001 L768 599.1500000000001" stroke="#2A0E0A" stroke-opacity="0.41" stroke-width="13.157892866060138" stroke-linecap="round" fill="none"/>
+    <circle cx="728.1" cy="450.5" r="5.5" fill="#8A2620" opacity="0.71"/><circle cx="633.1" cy="427.4" r="9.0" fill="#8A2620" opacity="0.59"/><circle cx="745.3" cy="463.0" r="4.0" fill="#E9B585" opacity="0.26"/><circle cx="514.9" cy="464.6" r="9.4" fill="#8A2620" opacity="0.51"/><circle cx="675.7" cy="484.7" r="11.9" fill="#E9B585" opacity="0.28"/><circle cx="557.8" cy="408.1" r="3.6" fill="#E9B585" opacity="0.65"/><circle cx="756.1" cy="440.0" r="7.6" fill="#E9B585" opacity="0.49"/><circle cx="628.7" cy="436.4" r="3.6" fill="#8A2620" opacity="0.55"/><circle cx="680.4" cy="443.8" r="8.3" fill="#E9B585" opacity="0.34"/><circle cx="452.0" cy="506.3" r="7.4" fill="#8A2620" opacity="0.71"/><circle cx="425.3" cy="471.6" r="8.0" fill="#8A2620" opacity="0.60"/><circle cx="761.8" cy="460.5" r="5.3" fill="#8A2620" opacity="0.68"/><circle cx="478.7" cy="453.1" r="11.2" fill="#8A2620" opacity="0.72"/><circle cx="628.4" cy="513.0" r="9.3" fill="#8A2620" opacity="0.69"/><circle cx="585.9" cy="493.9" r="7.2" fill="#E9B585" opacity="0.47"/><circle cx="491.5" cy="495.1" r="3.8" fill="#8A2620" opacity="0.56"/><circle cx="555.1" cy="544.3" r="8.9" fill="#E9B585" opacity="0.48"/><circle cx="696.0" cy="542.4" r="5.1" fill="#E9B585" opacity="0.37"/><circle cx="665.9" cy="404.3" r="4.4" fill="#E9B585" opacity="0.70"/><circle cx="613.7" cy="535.5" r="9.9" fill="#E9B585" opacity="0.48"/><circle cx="599.1" cy="494.7" r="8.8" fill="#8A2620" opacity="0.32"/><circle cx="611.3" cy="420.9" r="9.7" fill="#8A2620" opacity="0.55"/><circle cx="615.9" cy="454.7" r="11.3" fill="#8A2620" opacity="0.63"/><circle cx="507.4" cy="492.5" r="6.6" fill="#8A2620" opacity="0.30"/>
+    <ellipse cx="520" cy="380" rx="140" ry="60" fill="#FFD9B4" opacity="0.16" filter="url(#soft-whole-chicken)"/>
+  </g>
+  <rect width="1200" height="900" fill="url(#vig-whole-chicken)"/>
+  <rect width="1200" height="900" filter="url(#grain-whole-chicken)" opacity="0.075" style="mix-blend-mode:overlay"/>
+</svg>

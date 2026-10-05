@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img">
+
+  <defs>
+    <linearGradient id="bg-about-counter" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#13100E"/>
+      <stop offset="0.55" stop-color="#1C1714"/>
+      <stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="key-about-counter" cx="0.5" cy="0.48999999999999994" r="0.62">
+      <stop offset="0" stop-color="#DE5A1C" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#F7A03C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0A0908" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig-about-counter" cx="0.5" cy="0.48" r="0.78">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="metal-about-counter" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8E4DE"/>
+      <stop offset="0.4" stop-color="#9A948C"/>
+      <stop offset="0.62" stop-color="#C9C3BB"/>
+      <stop offset="1" stop-color="#5E5852"/>
+    </linearGradient>
+    <linearGradient id="board-about-counter" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#54392B"/>
+      <stop offset="1" stop-color="#3A2A20"/>
+    </linearGradient>
+    <linearGradient id="meat-about-counter" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#C9634C"/>
+      <stop offset="0.45" stop-color="#A8352B"/>
+      <stop offset="1" stop-color="#661913"/>
+    </linearGradient>
+    <linearGradient id="meatDark-about-counter" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#A8352B"/>
+      <stop offset="0.6" stop-color="#661913"/>
+      <stop offset="1" stop-color="#4A120E"/>
+    </linearGradient>
+    <linearGradient id="bone-about-counter" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EFE2CB"/>
+      <stop offset="1" stop-color="#C9B795"/>
+    </linearGradient>
+    <linearGradient id="cream-about-counter" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FBF3E6"/>
+      <stop offset="1" stop-color="#D9C7AC"/>
+    </linearGradient>
+    <linearGradient id="ember-about-counter" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8B15A"/>
+      <stop offset="0.5" stop-color="#F7A03C"/>
+      <stop offset="1" stop-color="#DE5A1C"/>
+    </linearGradient>
+    <filter id="soft-about-counter" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="softer-about-counter" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow-about-counter" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="grain-about-counter" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="0.003910572733730078" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg-about-counter)"/>
+  <rect width="1200" height="900" fill="url(#key-about-counter)"/>
+
+  <g opacity="0.9">
+    <path d="M250 0 L250 320" stroke="#3A2F27" stroke-width="8"/><circle cx="250" cy="346" r="26" fill="url(#meatDark-about-counter)"/><path d="M420 0 L420 320" stroke="#3A2F27" stroke-width="8"/><circle cx="420" cy="346" r="26" fill="url(#meatDark-about-counter)"/><path d="M590 0 L590 320" stroke="#3A2F27" stroke-width="8"/><circle cx="590" cy="346" r="26" fill="url(#meatDark-about-counter)"/><path d="M760 0 L760 320" stroke="#3A2F27" stroke-width="8"/><circle cx="760" cy="346" r="26" fill="url(#meatDark-about-counter)"/><path d="M930 0 L930 320" stroke="#3A2F27" stroke-width="8"/><circle cx="930" cy="346" r="26" fill="url(#meatDark-about-counter)"/>
+  </g>
+  <rect y="700" width="1200" height="200" fill="#241C17"/>
+  <rect y="700" width="1200" height="14" fill="#4A3A2E"/>
+  <g filter="url(#shadow-about-counter)">
+    <path d="M220 700 L220 470 L980 470 L980 700 Z" fill="url(#board-about-counter)"/>
+    <path d="M220 516 Q600 503.1063866172917 980 509.3294261819683" stroke="#000" stroke-opacity="0.16" stroke-width="3.0442022937349975" fill="none" stroke-linecap="round"/><path d="M220 562 Q600 573.1605865433812 980 555.8576882798225" stroke="#000" stroke-opacity="0.16" stroke-width="4.961973413359374" fill="none" stroke-linecap="round"/><path d="M220 608 Q600 604.9784283805639 980 611.7135836705565" stroke="#000" stroke-opacity="0.16" stroke-width="2.0734385126270354" fill="none" stroke-linecap="round"/><path d="M220 654 Q600 650.78154622484 980 654.5168634261936" stroke="#000" stroke-opacity="0.16" stroke-width="4.5845884322188795" fill="none" stroke-linecap="round"/>
+    <path d="M330 640 C330 570 440 530 570 540 C700 550 760 590 756 640 C752 686 660 700 540 690 C420 682 330 670 330 640 Z" fill="url(#meat-about-counter)"/>
+    <path d="M330 640 C330 570 440 530 570 540" stroke="#F3B48C" stroke-opacity="0.4" stroke-width="5" fill="none"/>
+    <path d="M600 480 L600 700" stroke="undefined" stroke-width="16"/>
+    <path d="M560 470 L640 470 L620 520 L580 520 Z" fill="undefined"/>
+  </g>
+  <g opacity="0.6" stroke="#D9C7AC" stroke-opacity="0.18" stroke-width="8" fill="none">
+    <path d="M420 200 C520 140 620 240 720 180"/>
+  </g>
+  <rect width="1200" height="900" fill="url(#vig-about-counter)"/>
+  <rect width="1200" height="900" filter="url(#grain-about-counter)" opacity="0.075" style="mix-blend-mode:overlay"/>
+</svg>

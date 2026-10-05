@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img">
+
+  <defs>
+    <linearGradient id="bg-rump-steak" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#13100E"/>
+      <stop offset="0.55" stop-color="#1C1714"/>
+      <stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="key-rump-steak" cx="0.5" cy="0.48999999999999994" r="0.62">
+      <stop offset="0" stop-color="#DE5A1C" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#F7A03C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0A0908" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig-rump-steak" cx="0.5" cy="0.48" r="0.78">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="metal-rump-steak" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8E4DE"/>
+      <stop offset="0.4" stop-color="#9A948C"/>
+      <stop offset="0.62" stop-color="#C9C3BB"/>
+      <stop offset="1" stop-color="#5E5852"/>
+    </linearGradient>
+    <linearGradient id="board-rump-steak" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#54392B"/>
+      <stop offset="1" stop-color="#3A2A20"/>
+    </linearGradient>
+    <linearGradient id="meat-rump-steak" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#C9634C"/>
+      <stop offset="0.45" stop-color="#A8352B"/>
+      <stop offset="1" stop-color="#661913"/>
+    </linearGradient>
+    <linearGradient id="meatDark-rump-steak" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#A8352B"/>
+      <stop offset="0.6" stop-color="#661913"/>
+      <stop offset="1" stop-color="#4A120E"/>
+    </linearGradient>
+    <linearGradient id="bone-rump-steak" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EFE2CB"/>
+      <stop offset="1" stop-color="#C9B795"/>
+    </linearGradient>
+    <linearGradient id="cream-rump-steak" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FBF3E6"/>
+      <stop offset="1" stop-color="#D9C7AC"/>
+    </linearGradient>
+    <linearGradient id="ember-rump-steak" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8B15A"/>
+      <stop offset="0.5" stop-color="#F7A03C"/>
+      <stop offset="1" stop-color="#DE5A1C"/>
+    </linearGradient>
+    <filter id="soft-rump-steak" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="softer-rump-steak" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow-rump-steak" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="grain-rump-steak" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="0.0008813026361167431" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg-rump-steak)"/>
+  <rect width="1200" height="900" fill="url(#key-rump-steak)"/>
+
+  <ellipse cx="600" cy="700" rx="300" ry="48" fill="#000" opacity="0.45" filter="url(#SOFT)"/>
+  <g filter="url(#shadow-rump-steak)">
+    <path d="M300 300 C420 236 760 240 880 320 C946 366 946 566 872 616 C740 706 400 700 306 620 C244 566 244 344 300 300 Z" fill="url(#meat-rump-steak)"/>
+    <path d="M300 300 C420 236 760 240 880 320 C920 342 938 380 944 418 C860 356 700 330 540 336 C430 340 348 366 296 402 C272 366 276 328 300 300 Z" fill="#F0E2C6"/>
+    <path d="M300 300 C420 236 760 240 880 320" stroke="#FFF4E2" stroke-opacity="0.55" stroke-width="5" fill="none"/>
+    <path d="M200.65468195825815 325.3424919443205 q 53.96546139381826 -24.764625776093453 106.2028645677492 14.739654496312141" stroke="#F2CBA0" stroke-opacity="0.31" stroke-width="2.576028250157833" fill="none" stroke-linecap="round"/><path d="M792.9538873955607 637.5717975385487 q 42.750479793176055 -25.658977694343776 75.14272744767368 12.486102487891912" stroke="#F2CBA0" stroke-opacity="0.29" stroke-width="4.33810505643487" fill="none" stroke-linecap="round"/><path d="M788.0761092528701 280.17532699741423 q 32.10575653240085 -25.904046169947833 75.12536215595901 12.685625191777945" stroke="#F2CBA0" stroke-opacity="0.41" stroke-width="5.999642766080797" fill="none" stroke-linecap="round"/><path d="M958.0081939697266 452.57491160184145 q 56.497509591281414 -18.479464295320213 100.73865925427526 13.851148527115583" stroke="#F2CBA0" stroke-opacity="0.28" stroke-width="3.9372220188379288" fill="none" stroke-linecap="round"/><path d="M608.0620430409908 494.31663480587304 q 61.95532148703933 -19.257049148436636 117.60678929276764 13.839678168296814" stroke="#F2CBA0" stroke-opacity="0.40" stroke-width="4.2657941384240985" fill="none" stroke-linecap="round"/><path d="M288.5928265750408 553.9497274858877 q 57.3940559849143 -25.74802804365754 123.1782188732177 6.622551526874304" stroke="#F2CBA0" stroke-opacity="0.39" stroke-width="5.506604151800275" fill="none" stroke-linecap="round"/><path d="M615.1891695335507 544.8408261314034 q 49.01669007726014 -15.59161750273779 70.52702601999044 8.847371000796556" stroke="#F2CBA0" stroke-opacity="0.24" stroke-width="5.394280415028334" fill="none" stroke-linecap="round"/><path d="M542.3054067417979 363.1556413555518 q 63.29508398659527 -14.780925456434488 73.10196691658348 15.773644216358662" stroke="#F2CBA0" stroke-opacity="0.38" stroke-width="3.273711117915809" fill="none" stroke-linecap="round"/><path d="M503.0197015032172 625.5516153154895 q 46.53336239978671 -19.67772073764354 97.19287873711437 18.54654349014163" stroke="#F2CBA0" stroke-opacity="0.47" stroke-width="5.302077259868383" fill="none" stroke-linecap="round"/><path d="M656.1588605865836 498.13697010744363 q 34.402739414945245 -31.779162579681724 117.66407860908657 15.363528564572334" stroke="#F2CBA0" stroke-opacity="0.20" stroke-width="2.8214320577681065" fill="none" stroke-linecap="round"/><path d="M660.0329788401723 584.6719883289188 q 68.99014936760068 -17.503286071587354 78.66572408005595 17.15675714984536" stroke="#F2CBA0" stroke-opacity="0.62" stroke-width="3.9898195350542665" fill="none" stroke-linecap="round"/><path d="M408.9502463117242 421.9470438128337 q 61.4809388294816 -29.116892679128796 92.57448574062437 8.995509542524815" stroke="#F2CBA0" stroke-opacity="0.22" stroke-width="6.133455606177449" fill="none" stroke-linecap="round"/><path d="M642.1342642977834 594.7442434402183 q 54.12705944851041 -31.392108193133026 108.52968690916896 13.721471857279539" stroke="#F2CBA0" stroke-opacity="0.63" stroke-width="5.638248877599835" fill="none" stroke-linecap="round"/><path d="M770.4124813899398 506.7976764170453 q 40.915466491132975 -15.934663347899914 101.09059599228203 7.353978775441647" stroke="#F2CBA0" stroke-opacity="0.22" stroke-width="4.249643049202859" fill="none" stroke-linecap="round"/><path d="M447.5919557735324 268.74076545238495 q 36.8602048791945 -25.722994073294103 87.70786687266082 11.320787742733955" stroke="#F2CBA0" stroke-opacity="0.21" stroke-width="3.9697143994271755" fill="none" stroke-linecap="round"/><path d="M467.53510013222694 476.1957452679053 q 55.48668256029487 -30.40244525996968 115.69361070170999 10.078682657331228" stroke="#F2CBA0" stroke-opacity="0.21" stroke-width="5.030580615624785" fill="none" stroke-linecap="round"/><path d="M299.22844655811787 587.5724227493629 q 64.69588067382574 -18.829584257211536 116.20266385376453 19.121932815760374" stroke="#F2CBA0" stroke-opacity="0.31" stroke-width="5.141523675993085" fill="none" stroke-linecap="round"/><path d="M783.5456013679504 381.0323849413544 q 53.165859673172235 -23.35562453372404 120.1091077318415 21.273096166551113" stroke="#F2CBA0" stroke-opacity="0.55" stroke-width="2.7978286994621158" fill="none" stroke-linecap="round"/>
+    <path d="M342 431.975 L858 451.975" stroke="#2A0E0A" stroke-opacity="0.31" stroke-width="12.412398676387966" stroke-linecap="round" fill="none"/><path d="M342 506.225 L858 526.225" stroke="#2A0E0A" stroke-opacity="0.64" stroke-width="12.469143773196265" stroke-linecap="round" fill="none"/><path d="M342 580.475 L858 600.475" stroke="#2A0E0A" stroke-opacity="0.37" stroke-width="11.289390688063577" stroke-linecap="round" fill="none"/><path d="M342 654.725 L858 674.725" stroke="#2A0E0A" stroke-opacity="0.52" stroke-width="9.881591108394787" stroke-linecap="round" fill="none"/>
+    <ellipse cx="520" cy="400" rx="180" ry="70" fill="#FFC79A" opacity="0.13" filter="url(#soft-rump-steak)"/>
+  </g>
+  <rect width="1200" height="900" fill="url(#vig-rump-steak)"/>
+  <rect width="1200" height="900" filter="url(#grain-rump-steak)" opacity="0.075" style="mix-blend-mode:overlay"/>
+</svg>

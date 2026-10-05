@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img">
+
+  <defs>
+    <linearGradient id="bg-chicken-legs" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#13100E"/>
+      <stop offset="0.55" stop-color="#1C1714"/>
+      <stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="key-chicken-legs" cx="0.5" cy="0.48999999999999994" r="0.62">
+      <stop offset="0" stop-color="#DE5A1C" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#F7A03C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0A0908" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig-chicken-legs" cx="0.5" cy="0.48" r="0.78">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="metal-chicken-legs" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8E4DE"/>
+      <stop offset="0.4" stop-color="#9A948C"/>
+      <stop offset="0.62" stop-color="#C9C3BB"/>
+      <stop offset="1" stop-color="#5E5852"/>
+    </linearGradient>
+    <linearGradient id="board-chicken-legs" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#54392B"/>
+      <stop offset="1" stop-color="#3A2A20"/>
+    </linearGradient>
+    <linearGradient id="meat-chicken-legs" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#C9634C"/>
+      <stop offset="0.45" stop-color="#A8352B"/>
+      <stop offset="1" stop-color="#661913"/>
+    </linearGradient>
+    <linearGradient id="meatDark-chicken-legs" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#A8352B"/>
+      <stop offset="0.6" stop-color="#661913"/>
+      <stop offset="1" stop-color="#4A120E"/>
+    </linearGradient>
+    <linearGradient id="bone-chicken-legs" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EFE2CB"/>
+      <stop offset="1" stop-color="#C9B795"/>
+    </linearGradient>
+    <linearGradient id="cream-chicken-legs" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FBF3E6"/>
+      <stop offset="1" stop-color="#D9C7AC"/>
+    </linearGradient>
+    <linearGradient id="ember-chicken-legs" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8B15A"/>
+      <stop offset="0.5" stop-color="#F7A03C"/>
+      <stop offset="1" stop-color="#DE5A1C"/>
+    </linearGradient>
+    <filter id="soft-chicken-legs" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="softer-chicken-legs" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow-chicken-legs" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="grain-chicken-legs" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="0.0013849118258804083" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg-chicken-legs)"/>
+  <rect width="1200" height="900" fill="url(#key-chicken-legs)"/>
+
+  <ellipse cx="600" cy="700" rx="300" ry="48" fill="#000" opacity="0.45" filter="url(#SOFT)"/>
+  <g filter="url(#shadow-chicken-legs)">
+    <g transform="translate(0,0)">
+      <path d="M420 596 L386 716" stroke="url(#bone-chicken-legs)" stroke-width="34" stroke-linecap="round"/>
+      <ellipse cx="530" cy="470" rx="150" ry="118" fill="url(#meat-chicken-legs)" transform="rotate(-18 530 470)"/>
+      <path d="M420 560 C470 520 560 500 640 508" stroke="#8A2620" stroke-opacity="0.5" stroke-width="8" fill="none"/>
+    </g>
+    <g transform="translate(300,-10)">
+      <path d="M400 596 L366 716" stroke="url(#bone-chicken-legs)" stroke-width="34" stroke-linecap="round"/>
+      <ellipse cx="510" cy="470" rx="140" ry="110" fill="url(#meatDark-chicken-legs)" transform="rotate(-14 510 470)"/>
+      <path d="M404 566 C452 528 536 508 610 516" stroke="#5C170F" stroke-opacity="0.55" stroke-width="8" fill="none"/>
+    </g>
+    <path d="M442 430.8 L658 444.8" stroke="#2A0E0A" stroke-opacity="0.30" stroke-width="11.31085159489885" stroke-linecap="round" fill="none"/><path d="M442 474.8 L658 488.8" stroke="#2A0E0A" stroke-opacity="0.64" stroke-width="15.700867300853133" stroke-linecap="round" fill="none"/><path d="M442 518.8 L658 532.8" stroke="#2A0E0A" stroke-opacity="0.31" stroke-width="11.284818025073037" stroke-linecap="round" fill="none"/>
+  </g>
+  <rect width="1200" height="900" fill="url(#vig-chicken-legs)"/>
+  <rect width="1200" height="900" filter="url(#grain-chicken-legs)" opacity="0.075" style="mix-blend-mode:overlay"/>
+</svg>

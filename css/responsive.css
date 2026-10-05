@@ -1,0 +1,225 @@
+/* ==========================================================================
+   IZWELETHU BUTCHERY — DEMO CONCEPT
+   responsive.css — tablet and desktop upgrades (mobile-first)
+   --------------------------------------------------------------------------
+   Base layout lives in style.css and targets 360–599px.
+   This file adds: 600px (large phone), 900px (tablet / small laptop),
+   1200px (desktop) and 1440px+ (large desktop).
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   ≥ 600px — large phones
+   -------------------------------------------------------------------------- */
+@media (min-width: 600px) {
+  :root {
+    --header-h: 70px;
+  }
+
+  .container,
+  .container-narrow { padding-inline: var(--sp-5); }
+
+  .product-grid { gap: var(--sp-5); }
+  .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pack-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .quick-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+  .quick-card { min-height: 320px; }
+
+  .rail { grid-auto-columns: 42%; }
+
+  .gallery-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+  .kpi-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+  .hero__inner { min-height: min(82vh, 760px); }
+
+  .hero__actions .btn { min-width: 200px; }
+
+  .form-grid--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  .radio-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  .footer__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  .toast-stack { left: auto; right: var(--sp-5); width: min(380px, 90vw); }
+
+  .cart-item { grid-template-columns: 110px 1fr; }
+  .cart-item__media { width: 110px; height: 110px; }
+
+  .pdp__actions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pdp__actions .btn { width: 100%; }
+}
+
+/* --------------------------------------------------------------------------
+   ≥ 900px — tablet landscape / laptops
+   -------------------------------------------------------------------------- */
+@media (min-width: 900px) {
+  :root {
+    --header-h: 78px;
+    --bottomnav-h: 0px;
+  }
+
+  .topbar { display: block; }
+
+  /* bottom mobile navigation is retired on desktop */
+  .bottom-nav,
+  .sticky-cta { display: none; }
+
+  .has-fixed-ui { padding-bottom: 0; }
+
+  .toast-stack { bottom: var(--sp-5); }
+
+  .nav-desktop { display: block; }
+  .header__inner { gap: var(--sp-4); }
+  .header__menu-btn { display: none; }
+
+  .header__actions {
+    order: 2;
+    padding-left: var(--sp-3);
+    border-left: 1px solid var(--border);
+  }
+  .header__cta { order: 3; display: inline-flex; }
+
+  .drawer { display: none; }
+  .drawer-backdrop { display: none; }
+
+  .brand__mark { width: 44px; height: 44px; }
+  .brand__name { font-size: 1.55rem; }
+
+  .section-head { margin-bottom: var(--sp-7); }
+
+  .product-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+  .pack-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+  .rail { grid-auto-columns: 30%; }
+
+  .feature-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+  .flow { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  .gallery-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+  /* shop: sticky filter rail + results */
+  .shop {
+    grid-template-columns: 268px minmax(0, 1fr);
+    gap: var(--sp-6);
+  }
+  .filters { display: grid; position: sticky; top: calc(var(--header-h) + var(--sp-4)); }
+  .filters-toggle { display: none; }
+  .filters__inner { display: grid; gap: var(--sp-5); }
+  .shop__results .product-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+  /* product detail */
+  .pdp {
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+    gap: var(--sp-7);
+  }
+  .pdp__sticky { position: sticky; top: calc(var(--header-h) + var(--sp-4)); }
+
+  /* cart */
+  .cart-layout { grid-template-columns: minmax(0, 1.6fr) minmax(300px, 0.9fr); gap: var(--sp-6); }
+  .summary { position: sticky; top: calc(var(--header-h) + var(--sp-4)); }
+
+  .footer__grid { grid-template-columns: 1.6fr 1fr 1fr 1.2fr; }
+  .footer__bottom { flex-direction: row; align-items: center; justify-content: space-between; }
+
+  .split {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--sp-7);
+    align-items: center;
+  }
+  .split--wide-left { grid-template-columns: 1.2fr 1fr; }
+
+  .split-media img { border-radius: var(--radius-lg); width: 100%; }
+
+  .split-media--tall img { aspect-ratio: 4 / 5; }
+
+  .quote-band { padding-block: var(--sp-8); }
+
+  .admin-layout { grid-template-columns: 220px minmax(0, 1fr); gap: var(--sp-6); }
+  .admin-nav {
+    position: sticky;
+    top: calc(var(--header-h) + var(--sp-4));
+    align-self: start;
+  }
+
+  .kpi { padding: var(--sp-5); }
+}
+
+/* --------------------------------------------------------------------------
+   ≥ 1200px — desktop
+   -------------------------------------------------------------------------- */
+@media (min-width: 1200px) {
+  .product-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .shop__results .product-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+  .rail { grid-auto-columns: 23%; }
+
+  .quick-card { min-height: 360px; }
+  .quick-card p { font-size: 0.95rem; }
+
+  .pack__body { margin-top: -70px; }
+
+  .hero__inner { min-height: min(86vh, 820px); }
+
+  .section-head__top--center {
+    justify-content: center;
+    text-align: center;
+  }
+  .section-head__top--center .eyebrow { justify-content: center; }
+
+  .container--wide { max-width: 1440px; }
+}
+
+/* --------------------------------------------------------------------------
+   ≥ 1440px — large desktop
+   -------------------------------------------------------------------------- */
+@media (min-width: 1440px) {
+  .shop__results .product-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .rail { grid-auto-columns: 20%; }
+}
+
+/* --------------------------------------------------------------------------
+   Coarse pointer: keep hover-only affordances usable
+   -------------------------------------------------------------------------- */
+@media (hover: none) {
+  .card:hover { transform: none; }
+  .quick-card:hover img { transform: none; }
+  .btn:hover { transform: none; }
+  .nav-desktop__list a::after { display: none; }
+}
+
+/* --------------------------------------------------------------------------
+   Landscape phones — reduce vertical space
+   -------------------------------------------------------------------------- */
+@media (max-height: 520px) and (orientation: landscape) {
+  .hero__inner { min-height: 420px; }
+  .page-hero__inner { padding-block: var(--sp-6); }
+}
+
+/* --------------------------------------------------------------------------
+   Narrow phones (≤ 359px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 359px) {
+  :root { --fs-display: 2.4rem; }
+  .product-grid { gap: var(--sp-3); }
+  .card__body { padding: var(--sp-2); }
+  .btn { padding-inline: 1rem; font-size: 0.8rem; }
+  .bottom-nav__item { font-size: 0.56rem; }
+  .brand__name { font-size: 1.15rem; }
+}
+
+/* --------------------------------------------------------------------------
+   High-contrast / forced-colors safety
+   -------------------------------------------------------------------------- */
+@media (forced-colors: active) {
+  .btn,
+  .chip,
+  .card,
+  .quick-card,
+  .pack { border: 1px solid CanvasText; }
+  .badge,
+  .status { border: 1px solid CanvasText; }
+}

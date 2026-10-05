@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Izwelethu Shisanyama | Demo Concept</title>
+<meta name="description" content="Demo shisanyama experience page for Izwelethu Butchery — experience, menu, specials, events and gallery concepts for Umlazi, KwaZulu-Natal. Menu to be confirmed.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#14100E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Izwelethu Butchery — Demo Concept">
+<meta property="og:title" content="Izwelethu Shisanyama | Demo Concept">
+<meta property="og:description" content="Come for the meat. Stay for the experience. Demo shisanyama concept page — menu, specials and events to be confirmed by Izwelethu.">
+<meta property="og:image" content="assets/images/og-card.svg">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<p class="demo-ribbon">
+  Demo concept — not the official Izwelethu website. &nbsp;<strong>Menu, specials and events shown are unconfirmed.</strong>
+</p>
+
+<div class="topbar">
+  <div class="container topbar__inner">
+    <ul class="topbar__list">
+      <li><svg class="ico" aria-hidden="true"><use href="#ico-pin"></use></svg> Umlazi, KwaZulu-Natal</li>
+      <li><svg class="ico" aria-hidden="true"><use href="#ico-phone"></use></svg> Contact details to be verified before launch</li>
+    </ul>
+    <ul class="topbar__list">
+      <li>Butchery &middot; Eatery &middot; Shisanyama</li>
+      <li>Wholesale &amp; retail concept</li>
+    </ul>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="index.html" aria-label="Izwelethu Butchery — home">
+      <img class="brand__mark" src="assets/logo/izwelethu-mark.svg" alt="" width="44" height="44">
+      <span class="brand__text">
+        <span class="brand__name">IZWELETHU</span>
+        <span class="brand__sub">BUTCHERY</span>
+      </span>
+    </a>
+    <nav class="nav-desktop" data-nav aria-label="Primary navigation">
+      <ul class="nav-desktop__list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="shisanyama.html">Shisanyama</a></li>
+        <li><a href="wholesale.html">Wholesale</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <div class="header__actions">
+      <button class="icon-btn" type="button" data-search-open aria-label="Search products">
+        <svg class="ico" aria-hidden="true"><use href="#ico-search"></use></svg>
+      </button>
+      <button class="icon-btn" type="button" data-demo-note="Account area is a concept feature — production integration required." aria-label="Account (concept only)">
+        <svg class="ico" aria-hidden="true"><use href="#ico-user"></use></svg>
+      </button>
+      <a class="icon-btn" href="cart.html" aria-label="Cart, empty">
+        <svg class="ico" aria-hidden="true"><use href="#ico-cart"></use></svg>
+        <span class="cart-count" data-empty="true">0</span>
+      </a>
+      <button class="icon-btn header__menu-btn" type="button" data-drawer-open aria-label="Open menu" aria-controls="site-drawer">
+        <svg class="ico" aria-hidden="true"><use href="#ico-menu"></use></svg>
+      </button>
+    </div>
+    <button class="btn btn--accent header__cta" type="button" data-whatsapp="cart">Order now</button>
+  </div>
+</header>
+
+<div class="search" id="site-search" aria-hidden="true" role="dialog" aria-label="Search products">
+  <div class="container search__inner">
+    <div class="search__field">
+      <svg class="ico" aria-hidden="true"><use href="#ico-search"></use></svg>
+      <input class="search__input" type="search" placeholder="Search ribs, wors, chicken, lamb…" data-search-input aria-label="Search products">
+      <button class="icon-btn" type="button" data-search-close aria-label="Close search">
+        <svg class="ico" aria-hidden="true"><use href="#ico-close"></use></svg>
+      </button>
+    </div>
+    <p class="search__hint" data-search-hint>Type to search demo products, categories and descriptions. Press / anywhere to open search.</p>
+    <div class="search__results" data-search-results></div>
+  </div>
+</div>
+
+<div class="drawer-backdrop" id="drawer-backdrop"></div>
+
+<aside class="drawer" id="site-drawer" aria-hidden="true" aria-label="Mobile menu">
+  <div class="drawer__head">
+    <span class="brand__text">
+      <span class="brand__name">IZWELETHU</span>
+      <span class="brand__sub">BUTCHERY</span>
+    </span>
+    <button class="icon-btn" type="button" data-drawer-close aria-label="Close menu">
+      <svg class="ico" aria-hidden="true"><use href="#ico-close"></use></svg>
+    </button>
+  </div>
+  <nav class="drawer__nav" data-drawer-nav aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop meat</a>
+    <a href="shisanyama.html">Shisanyama</a>
+    <a href="wholesale.html">Wholesale</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="loyalty.html">Izwelethu Club</a>
+    <a href="cart.html">Cart</a>
+  </nav>
+  <div class="drawer__foot">
+    <button class="btn btn--ember btn--block" type="button" data-whatsapp="cart">Order on WhatsApp</button>
+    <a class="btn btn--ghost btn--block" href="shop.html">Shop all demo products</a>
+    <p class="drawer__note">Demo concept only. Prices, packs and services shown are not confirmed by Izwelethu Butchery.</p>
+  </div>
+</aside>
+
+<main id="main">
+
+  <section class="hero on-dark">
+    <div class="hero__media">
+      <img src="assets/images/hero-shisanyama.svg" alt="" fetchpriority="high" width="2000" height="1100">
+    </div>
+    <div class="container hero__inner">
+      <div class="hero__meta fade-up">
+        <span><svg class="ico" aria-hidden="true"><use href="#ico-fire"></use></svg> Izwelethu shisanyama</span>
+        <span><svg class="ico" aria-hidden="true"><use href="#ico-pin"></use></svg> Umlazi, KwaZulu-Natal</span>
+        <span class="badge badge--dark">Concept experience</span>
+      </div>
+      <h1 class="hero__title fade-up d1">
+        <span>Come for the meat.</span>
+        <span class="accent">Stay for the</span>
+        <span>experience.</span>
+      </h1>
+      <p class="hero__sub fade-up d2" id="shisa-intro"></p>
+      <div class="hero__actions fade-up d3">
+        <a class="btn btn--ember btn--lg" href="#visit">Visit us</a>
+        <button class="btn btn--ghost btn--lg" type="button" data-whatsapp="enquiry"
+          data-whatsapp-text="Hi Izwelethu, I would like to book or enquire about the shisanyama experience.">
+          Enquire on WhatsApp
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== THE EXPERIENCE ===================== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">The experience</span>
+        <h2>What the concept covers</h2>
+        <p class="lede">
+          Four pillars a shisanyama page would need. Each one is a placeholder here — the real
+          offering, capacity and facilities must be supplied by Izwelethu.
+        </p>
+      </div>
+      <div class="feature-grid" id="shisa-experience"></div>
+    </div>
+  </section>
+
+  <!-- ===================== MENU ===================== -->
+  <section class="section section--alt" id="menu">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-head__top">
+          <div class="stack">
+            <span class="eyebrow">Menu</span>
+            <h2>Demo menu</h2>
+          </div>
+          <span class="badge badge--demo">Menu to be confirmed</span>
+        </div>
+        <p class="lede">
+          Demo menu — final menu to be supplied by Izwelethu. No items, dishes or prices are
+          published here because none have been confirmed.
+        </p>
+      </div>
+      <div class="grid-2" id="shisa-menu"></div>
+    </div>
+  </section>
+
+  <!-- ===================== SPECIALS ===================== -->
+  <section class="section section--dark on-dark">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Specials</span>
+        <h2>Concept specials</h2>
+        <p class="lede">Placeholder specials to demonstrate the layout. Days, times and pricing are to be confirmed.</p>
+      </div>
+      <div class="feature-grid" id="shisa-specials"></div>
+    </div>
+  </section>
+
+  <!-- ===================== EVENTS ===================== -->
+  <section class="section">
+    <div class="container split">
+      <div class="stack stack--lg">
+        <span class="eyebrow">Events</span>
+        <h2>Bringing people together</h2>
+        <p class="lede">
+          A future events enquiry flow would let customers request dates, head counts and packages,
+          then send the request straight to Izwelethu.
+        </p>
+        <ul class="stack" id="shisa-events"></ul>
+        <div class="row">
+          <button class="btn btn--accent" type="button" data-whatsapp="enquiry"
+            data-whatsapp-text="Hi Izwelethu, I would like to enquire about booking the shisanyama for an event.">
+            Send an event enquiry
+          </button>
+          <a class="btn btn--ghost" href="wholesale.html">Wholesale enquiry</a>
+        </div>
+      </div>
+      <div class="split-media reveal">
+        <img src="assets/images/shisanyama-event.svg" alt="Illustrated placeholder of an event table under a marquee" loading="lazy" width="1200" height="900">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GALLERY ===================== -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Gallery</span>
+        <h2>Concept gallery</h2>
+        <p class="lede">
+          Illustrated placeholders only. A production site would use real photography of the
+          Izwelethu experience, with the owner's approval.
+        </p>
+      </div>
+      <div class="gallery-grid" id="shisa-gallery"></div>
+    </div>
+  </section>
+
+  <!-- ===================== MEAT FOR THE FIRE ===================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-head__top">
+          <div class="stack">
+            <span class="eyebrow">Shop</span>
+            <h2>Meat for the fire</h2>
+          </div>
+          <a class="link-arrow" href="shop.html">
+            Full shop
+            <svg class="ico" aria-hidden="true"><use href="#ico-arrow-right"></use></svg>
+          </a>
+        </div>
+      </div>
+      <div class="rail" id="shisa-products"></div>
+    </div>
+  </section>
+
+  <!-- ===================== VISIT US ===================== -->
+  <section class="section section--dark on-dark" id="visit">
+    <div class="container split">
+      <div class="split-media reveal">
+        <img src="assets/images/about-community.svg" alt="Illustrated placeholder of people gathered around a braai fire" loading="lazy" width="1200" height="900">
+      </div>
+      <div class="stack stack--lg">
+        <span class="eyebrow">Visit us</span>
+        <h2>Come hungry. Leave happy.</h2>
+        <p class="lede">
+          Public business information places Izwelethu Butchery in Umlazi, KwaZulu-Natal.
+          Exact venue details, capacity and operating hours must be confirmed with the business
+          before launch.
+        </p>
+        <ul class="stack small">
+          <li>
+            <svg class="ico" style="display:inline-block;vertical-align:-3px;color:var(--gold)" aria-hidden="true"><use href="#ico-pin"></use></svg>
+            Umlazi, KwaZulu-Natal, South Africa
+          </li>
+          <li>
+            <svg class="ico" style="display:inline-block;vertical-align:-3px;color:var(--gold)" aria-hidden="true"><use href="#ico-clock"></use></svg>
+            <span class="muted">Operating hours to be confirmed</span>
+          </li>
+          <li>
+            <svg class="ico" style="display:inline-block;vertical-align:-3px;color:var(--gold)" aria-hidden="true"><use href="#ico-phone"></use></svg>
+            <span class="muted">031 907 3143 — unverified, to confirm with Izwelethu</span>
+          </li>
+        </ul>
+        <div class="row">
+          <a class="btn btn--cream" href="contact.html">Contact &amp; directions</a>
+          <button class="btn btn--ghost" type="button" data-whatsapp="enquiry"
+            data-whatsapp-text="Hi Izwelethu, I would like to visit the shisanyama.">
+            WhatsApp us
+          </button>
+        </div>
+        <div class="note note--dark">
+          <svg class="ico" aria-hidden="true"><use href="#ico-alert"></use></svg>
+          <span>No map coordinates, bookings or capacity figures are published in this demo because they have not been confirmed.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="stack">
+        <a class="brand" href="index.html" style="margin-right:0">
+          <img class="brand__mark" src="assets/logo/izwelethu-mark.svg" alt="" width="44" height="44">
+          <span class="brand__text">
+            <span class="brand__name">IZWELETHU</span>
+            <span class="brand__sub">BUTCHERY</span>
+          </span>
+        </a>
+        <p class="footer__about">
+          Meat, braai, shisanyama and wholesale concepts for Umlazi, KwaZulu-Natal.
+          This website is a demonstration concept and is not the official Izwelethu website.
+        </p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul class="footer__list">
+          <li><a href="shop.html">All demo products</a></li>
+          <li><a href="shop.html?cat=beef">Beef</a></li>
+          <li><a href="shop.html?cat=chicken">Chicken</a></li>
+          <li><a href="shop.html?cat=wors-sausages">Wors &amp; sausages</a></li>
+          <li><a href="shop.html?cat=braai-packs">Braai packs</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit &amp; explore</h4>
+        <ul class="footer__list">
+          <li><a href="shisanyama.html">Shisanyama</a></li>
+          <li><a href="wholesale.html">Wholesale</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="loyalty.html">Izwelethu Club</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="admin-demo.html">Admin concept</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul class="footer__list">
+          <li><svg class="ico" aria-hidden="true"><use href="#ico-pin"></use></svg><span>Umlazi, KwaZulu-Natal, South Africa</span></li>
+          <li>
+            <svg class="ico" aria-hidden="true"><use href="#ico-phone"></use></svg>
+            <a href="tel:+27319073143">031 907 3143</a>
+            <span class="tiny">(unverified — to confirm)</span>
+          </li>
+          <li><svg class="ico" aria-hidden="true"><use href="#ico-clock"></use></svg><span>Operating hours to be confirmed</span></li>
+        </ul>
+        <div class="row" style="margin-top:var(--sp-4)">
+          <button class="btn btn--cream btn--sm" type="button" data-whatsapp="enquiry">WhatsApp</button>
+          <button class="btn btn--ghost btn--sm" type="button" data-demo-note="Account area is a concept feature — production integration required.">Account</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p style="margin:0">&copy; <span data-year>2026</span> Izwelethu Butchery — demo concept. Not an official website.</p>
+      <ul class="footer__legal">
+        <li>Demo disclaimer: prices, menu, packs and services are unconfirmed.</li>
+        <li>No personal data is collected, stored or transmitted by this demo.</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<nav class="bottom-nav" aria-label="Quick navigation">
+  <a class="bottom-nav__item" href="index.html"><svg class="ico" aria-hidden="true"><use href="#ico-fire"></use></svg>Home</a>
+  <a class="bottom-nav__item" href="shop.html"><svg class="ico" aria-hidden="true"><use href="#ico-cart"></use></svg>Shop</a>
+  <a class="bottom-nav__item" href="shisanyama.html"><svg class="ico" aria-hidden="true"><use href="#ico-sparkle"></use></svg>Braai</a>
+  <a class="bottom-nav__item" href="cart.html"><svg class="ico" aria-hidden="true"><use href="#ico-box"></use></svg>Cart</a>
+  <button class="bottom-nav__item" type="button" data-drawer-open><svg class="ico" aria-hidden="true"><use href="#ico-menu"></use></svg>More</button>
+</nav>
+
+<div class="sticky-cta">
+  <button class="btn btn--ember btn--block" type="button" data-whatsapp="enquiry"
+    data-whatsapp-text="Hi Izwelethu, I would like to enquire about the shisanyama experience.">
+    <svg class="ico" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>
+    Enquire on WhatsApp
+  </button>
+</div>
+
+<div class="toast-stack" role="status" aria-live="polite"></div>
+
+<script src="js/demo-data.js" defer></script>
+<script src="js/products.js" defer></script>
+<script src="js/app.js" defer></script>
+<script src="js/cart.js" defer></script>
+<script src="js/whatsapp.js" defer></script>
+<script src="js/filters.js" defer></script>
+<script>
+/* Shisanyama demo content is generated from js/demo-data.js so it can be
+   replaced wholesale with owner-approved copy. */
+document.addEventListener('DOMContentLoaded', function () {
+  var year = document.querySelector('[data-year]');
+  if (year) year.textContent = String(new Date().getFullYear());
+
+  var data = IZWELETHU.shisanyama;
+
+  document.getElementById('shisa-intro').textContent = data.intro;
+
+  document.getElementById('shisa-experience').innerHTML = data.experience.map(function (item, index) {
+    return '<article class="feature reveal">' +
+      '<span class="feature__icon" aria-hidden="true"><svg class="ico"><use href="#ico-star"></use></svg></span>' +
+      '<h3>' + (index + 1 < 10 ? '0' : '') + (index + 1) + ' · ' + item.title + '</h3>' +
+      '<p>' + item.text + '</p>' +
+      '</article>';
+  }).join('');
+
+  document.getElementById('shisa-menu').innerHTML = data.menu.map(function (group) {
+    return '<article class="feature reveal">' +
+      '<h3>' + group.section + '</h3>' +
+      '<p class="strong">' + group.items + '</p>' +
+      '<span class="badge badge--demo">Demo placeholder</span>' +
+      '</article>';
+  }).join('');
+
+  document.getElementById('shisa-specials').innerHTML = data.specials.map(function (special) {
+    return '<article class="feature reveal">' +
+      '<span class="feature__icon" aria-hidden="true"><svg class="ico"><use href="#ico-fire"></use></svg></span>' +
+      '<div class="row" style="justify-content:space-between"><h3>' + special.title + '</h3>' +
+      '<span class="badge badge--gold">' + special.badge + '</span></div>' +
+      '<p>' + special.text + '</p>' +
+      '</article>';
+  }).join('');
+
+  document.getElementById('shisa-events').innerHTML = data.events.map(function (event) {
+    return '<li class="note" style="margin:0"><svg class="ico" aria-hidden="true"><use href="#ico-users"></use></svg>' +
+      '<span><strong>' + event.title + '</strong><br>' + event.text + '</span></li>';
+  }).join('');
+
+  document.getElementById('shisa-gallery').innerHTML = data.gallery.map(function (shot) {
+    return '<figure class="reveal">' +
+      '<img src="' + shot.src + '" alt="Illustrated placeholder — ' + shot.caption + '" loading="lazy" width="1200" height="900">' +
+      '<figcaption>' + shot.caption + '</figcaption>' +
+      '</figure>';
+  }).join('');
+
+  UI.renderInto('#shisa-products', Products.featured().slice(0, 6).map(function (product) {
+    return UI.productCard(product);
+  }).join(''));
+
+  UI.initReveal();
+});
+</script>
+</body>
+</html>

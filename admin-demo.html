@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admin Concept | Izwelethu Butchery Demo</title>
+<meta name="description" content="Static admin dashboard concept for the Izwelethu Butchery demo: illustrative KPIs, sample order table, stock and pricing views and a bulk-order list. Demo only — no real data, login or backend.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#14100E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Izwelethu Butchery — Demo Concept">
+<meta property="og:title" content="Admin Concept | Izwelethu Butchery Demo">
+<meta property="og:description" content="How the business side could work. Demo figures only — no real data is stored.">
+<meta property="og:image" content="assets/images/og-card.svg">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<p class="demo-ribbon">
+  Demo concept — not the official Izwelethu website. &nbsp;<strong>All figures on this page are illustrative demo values.</strong>
+</p>
+
+<p class="admin-banner">
+  <svg class="ico" aria-hidden="true"><use href="#ico-alert"></use></svg>
+  Admin concept — demo only. No login, no backend, no real orders, customers or payments are stored.
+  <a href="index.html" style="text-decoration:underline">Return to the storefront</a>
+</p>
+
+<div class="topbar">
+  <div class="container topbar__inner">
+    <ul class="topbar__list">
+      <li><svg class="ico" aria-hidden="true"><use href="#ico-pin"></use></svg> Umlazi, KwaZulu-Natal</li>
+      <li><svg class="ico" aria-hidden="true"><use href="#ico-user"></use></svg> Staff area — concept only</li>
+    </ul>
+    <ul class="topbar__list">
+      <li>Demo figures · no live data</li>
+      <li>Static prototype</li>
+    </ul>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="index.html" aria-label="Izwelethu Butchery — home">
+      <img class="brand__mark" src="assets/logo/izwelethu-mark.svg" alt="" width="44" height="44">
+      <span class="brand__text">
+        <span class="brand__name">IZWELETHU</span>
+        <span class="brand__sub">BUTCHERY</span>
+      </span>
+    </a>
+    <nav class="nav-desktop" data-nav aria-label="Primary navigation">
+      <ul class="nav-desktop__list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="shisanyama.html">Shisanyama</a></li>
+        <li><a href="wholesale.html">Wholesale</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <div class="header__actions">
+      <button class="icon-btn" type="button" data-demo-note="Staff accounts are a concept feature — production authentication would be required." aria-label="Staff account (concept only)">
+        <svg class="ico" aria-hidden="true"><use href="#ico-user"></use></svg>
+      </button>
+      <a class="icon-btn" href="cart.html" aria-label="Cart, empty">
+        <svg class="ico" aria-hidden="true"><use href="#ico-cart"></use></svg>
+        <span class="cart-count" data-empty="true">0</span>
+      </a>
+      <button class="icon-btn header__menu-btn" type="button" data-drawer-open aria-label="Open menu" aria-controls="site-drawer">
+        <svg class="ico" aria-hidden="true"><use href="#ico-menu"></use></svg>
+      </button>
+    </div>
+    <button class="btn btn--accent header__cta" type="button" data-whatsapp="cart">Order now</button>
+  </div>
+</header>
+
+<div class="drawer-backdrop" id="drawer-backdrop"></div>
+
+<aside class="drawer" id="site-drawer" aria-hidden="true" aria-label="Mobile menu">
+  <div class="drawer__head">
+    <span class="brand__text">
+      <span class="brand__name">IZWELETHU</span>
+      <span class="brand__sub">BUTCHERY</span>
+    </span>
+    <button class="icon-btn" type="button" data-drawer-close aria-label="Close menu">
+      <svg class="ico" aria-hidden="true"><use href="#ico-close"></use></svg>
+    </button>
+  </div>
+  <nav class="drawer__nav" data-drawer-nav aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop meat</a>
+    <a href="shisanyama.html">Shisanyama</a>
+    <a href="wholesale.html">Wholesale</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="loyalty.html">Izwelethu Club</a>
+    <a href="cart.html">Cart</a>
+    <a href="admin-demo.html">Admin concept</a>
+  </nav>
+  <div class="drawer__foot">
+    <button class="btn btn--ember btn--block" type="button" data-whatsapp="cart">Order on WhatsApp</button>
+    <a class="btn btn--ghost btn--block" href="shop.html">Shop all demo products</a>
+    <p class="drawer__note">Demo concept only. Prices, packs and services shown are not confirmed by Izwelethu Butchery.</p>
+  </div>
+</aside>
+
+<main id="main">
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-head__top section-head__top--center">
+          <span class="eyebrow">Staff dashboard concept</span>
+          <span class="badge badge--dark">Demo only</span>
+        </div>
+        <h1 class="h2" style="text-align:center">Everything on one screen</h1>
+        <p class="lede" style="text-align:center;margin-inline:auto;max-width:70ch">
+          A static prototype of the business side of the platform: today's numbers, incoming orders,
+          stock levels, pricing control and bulk-order enquiries. Every figure below is illustrative
+          and no data is stored, edited or transmitted.
+        </p>
+      </div>
+
+      <div class="kpi-grid" data-admin-kpis></div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container admin-layout">
+
+      <nav class="admin-nav" aria-label="Admin sections">
+        <a href="#kpis"><svg class="ico" aria-hidden="true"><use href="#ico-chart"></use></svg>Dashboard</a>
+        <a href="#orders"><svg class="ico" aria-hidden="true"><use href="#ico-cart"></use></svg>Orders</a>
+        <a href="#stock"><svg class="ico" aria-hidden="true"><use href="#ico-box"></use></svg>Stock</a>
+        <a href="#pricing"><svg class="ico" aria-hidden="true"><use href="#ico-star"></use></svg>Pricing</a>
+        <a href="#bulk"><svg class="ico" aria-hidden="true"><use href="#ico-truck"></use></svg>Bulk orders</a>
+        <p class="admin-nav__sep">Storefront</p>
+        <a href="index.html"><svg class="ico" aria-hidden="true"><use href="#ico-arrow-left"></use></svg>Back to site</a>
+        <a href="cart.html"><svg class="ico" aria-hidden="true"><use href="#ico-cart"></use></svg>Demo cart</a>
+        <button type="button" data-demo-note="Stock adjustments are a concept feature — production would write to a real inventory system.">
+          <svg class="ico" aria-hidden="true"><use href="#ico-refresh"></use></svg>Adjust stock
+        </button>
+      </nav>
+
+      <div class="stack stack--lg">
+
+        <div class="admin-panel" id="orders">
+          <h3>Recent orders</h3>
+          <p class="admin-panel__note">Sample rows to show the order pipeline. Nothing here is a real order.</p>
+          <div class="table-wrap">
+            <table class="data">
+              <caption class="visually-hidden">Sample demo orders</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Order</th>
+                  <th scope="col">Customer</th>
+                  <th scope="col">Items</th>
+                  <th scope="col">Channel</th>
+                  <th scope="col">Total</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody data-admin-orders></tbody>
+            </table>
+          </div>
+          <div class="row">
+            <button class="btn btn--ghost btn--sm" type="button" data-demo-note="Order fulfilment is a concept feature — production would connect to a real order system.">
+              Open order (concept)
+            </button>
+            <button class="btn btn--ghost btn--sm" type="button" data-demo-note="Printing is a concept feature — production would print from a connected till or printer.">
+              Print packing slip
+            </button>
+          </div>
+        </div>
+
+        <div class="admin-panel" id="stock">
+          <h3>Stock &amp; availability</h3>
+          <p class="admin-panel__note">Availability values are illustrative demo flags from the catalogue.</p>
+          <div class="table-wrap">
+            <table class="data">
+              <caption class="visually-hidden">Illustrative demo stock levels</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Product</th>
+                  <th scope="col">Category</th>
+                  <th scope="col">Demo price</th>
+                  <th scope="col">Stock</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody data-admin-stock></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="admin-panel" id="pricing">
+          <h3>Price control</h3>
+          <p class="admin-panel__note">
+            In production, Izwelethu would approve every price here. This demo shows the layout only —
+            the figures are illustrative and are not Izwelethu prices.
+          </p>
+          <form data-demo-form data-success-target="admin-success" data-ref-prefix="IZW-ADM"
+            data-success-message="This demo form was captured in your browser only. No price was changed and nothing was saved or sent to any system.">
+            <div class="form-grid form-grid--2">
+              <div class="field">
+                <label class="field-label" for="ad-product">Product</label>
+                <select class="select" id="ad-product" name="product" data-admin-product-select></select>
+              </div>
+              <div class="field">
+                <label class="field-label" for="ad-price">New price (R) <span class="req">*</span></label>
+                <input class="input" id="ad-price" name="price" type="number" min="0" step="1" required placeholder="e.g. 189">
+                <p class="field__hint">Demo only — nothing is saved.</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:var(--sp-4)">
+              <button class="btn btn--accent" type="submit">
+                <svg class="ico" aria-hidden="true"><use href="#ico-check"></use></svg>
+                Save demo price
+              </button>
+              <button class="btn btn--ghost" type="button" data-demo-note="Bulk price editing is a concept feature — production would require staff permissions.">
+                Bulk edit
+              </button>
+            </div>
+          </form>
+          <div class="form-success" id="admin-success" hidden></div>
+        </div>
+
+        <div class="admin-panel" id="bulk">
+          <h3>Wholesale &amp; bulk enquiries</h3>
+          <p class="admin-panel__note">
+            Enquiry types the business would receive. Volumes are demo figures, not recorded leads.
+          </p>
+          <div class="bar-chart" data-admin-bulk></div>
+        </div>
+
+        <div class="admin-panel">
+          <h3>What a production build would need</h3>
+          <ul class="spec-list">
+            <li>Staff authentication with roles for counter, butchery and management</li>
+            <li>A real database for products, prices, stock and orders</li>
+            <li>Owner-approved pricing loaded instead of the demo figures</li>
+            <li>Payment or account-capture rules agreed by Izwelethu</li>
+            <li>Order notifications, receipts and printing for the counter</li>
+            <li>Backups, audit logging and South African data-protection compliance</li>
+          </ul>
+          <div class="note note--warn">
+            <svg class="ico" aria-hidden="true"><use href="#ico-alert"></use></svg>
+            <span>
+              This page has no login because it has nothing to protect: it is a static layout with
+              hard-coded demo values.
+            </span>
+          </div>
+          <div class="row">
+            <a class="btn btn--ghost" href="wholesale.html">Wholesale concept</a>
+            <a class="btn btn--ghost" href="contact.html">Contact concept</a>
+            <a class="btn btn--ghost" href="shop.html">Storefront</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="stack">
+        <a class="brand" href="index.html" style="margin-right:0">
+          <img class="brand__mark" src="assets/logo/izwelethu-mark.svg" alt="" width="44" height="44">
+          <span class="brand__text">
+            <span class="brand__name">IZWELETHU</span>
+            <span class="brand__sub">BUTCHERY</span>
+          </span>
+        </a>
+        <p class="footer__about">
+          Meat, braai, shisanyama and wholesale concepts for Umlazi, KwaZulu-Natal.
+          This website is a demonstration concept and is not the official Izwelethu website.
+        </p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul class="footer__list">
+          <li><a href="shop.html">All demo products</a></li>
+          <li><a href="shop.html?cat=beef">Beef</a></li>
+          <li><a href="shop.html?cat=chicken">Chicken</a></li>
+          <li><a href="shop.html?cat=wors-sausages">Wors &amp; sausages</a></li>
+          <li><a href="shop.html?cat=braai-packs">Braai packs</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit &amp; explore</h4>
+        <ul class="footer__list">
+          <li><a href="shisanyama.html">Shisanyama</a></li>
+          <li><a href="wholesale.html">Wholesale</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="loyalty.html">Izwelethu Club</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="admin-demo.html">Admin concept</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul class="footer__list">
+          <li><svg class="ico" aria-hidden="true"><use href="#ico-pin"></use></svg><span>Umlazi, KwaZulu-Natal, South Africa</span></li>
+          <li>
+            <svg class="ico" aria-hidden="true"><use href="#ico-phone"></use></svg>
+            <a href="tel:+27319073143">031 907 3143</a>
+            <span class="tiny">(unverified — to confirm)</span>
+          </li>
+          <li><svg class="ico" aria-hidden="true"><use href="#ico-clock"></use></svg><span>Operating hours to be confirmed</span></li>
+        </ul>
+        <div class="row" style="margin-top:var(--sp-4)">
+          <button class="btn btn--cream btn--sm" type="button" data-whatsapp="enquiry">WhatsApp</button>
+          <button class="btn btn--ghost btn--sm" type="button" data-demo-note="Account area is a concept feature — production integration required.">Account</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p style="margin:0">&copy; <span data-year>2026</span> Izwelethu Butchery — demo concept. Not an official website.</p>
+      <ul class="footer__legal">
+        <li>Demo disclaimer: prices, menu, packs and services are unconfirmed.</li>
+        <li>No personal data is collected, stored or transmitted by this demo.</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<div class="toast-stack" role="status" aria-live="polite"></div>
+
+<script src="js/demo-data.js" defer></script>
+<script src="js/products.js" defer></script>
+<script src="js/app.js" defer></script>
+<script src="js/cart.js" defer></script>
+<script src="js/whatsapp.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var year = document.querySelector('[data-year]');
+  if (year) year.textContent = String(new Date().getFullYear());
+
+  var A = IZWELETHU.admin;
+  var P = Products;
+  var esc = UI.escapeHtml;
+
+  UI.renderInto('[data-admin-kpis]', A.kpis.map(function (kpi) {
+    return '<article class="kpi">' +
+      '<span class="kpi__label">' + esc(kpi.label) + '</span>' +
+      '<strong class="kpi__value">' + esc(kpi.value) + '</strong>' +
+      '<span class="kpi__trend is-demo">' + esc(kpi.trend) + '</span>' +
+      '<span class="tiny muted">' + esc(kpi.sub) + '</span>' +
+    '</article>';
+  }).join(''));
+
+  UI.renderInto('[data-admin-orders]', A.orders.map(function (order) {
+    return '<tr>' +
+      '<td class="nowrap strong">' + esc(order.id) + '</td>' +
+      '<td>' + esc(order.customer) + '</td>' +
+      '<td>' + esc(order.items) + '</td>' +
+      '<td class="nowrap">' + esc(order.channel) + '</td>' +
+      '<td class="nowrap">' + esc(order.total) + '</td>' +
+      '<td class="nowrap"><span class="status status--' + esc(order.status) + '">' +
+        esc(A.statusLabels[order.status] || order.status) + '</span></td>' +
+    '</tr>';
+  }).join(''));
+
+  UI.renderInto('[data-admin-stock]', P.all().slice(0, 10).map(function (product) {
+    var out = product.available === false;
+    return '<tr>' +
+      '<td><a href="' + P.productUrl(product.id) + '">' + esc(product.name) + '</a></td>' +
+      '<td class="nowrap">' + esc(P.categoryName(product.category)) + '</td>' +
+      '<td class="nowrap">' + (product.price ? esc(P.formatPrice(product.price)) : 'Price to be confirmed') + '</td>' +
+      '<td class="nowrap">' + esc(product.stock || 'Demo stock') + '</td>' +
+      '<td class="nowrap"><span class="status ' + (out ? 'status--inactive' : 'status--ready') + '">' +
+        (out ? 'Unavailable' : 'Available') + '</span></td>' +
+    '</tr>';
+  }).join(''));
+
+  UI.renderInto('[data-admin-product-select]', P.all().map(function (product) {
+    return '<option value="' + esc(product.id) + '">' + esc(product.name) + '</option>';
+  }).join(''));
+
+  var bulk = [
+    { label: 'Under 50 kg / month', value: 34 },
+    { label: '50 – 200 kg / month', value: 41 },
+    { label: '200 – 500 kg / month', value: 22 },
+    { label: '500 – 1 000 kg / month', value: 12 },
+    { label: 'More than 1 000 kg / month', value: 6 }
+  ];
+
+  UI.renderInto('[data-admin-bulk]', bulk.map(function (row) {
+    return '<div class="bar-row">' +
+      '<div class="bar-row__top"><span>' + esc(row.label) + '</span>' +
+      '<span class="bar-row__value">' + row.value + '%</span></div>' +
+      '<div class="bar-row__track"><span class="bar-row__fill" style="width:' + row.value + '%"></span></div>' +
+    '</div>';
+  }).join('') +
+  '<p class="admin-panel__note">' + esc(A.analytics.leadsNote) +
+  ' These percentages are illustrative demo values, not recorded enquiry data.</p>');
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Izwelethu Butchery">
+  <defs>
+    <linearGradient id="ogbg" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#1C1714"/><stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="ogfire" cx="0.78" cy="0.86" r="0.6">
+      <stop offset="0" stop-color="#F7A03C" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#DE5A1C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#ogbg)"/>
+  <rect width="1200" height="630" fill="url(#ogfire)"/>
+  <rect x="72" y="72" width="1056" height="486" fill="none" stroke="#F3E7D3" stroke-opacity="0.18" stroke-width="2"/>
+  <text x="120" y="300" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="86" letter-spacing="6" fill="#F3E7D3">IZWELETHU</text>
+  <text x="120" y="360" font-family="Arial, Helvetica, sans-serif" font-size="30" letter-spacing="14" fill="#E8B15A">BUTCHERY</text>
+  <rect x="120" y="410" width="180" height="6" fill="#DE5A1C"/>
+  <text x="120" y="472" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#D9C7AC">Meat &#183; Braai &#183; Shisanyama &#183; Wholesale</text>
+  <text x="120" y="516" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#8A7A6A">Umlazi, KwaZulu-Natal &#183; Demo concept</text>
+</svg>

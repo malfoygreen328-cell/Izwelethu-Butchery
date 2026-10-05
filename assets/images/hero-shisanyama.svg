@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1100" viewBox="0 0 2000 1100" role="img">
+
+  <defs>
+    <linearGradient id="bg-hero-shisanyama" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#13100E"/>
+      <stop offset="0.55" stop-color="#1C1714"/>
+      <stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="key-hero-shisanyama" cx="0.5" cy="0.49999999999999994" r="0.62">
+      <stop offset="0" stop-color="#DE5A1C" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#F7A03C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0A0908" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig-hero-shisanyama" cx="0.5" cy="0.48" r="0.78">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="metal-hero-shisanyama" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8E4DE"/>
+      <stop offset="0.4" stop-color="#9A948C"/>
+      <stop offset="0.62" stop-color="#C9C3BB"/>
+      <stop offset="1" stop-color="#5E5852"/>
+    </linearGradient>
+    <linearGradient id="board-hero-shisanyama" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#54392B"/>
+      <stop offset="1" stop-color="#3A2A20"/>
+    </linearGradient>
+    <linearGradient id="meat-hero-shisanyama" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#C9634C"/>
+      <stop offset="0.45" stop-color="#A8352B"/>
+      <stop offset="1" stop-color="#661913"/>
+    </linearGradient>
+    <linearGradient id="meatDark-hero-shisanyama" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#A8352B"/>
+      <stop offset="0.6" stop-color="#661913"/>
+      <stop offset="1" stop-color="#4A120E"/>
+    </linearGradient>
+    <linearGradient id="bone-hero-shisanyama" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EFE2CB"/>
+      <stop offset="1" stop-color="#C9B795"/>
+    </linearGradient>
+    <linearGradient id="cream-hero-shisanyama" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FBF3E6"/>
+      <stop offset="1" stop-color="#D9C7AC"/>
+    </linearGradient>
+    <linearGradient id="ember-hero-shisanyama" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8B15A"/>
+      <stop offset="0.5" stop-color="#F7A03C"/>
+      <stop offset="1" stop-color="#DE5A1C"/>
+    </linearGradient>
+    <filter id="soft-hero-shisanyama" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="softer-hero-shisanyama" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow-hero-shisanyama" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="grain-hero-shisanyama" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="0.003273417940363288" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="2000" height="1100" fill="url(#bg-hero-shisanyama)"/>
+  <rect width="2000" height="1100" fill="url(#key-hero-shisanyama)"/>
+
+  <g>
+    <path d="M-60 520 C40 300.1853019744158 120 592.1119855903089 210 397.1961575280875" stroke="#0A0908" stroke-width="10" fill="none" opacity="0.9"/><path d="M140 536.829419696158 C240 320.333873690106 320 590.3679847344756 410 371.57210690900683" stroke="#0A0908" stroke-width="10" fill="none" opacity="0.9"/><path d="M340 538.1859485365136 C440 302.32345236930996 520 574.8678974620998 610 361.472972324118" stroke="#0A0908" stroke-width="10" fill="none" opacity="0.9"/><path d="M540 522.8224001611974 C640 347.7149944938719 720 596.7403540108353 810 378.4962902031839" stroke="#0A0908" stroke-width="10" fill="none" opacity="0.9"/><path d="M740 504.8639500938414 C840 358.528870716691 920 575.4793498944491 1010 374.56004646606743" stroke="#0A0908" stroke-width="10" fill="none" opacity="0.9"/><path d="M940 500.82151450673723 C1040 338.78276482690126 1120 573.3692661579698 1210 368.0635679233819" stroke="#0A0908" stroke-width="10" fill="none" opacity="0.9"/><path d="M1140 514.4116900360215 C1240 318.2386200875044 1320 575.8207115996629 1410 370.6517263036221" stroke="#0A0908" stroke-width="10" fill="none" opacity="0.9"/><path d="M1340 533.1397319743758 C1440 337.3016604082659 1520 595.0981403421611 1610 390.30558238737285" stroke="#0A0908" stroke-width="10" fill="none" opacity="0.9"/><path d="M1540 539.7871649324676 C1640 345.0237893080339 1720 563.0845190025866 1810 375.8624232187867" stroke="#0A0908" stroke-width="10" fill="none" opacity="0.9"/><path d="M1740 528.2423697048351 C1840 341.4513817895204 1920 562.0043892133981 2010 364.6923314034939" stroke="#0A0908" stroke-width="10" fill="none" opacity="0.9"/><path d="M1940 509.1195777822126 C2040 332.4512147717178 2120 597.1299674641341 2210 384.11816442385316" stroke="#0A0908" stroke-width="10" fill="none" opacity="0.9"/><path d="M2140 500.00019586898594 C2240 328.6506450455636 2320 577.0843217987567 2410 393.4800850600004" stroke="#0A0908" stroke-width="10" fill="none" opacity="0.9"/>
+  </g>
+  <ellipse cx="1000" cy="960" rx="620" ry="200" fill="#DE5A1C" opacity="0.4" filter="url(#softer-hero-shisanyama)"/>
+  <g opacity="0.92">
+    
+      <g transform="translate(420,760) scale(1)">
+        <circle cx="0" cy="-120" r="46" fill="#0A0908"/>
+        <path d="M-52 0 C-52 -74 -28 -110 0 -110 C28 -110 52 -74 52 0 Z" fill="#0A0908"/>
+      </g>
+      <g transform="translate(560,790) scale(0.92)">
+        <circle cx="0" cy="-120" r="46" fill="#0A0908"/>
+        <path d="M-52 0 C-52 -74 -28 -110 0 -110 C28 -110 52 -74 52 0 Z" fill="#0A0908"/>
+      </g>
+      <g transform="translate(1460,770) scale(1.05)">
+        <circle cx="0" cy="-120" r="46" fill="#0A0908"/>
+        <path d="M-52 0 C-52 -74 -28 -110 0 -110 C28 -110 52 -74 52 0 Z" fill="#0A0908"/>
+      </g>
+      <g transform="translate(1600,800) scale(0.9)">
+        <circle cx="0" cy="-120" r="46" fill="#0A0908"/>
+        <path d="M-52 0 C-52 -74 -28 -110 0 -110 C28 -110 52 -74 52 0 Z" fill="#0A0908"/>
+      </g>
+  </g>
+  <g stroke="#0A0908" stroke-width="16" fill="none">
+    <path d="M0 470 C500 380 1500 380 2000 470"/>
+  </g>
+  <g fill="#E8B15A">
+    <circle cx="90" cy="470" r="13" opacity="0.95"/><circle cx="90" cy="470" r="30" opacity="0.22" filter="url(#soft-hero-shisanyama)"/><circle cx="242" cy="447.2239240309782" r="13" opacity="0.95"/><circle cx="242" cy="447.2239240309782" r="30" opacity="0.22" filter="url(#soft-hero-shisanyama)"/><circle cx="394" cy="426" r="13" opacity="0.95"/><circle cx="394" cy="426" r="30" opacity="0.22" filter="url(#soft-hero-shisanyama)"/><circle cx="546" cy="407.7746032555838" r="13" opacity="0.95"/><circle cx="546" cy="407.7746032555838" r="30" opacity="0.22" filter="url(#soft-hero-shisanyama)"/><circle cx="698" cy="393.7897644669694" r="13" opacity="0.95"/><circle cx="698" cy="393.7897644669694" r="30" opacity="0.22" filter="url(#soft-hero-shisanyama)"/><circle cx="850" cy="384.99852728656197" r="13" opacity="0.95"/><circle cx="850" cy="384.99852728656197" r="30" opacity="0.22" filter="url(#soft-hero-shisanyama)"/><circle cx="1002" cy="382" r="13" opacity="0.95"/><circle cx="1002" cy="382" r="30" opacity="0.22" filter="url(#soft-hero-shisanyama)"/><circle cx="1154" cy="384.99852728656197" r="13" opacity="0.95"/><circle cx="1154" cy="384.99852728656197" r="30" opacity="0.22" filter="url(#soft-hero-shisanyama)"/><circle cx="1306" cy="393.78976446696936" r="13" opacity="0.95"/><circle cx="1306" cy="393.78976446696936" r="30" opacity="0.22" filter="url(#soft-hero-shisanyama)"/><circle cx="1458" cy="407.7746032555838" r="13" opacity="0.95"/><circle cx="1458" cy="407.7746032555838" r="30" opacity="0.22" filter="url(#soft-hero-shisanyama)"/><circle cx="1610" cy="426" r="13" opacity="0.95"/><circle cx="1610" cy="426" r="30" opacity="0.22" filter="url(#soft-hero-shisanyama)"/><circle cx="1762" cy="447.22392403097814" r="13" opacity="0.95"/><circle cx="1762" cy="447.22392403097814" r="30" opacity="0.22" filter="url(#soft-hero-shisanyama)"/><circle cx="1914" cy="470" r="13" opacity="0.95"/><circle cx="1914" cy="470" r="30" opacity="0.22" filter="url(#soft-hero-shisanyama)"/>
+  </g>
+  <g filter="url(#shadow-hero-shisanyama)">
+    <path d="M760 880 L1240 880 L1216 990 L784 990 Z" fill="url(#metal-hero-shisanyama)"/>
+    <g stroke="#0A0908" stroke-width="9" opacity="0.8">
+      <path d="M770 906 L1230 906 M776 940 L1224 940 M782 974 L1218 974"/>
+    </g>
+    <path d="M840 862 C900 806 1000 800 1070 826 C1116 844 1110 880 1050 888 C964 898 848 892 840 862 Z" fill="url(#meat-hero-shisanyama)"/>
+    <path d="M1130 856 C1180 812 1256 818 1288 852 C1304 872 1276 894 1232 892 C1170 890 1120 882 1130 856 Z" fill="url(#meatDark-hero-shisanyama)"/>
+    <g fill="none" stroke="#F7A03C" stroke-width="16" stroke-linecap="round" opacity="0.9">
+      <path d="M900 960 C920 900 940 1000 962 946 C982 898 1004 1002 1024 950"/>
+      <path d="M1060 972 C1082 916 1102 1006 1124 958"/>
+    </g>
+  </g>
+  <rect y="900" width="2000" height="300" fill="#0A0908" opacity="0.45"/>
+  <rect width="2000" height="1100" fill="url(#vig-hero-shisanyama)"/>
+  <rect width="2000" height="1100" filter="url(#grain-hero-shisanyama)" opacity="0.075" style="mix-blend-mode:overlay"/>
+</svg>

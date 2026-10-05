@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img">
+
+  <defs>
+    <linearGradient id="bg-shisanyama-plates" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#13100E"/>
+      <stop offset="0.55" stop-color="#1C1714"/>
+      <stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="key-shisanyama-plates" cx="0.5" cy="0.48999999999999994" r="0.62">
+      <stop offset="0" stop-color="#DE5A1C" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#F7A03C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0A0908" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig-shisanyama-plates" cx="0.5" cy="0.48" r="0.78">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="metal-shisanyama-plates" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8E4DE"/>
+      <stop offset="0.4" stop-color="#9A948C"/>
+      <stop offset="0.62" stop-color="#C9C3BB"/>
+      <stop offset="1" stop-color="#5E5852"/>
+    </linearGradient>
+    <linearGradient id="board-shisanyama-plates" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#54392B"/>
+      <stop offset="1" stop-color="#3A2A20"/>
+    </linearGradient>
+    <linearGradient id="meat-shisanyama-plates" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#C9634C"/>
+      <stop offset="0.45" stop-color="#A8352B"/>
+      <stop offset="1" stop-color="#661913"/>
+    </linearGradient>
+    <linearGradient id="meatDark-shisanyama-plates" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#A8352B"/>
+      <stop offset="0.6" stop-color="#661913"/>
+      <stop offset="1" stop-color="#4A120E"/>
+    </linearGradient>
+    <linearGradient id="bone-shisanyama-plates" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EFE2CB"/>
+      <stop offset="1" stop-color="#C9B795"/>
+    </linearGradient>
+    <linearGradient id="cream-shisanyama-plates" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FBF3E6"/>
+      <stop offset="1" stop-color="#D9C7AC"/>
+    </linearGradient>
+    <linearGradient id="ember-shisanyama-plates" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8B15A"/>
+      <stop offset="0.5" stop-color="#F7A03C"/>
+      <stop offset="1" stop-color="#DE5A1C"/>
+    </linearGradient>
+    <filter id="soft-shisanyama-plates" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="softer-shisanyama-plates" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow-shisanyama-plates" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="grain-shisanyama-plates" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="0.0033992875833064318" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg-shisanyama-plates)"/>
+  <rect width="1200" height="900" fill="url(#key-shisanyama-plates)"/>
+
+  <g>
+    <path d="M180 200 L1020 200 L1020 700 L180 700 Z" fill="url(#board-shisanyama-plates)" rx="18"/>
+    <path d="M180 271.42857142857144 Q600 258.51214315968434 1020 276.1055968137724" stroke="#000" stroke-opacity="0.16" stroke-width="3.7420323023106903" fill="none" stroke-linecap="round"/><path d="M180 342.8571428571429 Q600 354.4780279764507 1020 348.4637062753152" stroke="#000" stroke-opacity="0.16" stroke-width="4.748816633364186" fill="none" stroke-linecap="round"/><path d="M180 414.2857142857143 Q600 424.2037685781584 1020 410.8277286610433" stroke="#000" stroke-opacity="0.16" stroke-width="3.480204545892775" fill="none" stroke-linecap="round"/><path d="M180 485.7142857142857 Q600 485.0480963468685 1020 484.2884110191039" stroke="#000" stroke-opacity="0.16" stroke-width="3.255127811804414" fill="none" stroke-linecap="round"/><path d="M180 557.1428571428571 Q600 566.9197111037959 1020 555.349137456755" stroke="#000" stroke-opacity="0.16" stroke-width="3.66067534359172" fill="none" stroke-linecap="round"/><path d="M180 628.5714285714286 Q600 641.3548326660613 1020 630.8376084534185" stroke="#000" stroke-opacity="0.16" stroke-width="4.083301998442039" fill="none" stroke-linecap="round"/>
+  </g>
+  
+    <g filter="url(#shadow-shisanyama-plates)">
+      <circle cx="420" cy="400" r="190" fill="url(#cream-shisanyama-plates)"/>
+      <circle cx="420" cy="400" r="164" fill="none" stroke="#D9C7AC" stroke-width="4"/>
+      <circle cx="420" cy="400" r="138" fill="#E7DCC6"/>
+      <ellipse cx="514" cy="400" rx="46" ry="26" fill="#9A3125" transform="rotate(0 514 400)"/><ellipse cx="449" cy="489" rx="46" ry="26" fill="#9A3125" transform="rotate(72 449 489)"/><ellipse cx="344" cy="455" rx="46" ry="26" fill="#9A3125" transform="rotate(143 344 455)"/><ellipse cx="344" cy="345" rx="46" ry="26" fill="#9A3125" transform="rotate(215 344 345)"/><ellipse cx="449" cy="311" rx="46" ry="26" fill="#9A3125" transform="rotate(287 449 311)"/>
+    </g>
+    <g filter="url(#shadow-shisanyama-plates)">
+      <circle cx="760" cy="380" r="150" fill="url(#cream-shisanyama-plates)"/>
+      <circle cx="760" cy="380" r="124" fill="none" stroke="#D9C7AC" stroke-width="4"/>
+      <circle cx="760" cy="380" r="98" fill="#E7DCC6"/>
+      <ellipse cx="789" cy="425" rx="46" ry="26" fill="#D9A377" transform="rotate(57 789 425)"/><ellipse cx="726" cy="422" rx="46" ry="26" fill="#D9A377" transform="rotate(129 726 422)"/><ellipse cx="710" cy="360" rx="46" ry="26" fill="#D9A377" transform="rotate(200 710 360)"/><ellipse cx="763" cy="326" rx="46" ry="26" fill="#D9A377" transform="rotate(272 763 326)"/><ellipse cx="812" cy="366" rx="46" ry="26" fill="#D9A377" transform="rotate(344 812 366)"/>
+    </g>
+    <g filter="url(#shadow-shisanyama-plates)">
+      <circle cx="620" cy="610" r="130" fill="url(#cream-shisanyama-plates)"/>
+      <circle cx="620" cy="610" r="104" fill="none" stroke="#D9C7AC" stroke-width="4"/>
+      <circle cx="620" cy="610" r="78" fill="#E7DCC6"/>
+      <ellipse cx="606" cy="641" rx="46" ry="26" fill="#EFE2CB" transform="rotate(114 606 641)"/><ellipse cx="586" cy="606" rx="46" ry="26" fill="#EFE2CB" transform="rotate(186 586 606)"/><ellipse cx="613" cy="577" rx="46" ry="26" fill="#EFE2CB" transform="rotate(257 613 577)"/><ellipse cx="650" cy="593" rx="46" ry="26" fill="#EFE2CB" transform="rotate(329 650 593)"/><ellipse cx="645" cy="633" rx="46" ry="26" fill="#EFE2CB" transform="rotate(401 645 633)"/>
+    </g>
+  <g opacity="0.9">
+    <rect x="250" y="760" width="240" height="18" rx="9" fill="undefined"/>
+    <rect x="540" y="760" width="240" height="18" rx="9" fill="undefined"/>
+  </g>
+  <circle cx="1030" cy="700" r="60" fill="#DE5A1C" opacity="0.35" filter="url(#soft-shisanyama-plates)"/>
+  <rect width="1200" height="900" fill="url(#vig-shisanyama-plates)"/>
+  <rect width="1200" height="900" filter="url(#grain-shisanyama-plates)" opacity="0.075" style="mix-blend-mode:overlay"/>
+</svg>

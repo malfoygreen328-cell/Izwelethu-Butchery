@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img">
+
+  <defs>
+    <linearGradient id="bg-gallery-skewers" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#13100E"/>
+      <stop offset="0.55" stop-color="#1C1714"/>
+      <stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="key-gallery-skewers" cx="0.5" cy="0.48999999999999994" r="0.62">
+      <stop offset="0" stop-color="#DE5A1C" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#F7A03C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0A0908" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig-gallery-skewers" cx="0.5" cy="0.48" r="0.78">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="metal-gallery-skewers" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8E4DE"/>
+      <stop offset="0.4" stop-color="#9A948C"/>
+      <stop offset="0.62" stop-color="#C9C3BB"/>
+      <stop offset="1" stop-color="#5E5852"/>
+    </linearGradient>
+    <linearGradient id="board-gallery-skewers" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#54392B"/>
+      <stop offset="1" stop-color="#3A2A20"/>
+    </linearGradient>
+    <linearGradient id="meat-gallery-skewers" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#C9634C"/>
+      <stop offset="0.45" stop-color="#A8352B"/>
+      <stop offset="1" stop-color="#661913"/>
+    </linearGradient>
+    <linearGradient id="meatDark-gallery-skewers" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#A8352B"/>
+      <stop offset="0.6" stop-color="#661913"/>
+      <stop offset="1" stop-color="#4A120E"/>
+    </linearGradient>
+    <linearGradient id="bone-gallery-skewers" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EFE2CB"/>
+      <stop offset="1" stop-color="#C9B795"/>
+    </linearGradient>
+    <linearGradient id="cream-gallery-skewers" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FBF3E6"/>
+      <stop offset="1" stop-color="#D9C7AC"/>
+    </linearGradient>
+    <linearGradient id="ember-gallery-skewers" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8B15A"/>
+      <stop offset="0.5" stop-color="#F7A03C"/>
+      <stop offset="1" stop-color="#DE5A1C"/>
+    </linearGradient>
+    <filter id="soft-gallery-skewers" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="softer-gallery-skewers" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow-gallery-skewers" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="grain-gallery-skewers" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="0.0037770194467157125" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg-gallery-skewers)"/>
+  <rect width="1200" height="900" fill="url(#key-gallery-skewers)"/>
+
+  <ellipse cx="600" cy="760" rx="520" ry="140" fill="#DE5A1C" opacity="0.34" filter="url(#softer-gallery-skewers)"/>
+  <g filter="url(#shadow-gallery-skewers)">
+    <g>
+      <rect x="180" y="291" width="840" height="18" rx="9" fill="#C9B795"/>
+      <path d="M260 300 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#A8352B"/>
+        <path d="M268 278 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/><path d="M410 300 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#C9634C"/>
+        <path d="M418 278 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/><path d="M560 300 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#D9A377"/>
+        <path d="M568 278 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/><path d="M710 300 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#EFE2CB"/>
+        <path d="M718 278 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/><path d="M860 300 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#A8352B"/>
+        <path d="M868 278 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/>
+    </g><g>
+      <rect x="180" y="421" width="840" height="18" rx="9" fill="#C9B795"/>
+      <path d="M260 430 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#A8352B"/>
+        <path d="M268 408 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/><path d="M410 430 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#C9634C"/>
+        <path d="M418 408 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/><path d="M560 430 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#D9A377"/>
+        <path d="M568 408 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/><path d="M710 430 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#EFE2CB"/>
+        <path d="M718 408 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/><path d="M860 430 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#A8352B"/>
+        <path d="M868 408 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/>
+    </g><g>
+      <rect x="180" y="551" width="840" height="18" rx="9" fill="#C9B795"/>
+      <path d="M260 560 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#A8352B"/>
+        <path d="M268 538 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/><path d="M410 560 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#C9634C"/>
+        <path d="M418 538 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/><path d="M560 560 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#D9A377"/>
+        <path d="M568 538 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/><path d="M710 560 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#EFE2CB"/>
+        <path d="M718 538 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/><path d="M860 560 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#A8352B"/>
+        <path d="M868 538 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/>
+    </g><g>
+      <rect x="180" y="681" width="840" height="18" rx="9" fill="#C9B795"/>
+      <path d="M260 690 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#A8352B"/>
+        <path d="M268 668 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/><path d="M410 690 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#C9634C"/>
+        <path d="M418 668 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/><path d="M560 690 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#D9A377"/>
+        <path d="M568 668 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/><path d="M710 690 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#EFE2CB"/>
+        <path d="M718 668 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/><path d="M860 690 l40 -34 l60 8 l-6 62 l-64 12 Z" fill="#A8352B"/>
+        <path d="M868 668 l60 6" stroke="#2A0E0A" stroke-opacity="0.35" stroke-width="6"/>
+    </g>
+  </g>
+  <g stroke="#D9C7AC" stroke-opacity="0.25" stroke-width="10" fill="none" stroke-linecap="round">
+    <path d="M420 240 C560 140 720 300 860 190"/>
+    <path d="M520 180 C640 100 780 240 900 150"/>
+  </g>
+  <rect width="1200" height="900" fill="url(#vig-gallery-skewers)"/>
+  <rect width="1200" height="900" filter="url(#grain-gallery-skewers)" opacity="0.075" style="mix-blend-mode:overlay"/>
+</svg>

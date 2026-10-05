@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img">
+
+  <defs>
+    <linearGradient id="bg-lamb-chops" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#13100E"/>
+      <stop offset="0.55" stop-color="#1C1714"/>
+      <stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="key-lamb-chops" cx="0.5" cy="0.48999999999999994" r="0.62">
+      <stop offset="0" stop-color="#DE5A1C" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#F7A03C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0A0908" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig-lamb-chops" cx="0.5" cy="0.48" r="0.78">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="metal-lamb-chops" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8E4DE"/>
+      <stop offset="0.4" stop-color="#9A948C"/>
+      <stop offset="0.62" stop-color="#C9C3BB"/>
+      <stop offset="1" stop-color="#5E5852"/>
+    </linearGradient>
+    <linearGradient id="board-lamb-chops" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#54392B"/>
+      <stop offset="1" stop-color="#3A2A20"/>
+    </linearGradient>
+    <linearGradient id="meat-lamb-chops" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#C9634C"/>
+      <stop offset="0.45" stop-color="#A8352B"/>
+      <stop offset="1" stop-color="#661913"/>
+    </linearGradient>
+    <linearGradient id="meatDark-lamb-chops" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#A8352B"/>
+      <stop offset="0.6" stop-color="#661913"/>
+      <stop offset="1" stop-color="#4A120E"/>
+    </linearGradient>
+    <linearGradient id="bone-lamb-chops" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EFE2CB"/>
+      <stop offset="1" stop-color="#C9B795"/>
+    </linearGradient>
+    <linearGradient id="cream-lamb-chops" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FBF3E6"/>
+      <stop offset="1" stop-color="#D9C7AC"/>
+    </linearGradient>
+    <linearGradient id="ember-lamb-chops" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8B15A"/>
+      <stop offset="0.5" stop-color="#F7A03C"/>
+      <stop offset="1" stop-color="#DE5A1C"/>
+    </linearGradient>
+    <filter id="soft-lamb-chops" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="softer-lamb-chops" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow-lamb-chops" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="grain-lamb-chops" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="0.0016367125790566206" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg-lamb-chops)"/>
+  <rect width="1200" height="900" fill="url(#key-lamb-chops)"/>
+
+  <ellipse cx="600" cy="720" rx="340" ry="54.4" fill="#000" opacity="0.45" filter="url(#SOFT)"/>
+  <g filter="url(#shadow-lamb-chops)">
+    <path d="M260 388 C300 300 480 250 700 262 C860 270 950 322 966 396 C980 464 900 500 760 496 C560 490 320 486 268 448 C246 428 246 412 260 388 Z" fill="#F0E0C2"/>
+    <g>
+      <path d="M360 430 L394 650" stroke="url(#bone-lamb-chops)" stroke-width="32" stroke-linecap="round"/>
+      <path d="M264 410 C320 344 430 350 464 436 C490 508 420 558 336 538 C268 522 238 460 264 410 Z" fill="url(#meat-lamb-chops)"/>
+      <ellipse cx="364" cy="452" rx="56" ry="44" fill="#C4634E"/>
+      <ellipse cx="364" cy="452" rx="56" ry="44" fill="none" stroke="#F1DFC1" stroke-width="10" opacity="0.9"/>
+      <ellipse cx="364" cy="452" rx="30" ry="24" fill="#A8352B"/>
+      <path d="M580 470 L614 690" stroke="url(#bone-lamb-chops)" stroke-width="32" stroke-linecap="round"/>
+      <path d="M484 450 C540 384 650 390 684 476 C710 548 640 598 556 578 C488 562 458 500 484 450 Z" fill="url(#meat-lamb-chops)"/>
+      <ellipse cx="584" cy="492" rx="56" ry="44" fill="#C4634E"/>
+      <ellipse cx="584" cy="492" rx="56" ry="44" fill="none" stroke="#F1DFC1" stroke-width="10" opacity="0.9"/>
+      <ellipse cx="584" cy="492" rx="30" ry="24" fill="#A8352B"/>
+      <path d="M800 510 L834 730" stroke="url(#bone-lamb-chops)" stroke-width="32" stroke-linecap="round"/>
+      <path d="M704 490 C760 424 870 430 904 516 C930 588 860 638 776 618 C708 602 678 540 704 490 Z" fill="url(#meat-lamb-chops)"/>
+      <ellipse cx="804" cy="532" rx="56" ry="44" fill="#C4634E"/>
+      <ellipse cx="804" cy="532" rx="56" ry="44" fill="none" stroke="#F1DFC1" stroke-width="10" opacity="0.9"/>
+      <ellipse cx="804" cy="532" rx="30" ry="24" fill="#A8352B"/>
+    </g>
+    <circle cx="557.8" cy="350.2" r="3.1" fill="#E9C79A" opacity="0.36"/><circle cx="354.7" cy="329.6" r="6.2" fill="#E9C79A" opacity="0.67"/><circle cx="588.4" cy="335.9" r="7.7" fill="#E9C79A" opacity="0.61"/><circle cx="402.0" cy="314.4" r="10.0" fill="#4E6B3C" opacity="0.45"/><circle cx="424.9" cy="370.5" r="11.5" fill="#4E6B3C" opacity="0.51"/><circle cx="500.4" cy="343.3" r="3.9" fill="#E9C79A" opacity="0.45"/><circle cx="575.1" cy="366.3" r="8.0" fill="#4E6B3C" opacity="0.68"/><circle cx="301.0" cy="376.2" r="11.5" fill="#E9C79A" opacity="0.42"/><circle cx="338.3" cy="340.6" r="4.8" fill="#4E6B3C" opacity="0.75"/><circle cx="351.3" cy="371.1" r="9.7" fill="#E9C79A" opacity="0.72"/><circle cx="277.7" cy="361.5" r="8.7" fill="#E9C79A" opacity="0.63"/><circle cx="330.2" cy="330.8" r="8.9" fill="#E9C79A" opacity="0.34"/>
+  </g>
+  <rect width="1200" height="900" fill="url(#vig-lamb-chops)"/>
+  <rect width="1200" height="900" filter="url(#grain-lamb-chops)" opacity="0.075" style="mix-blend-mode:overlay"/>
+</svg>

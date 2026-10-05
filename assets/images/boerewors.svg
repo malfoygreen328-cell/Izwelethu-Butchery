@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img">
+
+  <defs>
+    <linearGradient id="bg-boerewors" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#13100E"/>
+      <stop offset="0.55" stop-color="#1C1714"/>
+      <stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="key-boerewors" cx="0.5" cy="0.48999999999999994" r="0.62">
+      <stop offset="0" stop-color="#DE5A1C" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#F7A03C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0A0908" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig-boerewors" cx="0.5" cy="0.48" r="0.78">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="metal-boerewors" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8E4DE"/>
+      <stop offset="0.4" stop-color="#9A948C"/>
+      <stop offset="0.62" stop-color="#C9C3BB"/>
+      <stop offset="1" stop-color="#5E5852"/>
+    </linearGradient>
+    <linearGradient id="board-boerewors" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#54392B"/>
+      <stop offset="1" stop-color="#3A2A20"/>
+    </linearGradient>
+    <linearGradient id="meat-boerewors" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#C9634C"/>
+      <stop offset="0.45" stop-color="#A8352B"/>
+      <stop offset="1" stop-color="#661913"/>
+    </linearGradient>
+    <linearGradient id="meatDark-boerewors" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#A8352B"/>
+      <stop offset="0.6" stop-color="#661913"/>
+      <stop offset="1" stop-color="#4A120E"/>
+    </linearGradient>
+    <linearGradient id="bone-boerewors" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EFE2CB"/>
+      <stop offset="1" stop-color="#C9B795"/>
+    </linearGradient>
+    <linearGradient id="cream-boerewors" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FBF3E6"/>
+      <stop offset="1" stop-color="#D9C7AC"/>
+    </linearGradient>
+    <linearGradient id="ember-boerewors" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8B15A"/>
+      <stop offset="0.5" stop-color="#F7A03C"/>
+      <stop offset="1" stop-color="#DE5A1C"/>
+    </linearGradient>
+    <filter id="soft-boerewors" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="softer-boerewors" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow-boerewors" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="grain-boerewors" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="0.001888513332232833" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg-boerewors)"/>
+  <rect width="1200" height="900" fill="url(#key-boerewors)"/>
+
+  <ellipse cx="600" cy="700" rx="300" ry="48" fill="#000" opacity="0.45" filter="url(#SOFT)"/>
+  <g filter="url(#shadow-boerewors)">
+    <g fill="none" stroke="url(#meat-boerewors)" stroke-linecap="round">
+      <path d="M600 260 C860 260 900 600 600 600 C300 600 340 260 600 260" stroke-width="66"/>
+      <path d="M600 340 C780 340 800 520 600 520 C400 520 420 340 600 340" stroke-width="62"/>
+      <path d="M600 418 C690 418 700 470 600 470 C500 470 510 418 600 418" stroke-width="58"/>
+    </g>
+    <g fill="none" stroke="#E4A97F" stroke-opacity="0.35" stroke-width="7" stroke-linecap="round">
+      <path d="M420 300 C520 268 700 268 790 300"/>
+      <path d="M400 420 C500 386 720 386 800 420"/>
+      <path d="M430 540 C510 508 700 508 776 540"/>
+    </g>
+    <path d="M600 596 C600 596 640 626 616 660 C596 686 640 704 664 682 C700 648 664 604 636 596 Z" fill="url(#meatDark-boerewors)"/>
+    <circle cx="768.6" cy="421.0" r="5.8" fill="#5C170F" opacity="0.75"/><circle cx="626.0" cy="524.6" r="10.4" fill="#D98A6C" opacity="0.46"/><circle cx="688.2" cy="333.4" r="11.8" fill="#5C170F" opacity="0.43"/><circle cx="552.1" cy="542.1" r="9.4" fill="#D98A6C" opacity="0.47"/><circle cx="500.0" cy="439.7" r="11.7" fill="#D98A6C" opacity="0.38"/><circle cx="550.3" cy="374.7" r="11.8" fill="#5C170F" opacity="0.34"/><circle cx="358.3" cy="388.0" r="5.7" fill="#5C170F" opacity="0.40"/><circle cx="553.3" cy="455.5" r="4.3" fill="#5C170F" opacity="0.68"/><circle cx="611.5" cy="527.0" r="5.1" fill="#D98A6C" opacity="0.39"/><circle cx="662.0" cy="496.7" r="11.0" fill="#D98A6C" opacity="0.63"/><circle cx="460.1" cy="505.7" r="11.7" fill="#D98A6C" opacity="0.64"/><circle cx="600.2" cy="480.0" r="9.1" fill="#5C170F" opacity="0.75"/><circle cx="814.8" cy="359.1" r="10.5" fill="#D98A6C" opacity="0.46"/><circle cx="484.0" cy="409.6" r="7.2" fill="#5C170F" opacity="0.53"/><circle cx="394.8" cy="478.8" r="3.7" fill="#5C170F" opacity="0.63"/><circle cx="739.6" cy="511.5" r="5.5" fill="#D98A6C" opacity="0.50"/><circle cx="375.6" cy="368.8" r="3.3" fill="#5C170F" opacity="0.26"/><circle cx="744.9" cy="457.4" r="6.2" fill="#5C170F" opacity="0.57"/><circle cx="359.4" cy="400.8" r="7.3" fill="#5C170F" opacity="0.26"/><circle cx="612.7" cy="519.3" r="9.5" fill="#D98A6C" opacity="0.75"/><circle cx="549.8" cy="343.6" r="3.2" fill="#5C170F" opacity="0.58"/><circle cx="471.0" cy="435.7" r="4.6" fill="#D98A6C" opacity="0.65"/>
+  </g>
+  <rect width="1200" height="900" fill="url(#vig-boerewors)"/>
+  <rect width="1200" height="900" filter="url(#grain-boerewors)" opacity="0.075" style="mix-blend-mode:overlay"/>
+</svg>

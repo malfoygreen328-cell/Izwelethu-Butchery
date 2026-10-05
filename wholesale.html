@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wholesale &amp; Bulk Orders | Izwelethu Butchery Demo Concept</title>
+<meta name="description" content="Demo wholesale enquiry concept for Izwelethu Butchery: register business details, request a quote and receive recurring bulk supply. Demo form only — nothing is transmitted.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#14100E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Izwelethu Butchery — Demo Concept">
+<meta property="og:title" content="Wholesale &amp; Bulk Orders | Izwelethu Demo Concept">
+<meta property="og:description" content="Buying meat for your business? Submit a wholesale requirement and receive a quote concept for Umlazi, KwaZulu-Natal.">
+<meta property="og:image" content="assets/images/og-card.svg">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<p class="demo-ribbon">
+  Demo concept — not the official Izwelethu website. &nbsp;<strong>Wholesale terms, volumes and pricing are unconfirmed.</strong>
+</p>
+
+<div class="topbar">
+  <div class="container topbar__inner">
+    <ul class="topbar__list">
+      <li><svg class="ico" aria-hidden="true"><use href="#ico-pin"></use></svg> Umlazi, KwaZulu-Natal</li>
+      <li><svg class="ico" aria-hidden="true"><use href="#ico-phone"></use></svg> Contact details to be verified before launch</li>
+    </ul>
+    <ul class="topbar__list">
+      <li>Butchery &middot; Eatery &middot; Shisanyama</li>
+      <li>Wholesale &amp; retail concept</li>
+    </ul>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="index.html" aria-label="Izwelethu Butchery — home">
+      <img class="brand__mark" src="assets/logo/izwelethu-mark.svg" alt="" width="44" height="44">
+      <span class="brand__text">
+        <span class="brand__name">IZWELETHU</span>
+        <span class="brand__sub">BUTCHERY</span>
+      </span>
+    </a>
+    <nav class="nav-desktop" data-nav aria-label="Primary navigation">
+      <ul class="nav-desktop__list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="shisanyama.html">Shisanyama</a></li>
+        <li><a href="wholesale.html">Wholesale</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <div class="header__actions">
+      <button class="icon-btn" type="button" data-search-open aria-label="Search products">
+        <svg class="ico" aria-hidden="true"><use href="#ico-search"></use></svg>
+      </button>
+      <button class="icon-btn" type="button" data-demo-note="Account area is a concept feature — production integration required." aria-label="Account (concept only)">
+        <svg class="ico" aria-hidden="true"><use href="#ico-user"></use></svg>
+      </button>
+      <a class="icon-btn" href="cart.html" aria-label="Cart, empty">
+        <svg class="ico" aria-hidden="true"><use href="#ico-cart"></use></svg>
+        <span class="cart-count" data-empty="true">0</span>
+      </a>
+      <button class="icon-btn header__menu-btn" type="button" data-drawer-open aria-label="Open menu" aria-controls="site-drawer">
+        <svg class="ico" aria-hidden="true"><use href="#ico-menu"></use></svg>
+      </button>
+    </div>
+    <button class="btn btn--accent header__cta" type="button" data-whatsapp="cart">Order now</button>
+  </div>
+</header>
+
+<div class="search" id="site-search" aria-hidden="true" role="dialog" aria-label="Search products">
+  <div class="container search__inner">
+    <div class="search__field">
+      <svg class="ico" aria-hidden="true"><use href="#ico-search"></use></svg>
+      <input class="search__input" type="search" placeholder="Search ribs, wors, chicken, lamb…" data-search-input aria-label="Search products">
+      <button class="icon-btn" type="button" data-search-close aria-label="Close search">
+        <svg class="ico" aria-hidden="true"><use href="#ico-close"></use></svg>
+      </button>
+    </div>
+    <p class="search__hint" data-search-hint>Type to search demo products, categories and descriptions. Press / anywhere to open search.</p>
+    <div class="search__results" data-search-results></div>
+  </div>
+</div>
+
+<div class="drawer-backdrop" id="drawer-backdrop"></div>
+
+<aside class="drawer" id="site-drawer" aria-hidden="true" aria-label="Mobile menu">
+  <div class="drawer__head">
+    <span class="brand__text">
+      <span class="brand__name">IZWELETHU</span>
+      <span class="brand__sub">BUTCHERY</span>
+    </span>
+    <button class="icon-btn" type="button" data-drawer-close aria-label="Close menu">
+      <svg class="ico" aria-hidden="true"><use href="#ico-close"></use></svg>
+    </button>
+  </div>
+  <nav class="drawer__nav" data-drawer-nav aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop meat</a>
+    <a href="shisanyama.html">Shisanyama</a>
+    <a href="wholesale.html">Wholesale</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="loyalty.html">Izwelethu Club</a>
+    <a href="cart.html">Cart</a>
+  </nav>
+  <div class="drawer__foot">
+    <button class="btn btn--ember btn--block" type="button" data-whatsapp="cart">Order on WhatsApp</button>
+    <a class="btn btn--ghost btn--block" href="shop.html">Shop all demo products</a>
+    <p class="drawer__note">Demo concept only. Prices, packs and services shown are not confirmed by Izwelethu Butchery.</p>
+  </div>
+</aside>
+
+<main id="main">
+
+  <section class="page-hero on-dark">
+    <div class="page-hero__media">
+      <img src="assets/images/wholesale-storeroom.svg" alt="" fetchpriority="high" width="2000" height="1000">
+    </div>
+    <div class="container page-hero__inner">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="index.html">Home</a><span>/</span><span>Wholesale</span>
+      </nav>
+      <h1 class="page-hero__title">Buying in bulk?</h1>
+      <p class="lede">Tell us about your business requirements.</p>
+      <div class="row">
+        <span class="badge badge--dark">Restaurants</span>
+        <span class="badge badge--dark">Caterers</span>
+        <span class="badge badge--dark">Shisanyamas</span>
+        <span class="badge badge--dark">Events</span>
+        <span class="badge badge--dark">Retailers</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SECTORS ===================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Who it serves</span>
+        <h2>Built for repeat supply</h2>
+        <p class="lede">
+          The wholesale concept would support any business with recurring meat requirements. Trade
+          pricing, minimum volumes, lead times and delivery arrangements must all be agreed with
+          Izwelethu directly.
+        </p>
+      </div>
+      <div class="feature-grid" id="wholesale-sectors"></div>
+    </div>
+  </section>
+
+  <!-- ===================== HOW IT WORKS ===================== -->
+  <section class="section section--dark on-dark">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">How it would work</span>
+        <h2>From enquiry to recurring supply</h2>
+      </div>
+      <div class="flow">
+        <div class="flow__step reveal">
+          <h4>Submit your requirement</h4>
+          <p>Business details, estimated monthly volume and location — captured in under two minutes.</p>
+        </div>
+        <div class="flow__step reveal">
+          <h4>Receive a quote</h4>
+          <p>Izwelethu reviews the requirement and responds with pricing, minimum volumes and lead times.</p>
+        </div>
+        <div class="flow__step reveal">
+          <h4>Order against your account</h4>
+          <p>A production build would give each business an account with saved details and order history.</p>
+        </div>
+        <div class="flow__step reveal">
+          <h4>Reorder in one tap</h4>
+          <p>Repeat orders become a short WhatsApp message — no long phone calls, no forgotten details.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FORM ===================== -->
+  <section class="section" id="quote">
+    <div class="container split split--wide-left">
+      <div class="stack stack--lg" data-form-wrap>
+        <span class="eyebrow">Request a quote</span>
+        <h2>Tell us about your business</h2>
+        <p class="lede">
+          This is a demo form. It shows the exact fields a wholesale enquiry would collect — nothing
+          you type is emailed, stored or sent anywhere.
+        </p>
+
+        <form data-demo-form data-success-target="wholesale-success" data-ref-prefix="IZW-WHL"
+          data-success-message="This demo form was captured in your browser only. Nothing was emailed or sent to Izwelethu. In production, this submission would create a wholesale lead for the business to review.">
+
+          <div class="form-grid form-grid--2">
+            <div class="field">
+              <label class="field-label" for="wl-business">Business name <span class="req">*</span></label>
+              <input class="input" id="wl-business" name="business" type="text" required placeholder="e.g. Mkhize Braai Spot">
+            </div>
+            <div class="field">
+              <label class="field-label" for="wl-person">Contact person <span class="req">*</span></label>
+              <input class="input" id="wl-person" name="contact" type="text" required placeholder="e.g. Thabo Mkhize">
+            </div>
+            <div class="field">
+              <label class="field-label" for="wl-phone">Phone <span class="req">*</span></label>
+              <input class="input" id="wl-phone" name="phone" type="tel" required placeholder="e.g. 071 234 5678" inputmode="tel">
+            </div>
+            <div class="field">
+              <label class="field-label" for="wl-email">Email <span class="req">*</span></label>
+              <input class="input" id="wl-email" name="email" type="email" required placeholder="e.g. orders@business.co.za">
+            </div>
+            <div class="field">
+              <label class="field-label" for="wl-type">Business type <span class="req">*</span></label>
+              <select class="select" id="wl-type" name="businessType" required>
+                <option value="">Select one…</option>
+              </select>
+            </div>
+            <div class="field">
+              <label class="field-label" for="wl-volume">Estimated monthly requirement <span class="req">*</span></label>
+              <select class="select" id="wl-volume" name="monthly" required>
+                <option value="">Select one…</option>
+              </select>
+            </div>
+            <div class="field" style="grid-column:1/-1">
+              <label class="field-label" for="wl-location">Location <span class="req">*</span></label>
+              <input class="input" id="wl-location" name="location" type="text" required
+                placeholder="e.g. Umlazi, KwaZulu-Natal">
+            </div>
+            <div class="field" style="grid-column:1/-1">
+              <label class="field-label" for="wl-message">What do you need?</label>
+              <textarea class="textarea" id="wl-message" name="message"
+                placeholder="e.g. Beef and chicken for a weekend braai venue. Roughly 60 kg beef and 40 kg chicken per week, collection from Umlazi."></textarea>
+              <p class="field__hint">Cuts, quantities, collection or delivery, and how often you need supply.</p>
+            </div>
+          </div>
+
+          <div class="note" style="margin-block:var(--sp-5)">
+            <svg class="ico" aria-hidden="true"><use href="#ico-alert"></use></svg>
+            <span>Demo form only. No data is sent, stored or shared. WhatsApp and phone numbers must be verified with Izwelethu before any real launch.</span>
+          </div>
+
+          <div class="row">
+            <button class="btn btn--accent btn--lg" type="submit">
+              <svg class="ico" aria-hidden="true"><use href="#ico-arrow-right"></use></svg>
+              Request wholesale quote
+            </button>
+            <button class="btn btn--ghost btn--lg" type="button" data-whatsapp="enquiry"
+              data-whatsapp-text="Hi Izwelethu, I would like to enquire about wholesale supply.">
+              Enquire on WhatsApp
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="stack stack--lg">
+        <div class="form-success" id="wholesale-success" hidden></div>
+
+        <div class="feature-grid" style="grid-template-columns:1fr">
+          <article class="feature reveal">
+            <span class="feature__icon" aria-hidden="true"><svg class="ico"><use href="#ico-truck"></use></svg></span>
+            <h3>Collection or delivery?</h3>
+            <p>
+              Public information does not confirm whether Izwelethu delivers. This demo therefore
+              offers both options as concepts only — the arrangement would be agreed directly with
+              the business.
+            </p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature__icon" aria-hidden="true"><svg class="ico"><use href="#ico-clock"></use></svg></span>
+            <h3>Lead times and cut-off times</h3>
+            <p>Not confirmed. A production build would show ordering cut-off times per day so large orders can be planned.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature__icon" aria-hidden="true"><svg class="ico"><use href="#ico-box"></use></svg></span>
+            <h3>Trade pricing</h3>
+            <p>Not confirmed. Pricing would be quoted per business based on volumes and cuts requested.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== BULK BOXES ===================== -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-head__top">
+          <div class="stack">
+            <span class="eyebrow">Concept bulk offering</span>
+            <h2>Bulk boxes and event packs</h2>
+          </div>
+          <a class="link-arrow" href="shop.html?cat=bulk-wholesale">
+            View bulk category
+            <svg class="ico" aria-hidden="true"><use href="#ico-arrow-right"></use></svg>
+          </a>
+        </div>
+        <p class="lede">Demo bulk lines. Composition, weights and trade pricing are to be confirmed by Izwelethu.</p>
+      </div>
+      <div class="product-grid" id="wholesale-products"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="stack">
+        <a class="brand" href="index.html" style="margin-right:0">
+          <img class="brand__mark" src="assets/logo/izwelethu-mark.svg" alt="" width="44" height="44">
+          <span class="brand__text">
+            <span class="brand__name">IZWELETHU</span>
+            <span class="brand__sub">BUTCHERY</span>
+          </span>
+        </a>
+        <p class="footer__about">
+          Meat, braai, shisanyama and wholesale concepts for Umlazi, KwaZulu-Natal.
+          This website is a demonstration concept and is not the official Izwelethu website.
+        </p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul class="footer__list">
+          <li><a href="shop.html">All demo products</a></li>
+          <li><a href="shop.html?cat=beef">Beef</a></li>
+          <li><a href="shop.html?cat=chicken">Chicken</a></li>
+          <li><a href="shop.html?cat=wors-sausages">Wors &amp; sausages</a></li>
+          <li><a href="shop.html?cat=braai-packs">Braai packs</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit &amp; explore</h4>
+        <ul class="footer__list">
+          <li><a href="shisanyama.html">Shisanyama</a></li>
+          <li><a href="wholesale.html">Wholesale</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="loyalty.html">Izwelethu Club</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="admin-demo.html">Admin concept</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul class="footer__list">
+          <li><svg class="ico" aria-hidden="true"><use href="#ico-pin"></use></svg><span>Umlazi, KwaZulu-Natal, South Africa</span></li>
+          <li>
+            <svg class="ico" aria-hidden="true"><use href="#ico-phone"></use></svg>
+            <a href="tel:+27319073143">031 907 3143</a>
+            <span class="tiny">(unverified — to confirm)</span>
+          </li>
+          <li><svg class="ico" aria-hidden="true"><use href="#ico-clock"></use></svg><span>Operating hours to be confirmed</span></li>
+        </ul>
+        <div class="row" style="margin-top:var(--sp-4)">
+          <button class="btn btn--cream btn--sm" type="button" data-whatsapp="enquiry">WhatsApp</button>
+          <button class="btn btn--ghost btn--sm" type="button" data-demo-note="Account area is a concept feature — production integration required.">Account</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p style="margin:0">&copy; <span data-year>2026</span> Izwelethu Butchery — demo concept. Not an official website.</p>
+      <ul class="footer__legal">
+        <li>Demo disclaimer: prices, menu, packs and services are unconfirmed.</li>
+        <li>No personal data is collected, stored or transmitted by this demo.</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<nav class="bottom-nav" aria-label="Quick navigation">
+  <a class="bottom-nav__item" href="index.html"><svg class="ico" aria-hidden="true"><use href="#ico-fire"></use></svg>Home</a>
+  <a class="bottom-nav__item" href="shop.html"><svg class="ico" aria-hidden="true"><use href="#ico-cart"></use></svg>Shop</a>
+  <a class="bottom-nav__item" href="shisanyama.html"><svg class="ico" aria-hidden="true"><use href="#ico-sparkle"></use></svg>Braai</a>
+  <a class="bottom-nav__item" href="cart.html"><svg class="ico" aria-hidden="true"><use href="#ico-box"></use></svg>Cart</a>
+  <button class="bottom-nav__item" type="button" data-drawer-open><svg class="ico" aria-hidden="true"><use href="#ico-menu"></use></svg>More</button>
+</nav>
+
+<div class="sticky-cta">
+  <button class="btn btn--ember btn--block" type="button" data-whatsapp="enquiry"
+    data-whatsapp-text="Hi Izwelethu, I would like to enquire about wholesale supply.">
+    <svg class="ico" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>
+    Enquire on WhatsApp
+  </button>
+</div>
+
+<div class="toast-stack" role="status" aria-live="polite"></div>
+
+<script src="js/demo-data.js" defer></script>
+<script src="js/products.js" defer></script>
+<script src="js/app.js" defer></script>
+<script src="js/cart.js" defer></script>
+<script src="js/whatsapp.js" defer></script>
+<script src="js/filters.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var year = document.querySelector('[data-year]');
+  if (year) year.textContent = String(new Date().getFullYear());
+
+  var sectors = IZWELETHU.wholesale;
+
+  document.getElementById('wholesale-sectors').innerHTML = sectors.sectors.map(function (sector) {
+    return '<article class="feature reveal">' +
+      '<span class="feature__icon" aria-hidden="true"><svg class="ico"><use href="#ico-' + sector.icon + '"></use></svg></span>' +
+      '<h3>' + sector.title + '</h3>' +
+      '<p>' + sector.text + '</p>' +
+      '</article>';
+  }).join('');
+
+  var typeSelect = document.getElementById('wl-type');
+  sectors.businessTypes.forEach(function (type) {
+    var option = document.createElement('option');
+    option.value = type;
+    option.textContent = type;
+    typeSelect.appendChild(option);
+  });
+
+  var volumeSelect = document.getElementById('wl-volume');
+  sectors.monthlyOptions.forEach(function (volume) {
+    var option = document.createElement('option');
+    option.value = volume;
+    option.textContent = volume;
+    volumeSelect.appendChild(option);
+  });
+
+  UI.renderInto('#wholesale-products', Products.byCategory('bulk-wholesale').concat(
+    Products.packs().slice(0, 1)
+  ).slice(0, 4).map(function (product) {
+    return UI.productCard(product);
+  }).join(''));
+
+  UI.initReveal();
+});
+</script>
+</body>
+</html>

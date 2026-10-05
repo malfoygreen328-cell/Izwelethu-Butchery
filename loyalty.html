@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Izwelethu Club | Loyalty Concept — Demo</title>
+<meta name="description" content="Concept page for a future Izwelethu loyalty programme: member specials, rewards, birthday offers and exclusive promotions. Not an active programme — subject to Izwelethu approval.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#14100E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Izwelethu Butchery — Demo Concept">
+<meta property="og:title" content="Izwelethu Club | Loyalty Concept — Demo">
+<meta property="og:description" content="A concept for a future Izwelethu loyalty programme. Coming soon, and subject to Izwelethu approval.">
+<meta property="og:image" content="assets/images/og-card.svg">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<p class="demo-ribbon">
+  Demo concept — not the official Izwelethu website. &nbsp;<strong>No Izwelethu Club programme currently exists.</strong>
+</p>
+
+<div class="topbar">
+  <div class="container topbar__inner">
+    <ul class="topbar__list">
+      <li><svg class="ico" aria-hidden="true"><use href="#ico-pin"></use></svg> Umlazi, KwaZulu-Natal</li>
+      <li><svg class="ico" aria-hidden="true"><use href="#ico-phone"></use></svg> Contact details to be verified before launch</li>
+    </ul>
+    <ul class="topbar__list">
+      <li>Butchery &middot; Eatery &middot; Shisanyama</li>
+      <li>Wholesale &amp; retail concept</li>
+    </ul>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="index.html" aria-label="Izwelethu Butchery — home">
+      <img class="brand__mark" src="assets/logo/izwelethu-mark.svg" alt="" width="44" height="44">
+      <span class="brand__text">
+        <span class="brand__name">IZWELETHU</span>
+        <span class="brand__sub">BUTCHERY</span>
+      </span>
+    </a>
+    <nav class="nav-desktop" data-nav aria-label="Primary navigation">
+      <ul class="nav-desktop__list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="shisanyama.html">Shisanyama</a></li>
+        <li><a href="wholesale.html">Wholesale</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <div class="header__actions">
+      <button class="icon-btn" type="button" data-search-open aria-label="Search products">
+        <svg class="ico" aria-hidden="true"><use href="#ico-search"></use></svg>
+      </button>
+      <button class="icon-btn" type="button" data-demo-note="Account area is a concept feature — production integration required." aria-label="Account (concept only)">
+        <svg class="ico" aria-hidden="true"><use href="#ico-user"></use></svg>
+      </button>
+      <a class="icon-btn" href="cart.html" aria-label="Cart, empty">
+        <svg class="ico" aria-hidden="true"><use href="#ico-cart"></use></svg>
+        <span class="cart-count" data-empty="true">0</span>
+      </a>
+      <button class="icon-btn header__menu-btn" type="button" data-drawer-open aria-label="Open menu" aria-controls="site-drawer">
+        <svg class="ico" aria-hidden="true"><use href="#ico-menu"></use></svg>
+      </button>
+    </div>
+    <button class="btn btn--accent header__cta" type="button" data-whatsapp="cart">Order now</button>
+  </div>
+</header>
+
+<div class="search" id="site-search" aria-hidden="true" role="dialog" aria-label="Search products">
+  <div class="container search__inner">
+    <div class="search__field">
+      <svg class="ico" aria-hidden="true"><use href="#ico-search"></use></svg>
+      <input class="search__input" type="search" placeholder="Search ribs, wors, chicken, lamb…" data-search-input aria-label="Search products">
+      <button class="icon-btn" type="button" data-search-close aria-label="Close search">
+        <svg class="ico" aria-hidden="true"><use href="#ico-close"></use></svg>
+      </button>
+    </div>
+    <p class="search__hint" data-search-hint>Type to search demo products, categories and descriptions. Press / anywhere to open search.</p>
+    <div class="search__results" data-search-results></div>
+  </div>
+</div>
+
+<div class="drawer-backdrop" id="drawer-backdrop"></div>
+
+<aside class="drawer" id="site-drawer" aria-hidden="true" aria-label="Mobile menu">
+  <div class="drawer__head">
+    <span class="brand__text">
+      <span class="brand__name">IZWELETHU</span>
+      <span class="brand__sub">BUTCHERY</span>
+    </span>
+    <button class="icon-btn" type="button" data-drawer-close aria-label="Close menu">
+      <svg class="ico" aria-hidden="true"><use href="#ico-close"></use></svg>
+    </button>
+  </div>
+  <nav class="drawer__nav" data-drawer-nav aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop meat</a>
+    <a href="shisanyama.html">Shisanyama</a>
+    <a href="wholesale.html">Wholesale</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="loyalty.html">Izwelethu Club</a>
+    <a href="cart.html">Cart</a>
+  </nav>
+  <div class="drawer__foot">
+    <button class="btn btn--ember btn--block" type="button" data-whatsapp="cart">Order on WhatsApp</button>
+    <a class="btn btn--ghost btn--block" href="shop.html">Shop all demo products</a>
+    <p class="drawer__note">Demo concept only. Prices, packs and services shown are not confirmed by Izwelethu Butchery.</p>
+  </div>
+</aside>
+
+<main id="main">
+
+  <section class="hero on-dark">
+    <div class="hero__media">
+      <img src="assets/images/gallery-toast.svg" alt="" fetchpriority="high" width="1200" height="900">
+    </div>
+    <div class="container hero__inner">
+      <div class="hero__meta fade-up">
+        <span><svg class="ico" aria-hidden="true"><use href="#ico-star"></use></svg> Izwelethu Club</span>
+        <span class="badge badge--gold">Coming soon</span>
+        <span class="badge badge--dark">Concept feature</span>
+      </div>
+      <h1 class="hero__title fade-up d1">
+        <span>Izwelethu</span>
+        <span class="accent">Club.</span>
+      </h1>
+      <p class="hero__sub fade-up d2">Your loyalty should come back to you.</p>
+      <div class="hero__actions fade-up d3">
+        <a class="btn btn--ember btn--lg" href="#waitlist">Join the concept waitlist</a>
+        <a class="btn btn--ghost btn--lg" href="shop.html">Shop demo meat</a>
+      </div>
+      <p class="hero__meta fade-up d4">
+        Concept feature — subject to Izwelethu approval. No loyalty programme currently exists.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container-narrow center stack stack--lg">
+      <div class="row" style="justify-content:center">
+        <span class="badge badge--gold">Coming soon</span>
+        <span class="badge badge--accent">Concept feature — subject to Izwelethu approval</span>
+      </div>
+      <h2>A future way to reward regulars</h2>
+      <p class="lede" style="margin-inline:auto">
+        This page exists to demonstrate a possible future feature. Nothing here is an active
+        Izwelethu offer, and no benefits, terms or prices have been approved by the business.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Potential benefits</span>
+        <h2>What members could receive</h2>
+        <p class="lede">Illustrative benefits only. The final programme would be designed with Izwelethu and its real customer habits.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature reveal">
+          <span class="feature__icon" aria-hidden="true"><svg class="ico"><use href="#ico-star"></use></svg></span>
+          <h3>Member specials</h3>
+          <p>Concept: club-only pricing or bundles on selected cuts and braai packs.</p>
+          <span class="badge badge--demo">Concept</span>
+        </article>
+        <article class="feature reveal">
+          <span class="feature__icon" aria-hidden="true"><svg class="ico"><use href="#ico-check"></use></svg></span>
+          <h3>Rewards</h3>
+          <p>Concept: points or credit accumulated on every order, redeemable in the shop.</p>
+          <span class="badge badge--demo">Concept</span>
+        </article>
+        <article class="feature reveal">
+          <span class="feature__icon" aria-hidden="true"><svg class="ico"><use href="#ico-fire"></use></svg></span>
+          <h3>Birthday offers</h3>
+          <p>Concept: a birthday benefit such as a braai pack upgrade or a small gift.</p>
+          <span class="badge badge--demo">Concept</span>
+        </article>
+        <article class="feature reveal">
+          <span class="feature__icon" aria-hidden="true"><svg class="ico"><use href="#ico-sparkle"></use></svg></span>
+          <h3>Exclusive promotions</h3>
+          <p>Concept: early access to packs, event invitations and seasonal campaigns.</p>
+          <span class="badge badge--demo">Concept</span>
+        </article>
+        <article class="feature reveal">
+          <span class="feature__icon" aria-hidden="true"><svg class="ico"><use href="#ico-users"></use></svg></span>
+          <h3>Order history</h3>
+          <p>Concept: a saved account showing past orders and favourites for faster reordering.</p>
+          <span class="badge badge--demo">Concept</span>
+        </article>
+        <article class="feature reveal">
+          <span class="feature__icon" aria-hidden="true"><svg class="ico"><use href="#ico-whatsapp"></use></svg></span>
+          <h3>WhatsApp first</h3>
+          <p>Concept: members receive offers and availability updates through WhatsApp.</p>
+          <span class="badge badge--demo">Concept</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark on-dark">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">How it would work</span>
+        <h2>Simple by design</h2>
+      </div>
+      <div class="flow">
+        <div class="flow__step reveal">
+          <h4>Join in one step</h4>
+          <p>Name and phone number. A production build would verify the number and create an account.</p>
+        </div>
+        <div class="flow__step reveal">
+          <h4>Shop normally</h4>
+          <p>Members order exactly as everyone else — through the site or WhatsApp.</p>
+        </div>
+        <div class="flow__step reveal">
+          <h4>Automatically tracked</h4>
+          <p>Each confirmed order updates the member's balance or points automatically.</p>
+        </div>
+        <div class="flow__step reveal">
+          <h4>Redeem in store</h4>
+          <p>Rewards would be applied by staff at the counter, or shown as a discount at checkout.</p>
+        </div>
+      </div>
+      <div class="note note--dark" style="margin-top:var(--sp-5)">
+        <svg class="ico" aria-hidden="true"><use href="#ico-alert"></use></svg>
+        <span>
+          <strong>Important:</strong> the waitlist form below is a demo. It does not enrol anyone in a
+          programme, does not store information, and no Izwelethu Club exists to join.
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="waitlist">
+    <div class="container-narrow stack stack--lg">
+      <div class="stack">
+        <span class="eyebrow">Concept waitlist</span>
+        <h2>Register interest in the concept</h2>
+        <p class="lede">
+          In production, this would capture real interest so Izwelethu could judge demand before
+          building the programme. In this demo it captures nothing.
+        </p>
+      </div>
+
+      <form data-demo-form data-success-target="loyalty-success" data-ref-prefix="IZW-CLU"
+        data-success-message="This demo form was captured in your browser only. Nothing was stored or sent. No Izwelethu Club programme currently exists.">
+        <div class="form-grid form-grid--2">
+          <div class="field">
+            <label class="field-label" for="ly-name">Full name <span class="req">*</span></label>
+            <input class="input" id="ly-name" name="name" type="text" required placeholder="e.g. Nomvula Dlamini">
+          </div>
+          <div class="field">
+            <label class="field-label" for="ly-phone">WhatsApp number <span class="req">*</span></label>
+            <input class="input" id="ly-phone" name="phone" type="tel" required placeholder="e.g. 071 234 5678" inputmode="tel">
+            <p class="field__hint">Used for club offers in production. Not used in this demo.</p>
+          </div>
+          <div class="field" style="grid-column:1/-1">
+            <label class="field-label" for="ly-interest">What matters most to you?</label>
+            <select class="select" id="ly-interest" name="interest">
+              <option value="">No preference</option>
+              <option>Member specials</option>
+              <option>Rewards on every order</option>
+              <option>Birthday offers</option>
+              <option>Early access to braai packs</option>
+              <option>Event invitations</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top:var(--sp-5)">
+          <button class="btn btn--accent btn--lg" type="submit">
+            <svg class="ico" aria-hidden="true"><use href="#ico-arrow-right"></use></svg>
+            Register demo interest
+          </button>
+          <button class="btn btn--ghost btn--lg" type="button" data-demo-note="Loyalty enrolment is a concept feature — production integration required.">
+            Join the club now
+          </button>
+        </div>
+      </form>
+
+      <div class="form-success" id="loyalty-success" hidden></div>
+
+      <div class="row">
+        <a class="link-arrow" href="shop.html">
+          Browse the demo shop instead
+          <svg class="ico" aria-hidden="true"><use href="#ico-arrow-right"></use></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="stack">
+        <a class="brand" href="index.html" style="margin-right:0">
+          <img class="brand__mark" src="assets/logo/izwelethu-mark.svg" alt="" width="44" height="44">
+          <span class="brand__text">
+            <span class="brand__name">IZWELETHU</span>
+            <span class="brand__sub">BUTCHERY</span>
+          </span>
+        </a>
+        <p class="footer__about">
+          Meat, braai, shisanyama and wholesale concepts for Umlazi, KwaZulu-Natal.
+          This website is a demonstration concept and is not the official Izwelethu website.
+        </p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul class="footer__list">
+          <li><a href="shop.html">All demo products</a></li>
+          <li><a href="shop.html?cat=beef">Beef</a></li>
+          <li><a href="shop.html?cat=chicken">Chicken</a></li>
+          <li><a href="shop.html?cat=wors-sausages">Wors &amp; sausages</a></li>
+          <li><a href="shop.html?cat=braai-packs">Braai packs</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit &amp; explore</h4>
+        <ul class="footer__list">
+          <li><a href="shisanyama.html">Shisanyama</a></li>
+          <li><a href="wholesale.html">Wholesale</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="loyalty.html">Izwelethu Club</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="admin-demo.html">Admin concept</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul class="footer__list">
+          <li><svg class="ico" aria-hidden="true"><use href="#ico-pin"></use></svg><span>Umlazi, KwaZulu-Natal, South Africa</span></li>
+          <li>
+            <svg class="ico" aria-hidden="true"><use href="#ico-phone"></use></svg>
+            <a href="tel:+27319073143">031 907 3143</a>
+            <span class="tiny">(unverified — to confirm)</span>
+          </li>
+          <li><svg class="ico" aria-hidden="true"><use href="#ico-clock"></use></svg><span>Operating hours to be confirmed</span></li>
+        </ul>
+        <div class="row" style="margin-top:var(--sp-4)">
+          <button class="btn btn--cream btn--sm" type="button" data-whatsapp="enquiry">WhatsApp</button>
+          <button class="btn btn--ghost btn--sm" type="button" data-demo-note="Account area is a concept feature — production integration required.">Account</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p style="margin:0">&copy; <span data-year>2026</span> Izwelethu Butchery — demo concept. Not an official website.</p>
+      <ul class="footer__legal">
+        <li>Demo disclaimer: prices, menu, packs and services are unconfirmed.</li>
+        <li>No personal data is collected, stored or transmitted by this demo.</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<nav class="bottom-nav" aria-label="Quick navigation">
+  <a class="bottom-nav__item" href="index.html"><svg class="ico" aria-hidden="true"><use href="#ico-fire"></use></svg>Home</a>
+  <a class="bottom-nav__item" href="shop.html"><svg class="ico" aria-hidden="true"><use href="#ico-cart"></use></svg>Shop</a>
+  <a class="bottom-nav__item" href="shisanyama.html"><svg class="ico" aria-hidden="true"><use href="#ico-sparkle"></use></svg>Braai</a>
+  <a class="bottom-nav__item" href="cart.html"><svg class="ico" aria-hidden="true"><use href="#ico-box"></use></svg>Cart</a>
+  <button class="bottom-nav__item" type="button" data-drawer-open><svg class="ico" aria-hidden="true"><use href="#ico-menu"></use></svg>More</button>
+</nav>
+
+<div class="sticky-cta">
+  <button class="btn btn--ember btn--block" type="button" data-whatsapp="cart">
+    <svg class="ico" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>
+    Order on WhatsApp
+  </button>
+</div>
+
+<div class="toast-stack" role="status" aria-live="polite"></div>
+
+<script src="js/demo-data.js" defer></script>
+<script src="js/products.js" defer></script>
+<script src="js/app.js" defer></script>
+<script src="js/cart.js" defer></script>
+<script src="js/whatsapp.js" defer></script>
+<script src="js/filters.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var year = document.querySelector('[data-year]');
+  if (year) year.textContent = String(new Date().getFullYear());
+  UI.initReveal();
+});
+</script>
+</body>
+</html>

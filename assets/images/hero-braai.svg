@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1200" viewBox="0 0 2000 1200" role="img">
+
+  <defs>
+    <linearGradient id="bg-hero-braai" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#13100E"/>
+      <stop offset="0.55" stop-color="#1C1714"/>
+      <stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="key-hero-braai" cx="0.5" cy="0.5700000000000001" r="0.62">
+      <stop offset="0" stop-color="#DE5A1C" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#F7A03C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0A0908" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig-hero-braai" cx="0.5" cy="0.48" r="0.78">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="metal-hero-braai" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8E4DE"/>
+      <stop offset="0.4" stop-color="#9A948C"/>
+      <stop offset="0.62" stop-color="#C9C3BB"/>
+      <stop offset="1" stop-color="#5E5852"/>
+    </linearGradient>
+    <linearGradient id="board-hero-braai" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#54392B"/>
+      <stop offset="1" stop-color="#3A2A20"/>
+    </linearGradient>
+    <linearGradient id="meat-hero-braai" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#C9634C"/>
+      <stop offset="0.45" stop-color="#A8352B"/>
+      <stop offset="1" stop-color="#661913"/>
+    </linearGradient>
+    <linearGradient id="meatDark-hero-braai" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#A8352B"/>
+      <stop offset="0.6" stop-color="#661913"/>
+      <stop offset="1" stop-color="#4A120E"/>
+    </linearGradient>
+    <linearGradient id="bone-hero-braai" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EFE2CB"/>
+      <stop offset="1" stop-color="#C9B795"/>
+    </linearGradient>
+    <linearGradient id="cream-hero-braai" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FBF3E6"/>
+      <stop offset="1" stop-color="#D9C7AC"/>
+    </linearGradient>
+    <linearGradient id="ember-hero-braai" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8B15A"/>
+      <stop offset="0.5" stop-color="#F7A03C"/>
+      <stop offset="1" stop-color="#DE5A1C"/>
+    </linearGradient>
+    <filter id="soft-hero-braai" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="softer-hero-braai" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow-hero-braai" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="grain-hero-braai" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="0.0031474868301302195" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="2000" height="1200" fill="url(#bg-hero-braai)"/>
+  <rect width="2000" height="1200" fill="url(#key-hero-braai)"/>
+
+  <g opacity="0.5">
+    <circle cx="120.23699972778559" cy="289.74265156313777" r="34.27083067828789" fill="#F7A03C" opacity="0.11" filter="url(#soft-hero-braai)"/><circle cx="370.5991358682513" cy="225.54301894735545" r="15.638959696982056" fill="#F7A03C" opacity="0.21" filter="url(#soft-hero-braai)"/><circle cx="632.7087086066604" cy="291.5710056293756" r="22.97487728530541" fill="#F7A03C" opacity="0.13" filter="url(#soft-hero-braai)"/><circle cx="889.9002179130912" cy="266.62606958765537" r="23.94681026926264" fill="#F7A03C" opacity="0.09" filter="url(#soft-hero-braai)"/><circle cx="1124.6372408047318" cy="286.7105588177219" r="25.67878999374807" fill="#F7A03C" opacity="0.15" filter="url(#soft-hero-braai)"/><circle cx="1345.5263264104724" cy="157.39009980577976" r="31.911060264799744" fill="#F7A03C" opacity="0.15" filter="url(#soft-hero-braai)"/><circle cx="1605.2016580291092" cy="320.5440307641402" r="33.13611871190369" fill="#F7A03C" opacity="0.12" filter="url(#soft-hero-braai)"/><circle cx="1879.733460266143" cy="165.55964923463762" r="35.53903798246756" fill="#F7A03C" opacity="0.18" filter="url(#soft-hero-braai)"/>
+  </g>
+  <ellipse cx="1000" cy="1080" rx="760" ry="220" fill="#DE5A1C" opacity="0.35" filter="url(#softer-hero-braai)"/>
+  <g stroke="#0A0908" stroke-width="14" opacity="0.85">
+    <path d="M0 760 L2000 700"/>
+    <path d="M0 860 L2000 800"/>
+    <path d="M0 960 L2000 900"/>
+    <path d="M0 1060 L2000 1000"/>
+  </g>
+  <g opacity="0.85">
+    <circle cx="111.82200603187084" cy="1020.1611163234338" r="51.859124911017716" fill="#DE5A1C" opacity="0.60"/><circle cx="315.54806685075164" cy="1006.9493171200156" r="51.898372057359666" fill="#DE5A1C" opacity="0.26"/><circle cx="488.34090125747025" cy="1014.9823398189619" r="30.314271015115082" fill="#DE5A1C" opacity="0.57"/><circle cx="681.7929501272738" cy="1025.9337991569191" r="42.964453956112266" fill="#DE5A1C" opacity="0.46"/><circle cx="912.732523009181" cy="985.7307684468105" r="32.77188923954964" fill="#DE5A1C" opacity="0.60"/><circle cx="1102.9591722879559" cy="970.3792151249945" r="33.11108184978366" fill="#DE5A1C" opacity="0.38"/><circle cx="1311.4974060468376" cy="1017.2378298314288" r="36.496370683424175" fill="#DE5A1C" opacity="0.40"/><circle cx="1481.5449563786387" cy="1008.663772395812" r="36.165741035249084" fill="#DE5A1C" opacity="0.62"/><circle cx="1709.781410684809" cy="1021.1466718278825" r="43.475486755371094" fill="#DE5A1C" opacity="0.57"/><circle cx="1903.0751792900264" cy="1010.504975724034" r="41.11971555324271" fill="#DE5A1C" opacity="0.35"/>
+  </g>
+  <g filter="url(#shadow-hero-braai)">
+    <path d="M420 700 C430 640 520 610 640 620 C760 630 830 670 840 720 C846 762 800 786 720 782 C580 776 424 760 420 700 Z" fill="url(#meat-hero-braai)"/>
+    <path d="M420 700 C430 640 520 610 640 620 C760 630 830 670 840 720" stroke="#F3B48C" stroke-opacity="0.45" stroke-width="5" fill="none"/>
+    <path d="M482 670.8 L778 690.8" stroke="#2A0E0A" stroke-opacity="0.34" stroke-width="9.85386069631204" stroke-linecap="round" fill="none"/><path d="M482 714.8 L778 734.8" stroke="#2A0E0A" stroke-opacity="0.61" stroke-width="11.816651173634455" stroke-linecap="round" fill="none"/><path d="M482 758.8 L778 778.8" stroke="#2A0E0A" stroke-opacity="0.61" stroke-width="15.126747423550114" stroke-linecap="round" fill="none"/><path d="M482 802.8 L778 822.8" stroke="#2A0E0A" stroke-opacity="0.51" stroke-width="10.721198671031743" stroke-linecap="round" fill="none"/>
+    <path d="M980 690 C1120 640 1420 646 1540 704 C1590 726 1590 806 1520 818 C1330 848 1080 820 990 780 C952 764 948 706 980 690 Z" fill="url(#meatDark-hero-braai)"/>
+    <path d="M1042 702.35 L1458 720.35" stroke="#2A0E0A" stroke-opacity="0.57" stroke-width="13.393203044543043" stroke-linecap="round" fill="none"/><path d="M1042 762.85 L1458 780.85" stroke="#2A0E0A" stroke-opacity="0.40" stroke-width="12.539260813500732" stroke-linecap="round" fill="none"/><path d="M1042 823.35 L1458 841.35" stroke="#2A0E0A" stroke-opacity="0.33" stroke-width="11.473151774844155" stroke-linecap="round" fill="none"/><path d="M1042 883.85 L1458 901.85" stroke="#2A0E0A" stroke-opacity="0.37" stroke-width="15.088776406133547" stroke-linecap="round" fill="none"/>
+    <g fill="none" stroke="#8A2620" stroke-width="52" stroke-linecap="round">
+      <path d="M1240 640 C1420 600 1600 660 1740 620"/>
+      <path d="M1240 720 C1420 680 1600 740 1740 700"/>
+    </g>
+  </g>
+  <g stroke="#D9C7AC" stroke-opacity="0.28" stroke-width="9" stroke-linecap="round" fill="none">
+    <path d="M520 540 C660 430 820 600 960 480"/>
+    <path d="M1180 500 C1320 400 1480 560 1620 450"/>
+    <path d="M700 420 C820 330 940 470 1060 360"/>
+  </g>
+  <g fill="#E8B15A" opacity="0.7">
+    <circle cx="1724.2284638108686" cy="342.210940644145" r="4.039510159753263"/><circle cx="1827.050629351288" cy="298.8230542978272" r="4.264534218935296"/><circle cx="1086.6196526912972" cy="608.5399880539626" r="5.909616943215951"/><circle cx="1366.3138592848554" cy="413.9505726052448" r="7.90290010930039"/><circle cx="796.8679803190753" cy="298.9073823671788" r="3.808531354414299"/><circle cx="1709.611119213514" cy="602.6739921187982" r="4.911909148329869"/><circle cx="621.6578592546284" cy="615.2292083483189" r="7.789120909990743"/><circle cx="1803.0958498595282" cy="866.4441200904548" r="4.645522033795714"/><circle cx="886.2649631453678" cy="803.6188343539834" r="4.251222501741722"/>
+  </g>
+  <rect width="2000" height="1200" fill="url(#vig-hero-braai)"/>
+  <rect width="2000" height="1200" filter="url(#grain-hero-braai)" opacity="0.075" style="mix-blend-mode:overlay"/>
+</svg>

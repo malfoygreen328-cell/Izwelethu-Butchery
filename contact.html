@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Izwelethu Butchery Demo Concept</title>
+<meta name="description" content="Demo contact page for Izwelethu Butchery in Umlazi, KwaZulu-Natal. Call, WhatsApp or get directions. Contact details to be verified with Izwelethu before launch; opening hours unconfirmed.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#14100E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Izwelethu Butchery — Demo Concept">
+<meta property="og:title" content="Contact | Izwelethu Butchery Demo Concept">
+<meta property="og:description" content="Umlazi, KwaZulu-Natal. Demo contact page — details to be verified with Izwelethu before launch.">
+<meta property="og:image" content="assets/images/og-card.svg">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<p class="demo-ribbon">
+  Demo concept — not the official Izwelethu website. &nbsp;<strong>Contact details to be verified before launch.</strong>
+</p>
+
+<div class="topbar">
+  <div class="container topbar__inner">
+    <ul class="topbar__list">
+      <li><svg class="ico" aria-hidden="true"><use href="#ico-pin"></use></svg> Umlazi, KwaZulu-Natal</li>
+      <li><svg class="ico" aria-hidden="true"><use href="#ico-phone"></use></svg> Contact details to be verified before launch</li>
+    </ul>
+    <ul class="topbar__list">
+      <li>Butchery &middot; Eatery &middot; Shisanyama</li>
+      <li>Wholesale &amp; retail concept</li>
+    </ul>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="index.html" aria-label="Izwelethu Butchery — home">
+      <img class="brand__mark" src="assets/logo/izwelethu-mark.svg" alt="" width="44" height="44">
+      <span class="brand__text">
+        <span class="brand__name">IZWELETHU</span>
+        <span class="brand__sub">BUTCHERY</span>
+      </span>
+    </a>
+    <nav class="nav-desktop" data-nav aria-label="Primary navigation">
+      <ul class="nav-desktop__list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="shisanyama.html">Shisanyama</a></li>
+        <li><a href="wholesale.html">Wholesale</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <div class="header__actions">
+      <button class="icon-btn" type="button" data-search-open aria-label="Search products">
+        <svg class="ico" aria-hidden="true"><use href="#ico-search"></use></svg>
+      </button>
+      <button class="icon-btn" type="button" data-demo-note="Account area is a concept feature — production integration required." aria-label="Account (concept only)">
+        <svg class="ico" aria-hidden="true"><use href="#ico-user"></use></svg>
+      </button>
+      <a class="icon-btn" href="cart.html" aria-label="Cart, empty">
+        <svg class="ico" aria-hidden="true"><use href="#ico-cart"></use></svg>
+        <span class="cart-count" data-empty="true">0</span>
+      </a>
+      <button class="icon-btn header__menu-btn" type="button" data-drawer-open aria-label="Open menu" aria-controls="site-drawer">
+        <svg class="ico" aria-hidden="true"><use href="#ico-menu"></use></svg>
+      </button>
+    </div>
+    <button class="btn btn--accent header__cta" type="button" data-whatsapp="cart">Order now</button>
+  </div>
+</header>
+
+<div class="search" id="site-search" aria-hidden="true" role="dialog" aria-label="Search products">
+  <div class="container search__inner">
+    <div class="search__field">
+      <svg class="ico" aria-hidden="true"><use href="#ico-search"></use></svg>
+      <input class="search__input" type="search" placeholder="Search ribs, wors, chicken, lamb…" data-search-input aria-label="Search products">
+      <button class="icon-btn" type="button" data-search-close aria-label="Close search">
+        <svg class="ico" aria-hidden="true"><use href="#ico-close"></use></svg>
+      </button>
+    </div>
+    <p class="search__hint" data-search-hint>Type to search demo products, categories and descriptions. Press / anywhere to open search.</p>
+    <div class="search__results" data-search-results></div>
+  </div>
+</div>
+
+<div class="drawer-backdrop" id="drawer-backdrop"></div>
+
+<aside class="drawer" id="site-drawer" aria-hidden="true" aria-label="Mobile menu">
+  <div class="drawer__head">
+    <span class="brand__text">
+      <span class="brand__name">IZWELETHU</span>
+      <span class="brand__sub">BUTCHERY</span>
+    </span>
+    <button class="icon-btn" type="button" data-drawer-close aria-label="Close menu">
+      <svg class="ico" aria-hidden="true"><use href="#ico-close"></use></svg>
+    </button>
+  </div>
+  <nav class="drawer__nav" data-drawer-nav aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop meat</a>
+    <a href="shisanyama.html">Shisanyama</a>
+    <a href="wholesale.html">Wholesale</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="loyalty.html">Izwelethu Club</a>
+    <a href="cart.html">Cart</a>
+  </nav>
+  <div class="drawer__foot">
+    <button class="btn btn--ember btn--block" type="button" data-whatsapp="cart">Order on WhatsApp</button>
+    <a class="btn btn--ghost btn--block" href="shop.html">Shop all demo products</a>
+    <p class="drawer__note">Demo concept only. Prices, packs and services shown are not confirmed by Izwelethu Butchery.</p>
+  </div>
+</aside>
+
+<main id="main">
+
+  <section class="page-hero on-dark">
+    <div class="page-hero__media">
+      <img src="assets/images/about-shopfront.svg" alt="" fetchpriority="high" width="1200" height="900">
+    </div>
+    <div class="container page-hero__inner">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="index.html">Home</a><span>/</span><span>Contact</span>
+      </nav>
+      <h1 class="page-hero__title">Get in touch</h1>
+      <p class="lede">
+        Izwelethu Butchery — Umlazi, KwaZulu-Natal, South Africa. The details below are taken from
+        public information and are marked as unverified where confirmation is still required.
+      </p>
+      <div class="row">
+        <span class="badge badge--dark">Contact details to be verified</span>
+        <span class="badge badge--dark">Hours to be confirmed</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT CARDS ===================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Contact</span>
+        <h2>Call, WhatsApp or directions</h2>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature reveal">
+          <span class="feature__icon" aria-hidden="true"><svg class="ico"><use href="#ico-phone"></use></svg></span>
+          <h3>Call</h3>
+          <p class="strong">031 907 3143</p>
+          <p class="tiny">Publicly listed number. To be verified with Izwelethu before launch.</p>
+          <div class="row" style="margin-top:auto">
+            <a class="btn btn--accent btn--sm" href="tel:+27319073143">Call now</a>
+          </div>
+        </article>
+
+        <article class="feature reveal">
+          <span class="feature__icon" aria-hidden="true"><svg class="ico"><use href="#ico-whatsapp"></use></svg></span>
+          <h3>WhatsApp</h3>
+          <p>Send an order or an enquiry as a readable message — no forms to fill in.</p>
+          <div class="row" style="margin-top:auto">
+            <button class="btn btn--ember btn--sm" type="button" data-whatsapp="enquiry"
+              data-whatsapp-text="Hi Izwelethu, I would like to make an enquiry.">
+              WhatsApp us
+            </button>
+            <button class="btn btn--ghost btn--sm" type="button" data-whatsapp="cart">Send my cart</button>
+          </div>
+        </article>
+
+        <article class="feature reveal">
+          <span class="feature__icon" aria-hidden="true"><svg class="ico"><use href="#ico-pin"></use></svg></span>
+          <h3>Get directions</h3>
+          <p>Umlazi, KwaZulu-Natal, South Africa.</p>
+          <p class="tiny">No map coordinates are published in this demo because they have not been confirmed.</p>
+          <div class="row" style="margin-top:auto">
+            <a class="btn btn--accent btn--sm" href="https://www.google.com/maps/search/?api=1&amp;query=Izwelethu%20Butchery%2C%20Umlazi%2C%20KwaZulu-Natal"
+              target="_blank" rel="noopener noreferrer">
+              Open directions
+              <svg class="ico" aria-hidden="true"><use href="#ico-external"></use></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <div class="note note--warn" style="margin-top:var(--sp-5)">
+        <svg class="ico" aria-hidden="true"><use href="#ico-alert"></use></svg>
+        <span>
+          <strong>Contact details to be verified with Izwelethu before launch.</strong>
+          Operating hours, delivery areas, payment methods and any WhatsApp availability are not
+          confirmed in this demo.
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ENQUIRY FORM ===================== -->
+  <section class="section section--alt" id="enquiry">
+    <div class="container split split--wide-left">
+      <div class="stack stack--lg">
+        <span class="eyebrow">Enquiry</span>
+        <h2>Send an enquiry</h2>
+        <p class="lede">
+          A demo form showing what a contact form would collect. Nothing typed here is emailed,
+          stored or sent — for a real enquiry use WhatsApp or call the number above.
+        </p>
+
+        <form data-demo-form data-success-target="contact-success" data-ref-prefix="IZW-MSG"
+          data-success-message="This demo form was captured in your browser only. Nothing was emailed or sent to Izwelethu. For a real enquiry, please use WhatsApp or call.">
+          <div class="form-grid form-grid--2">
+            <div class="field">
+              <label class="field-label" for="ct-name">Full name <span class="req">*</span></label>
+              <input class="input" id="ct-name" name="name" type="text" required placeholder="e.g. Thandi Mkhize">
+            </div>
+            <div class="field">
+              <label class="field-label" for="ct-phone">Phone <span class="req">*</span></label>
+              <input class="input" id="ct-phone" name="phone" type="tel" required placeholder="e.g. 071 234 5678" inputmode="tel">
+            </div>
+            <div class="field">
+              <label class="field-label" for="ct-email">Email</label>
+              <input class="input" id="ct-email" name="email" type="email" placeholder="e.g. you@example.com">
+            </div>
+            <div class="field">
+              <label class="field-label" for="ct-reason">What is this about?</label>
+              <select class="select" id="ct-reason" name="reason">
+                <option value="">General enquiry</option>
+                <option>Product or availability</option>
+                <option>Order or collection</option>
+                <option>Wholesale</option>
+                <option>Shisanyama or events</option>
+                <option>Something else</option>
+              </select>
+            </div>
+            <div class="field" style="grid-column:1/-1">
+              <label class="field-label" for="ct-message">Message <span class="req">*</span></label>
+              <textarea class="textarea" id="ct-message" name="message" required
+                placeholder="e.g. Do you have lamb chops available this Saturday?"></textarea>
+            </div>
+          </div>
+
+          <div class="row" style="margin-top:var(--sp-5)">
+            <button class="btn btn--accent btn--lg" type="submit">
+              <svg class="ico" aria-hidden="true"><use href="#ico-arrow-right"></use></svg>
+              Send demo enquiry
+            </button>
+            <button class="btn btn--ghost btn--lg" type="button" data-whatsapp="enquiry"
+              data-whatsapp-text="Hi Izwelethu, I would like to make an enquiry.">
+              Use WhatsApp instead
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="stack stack--lg">
+        <div class="form-success" id="contact-success" hidden></div>
+
+        <div class="feature-grid" style="grid-template-columns:1fr">
+          <article class="feature reveal">
+            <span class="feature__icon" aria-hidden="true"><svg class="ico"><use href="#ico-clock"></use></svg></span>
+            <h3>Operating hours</h3>
+            <p>Not published. Public information does not confirm Izwelethu's trading hours, so none are stated here.</p>
+            <span class="badge badge--demo">To be confirmed</span>
+          </article>
+          <article class="feature reveal">
+            <span class="feature__icon" aria-hidden="true"><svg class="ico"><use href="#ico-truck"></use></svg></span>
+            <h3>Delivery</h3>
+            <p>Not confirmed. Delivery zones, fees and cut-off times would be agreed directly with the business.</p>
+            <span class="badge badge--demo">Concept only</span>
+          </article>
+          <article class="feature reveal">
+            <span class="feature__icon" aria-hidden="true"><svg class="ico"><use href="#ico-check"></use></svg></span>
+            <h3>Payments</h3>
+            <p>Not confirmed. The demo checkout takes no payment details and processes no transactions.</p>
+            <span class="badge badge--demo">Demo only</span>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark on-dark">
+    <div class="container split">
+      <div class="split-media reveal">
+        <img src="assets/images/about-shopfront.svg" alt="Illustrated placeholder of a shopfront at night" loading="lazy" width="1200" height="900">
+      </div>
+      <div class="stack stack--lg">
+        <span class="eyebrow">Before you publish</span>
+        <h2>What needs confirming</h2>
+        <ul class="stack small">
+          <li>Exact trading name, spelling and logo files</li>
+          <li>Verified phone number and whether it is WhatsApp-enabled</li>
+          <li>Physical address and map coordinates</li>
+          <li>Operating hours and public holidays</li>
+          <li>Delivery areas, fees and minimum orders</li>
+          <li>Payment methods accepted</li>
+          <li>Real photography and owner-approved copy</li>
+        </ul>
+        <div class="row">
+          <a class="btn btn--cream" href="about.html">About page</a>
+          <a class="btn btn--ghost" href="wholesale.html">Wholesale enquiry</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="stack">
+        <a class="brand" href="index.html" style="margin-right:0">
+          <img class="brand__mark" src="assets/logo/izwelethu-mark.svg" alt="" width="44" height="44">
+          <span class="brand__text">
+            <span class="brand__name">IZWELETHU</span>
+            <span class="brand__sub">BUTCHERY</span>
+          </span>
+        </a>
+        <p class="footer__about">
+          Meat, braai, shisanyama and wholesale concepts for Umlazi, KwaZulu-Natal.
+          This website is a demonstration concept and is not the official Izwelethu website.
+        </p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul class="footer__list">
+          <li><a href="shop.html">All demo products</a></li>
+          <li><a href="shop.html?cat=beef">Beef</a></li>
+          <li><a href="shop.html?cat=chicken">Chicken</a></li>
+          <li><a href="shop.html?cat=wors-sausages">Wors &amp; sausages</a></li>
+          <li><a href="shop.html?cat=braai-packs">Braai packs</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit &amp; explore</h4>
+        <ul class="footer__list">
+          <li><a href="shisanyama.html">Shisanyama</a></li>
+          <li><a href="wholesale.html">Wholesale</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="loyalty.html">Izwelethu Club</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="admin-demo.html">Admin concept</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul class="footer__list">
+          <li><svg class="ico" aria-hidden="true"><use href="#ico-pin"></use></svg><span>Umlazi, KwaZulu-Natal, South Africa</span></li>
+          <li>
+            <svg class="ico" aria-hidden="true"><use href="#ico-phone"></use></svg>
+            <a href="tel:+27319073143">031 907 3143</a>
+            <span class="tiny">(unverified — to confirm)</span>
+          </li>
+          <li><svg class="ico" aria-hidden="true"><use href="#ico-clock"></use></svg><span>Operating hours to be confirmed</span></li>
+        </ul>
+        <div class="row" style="margin-top:var(--sp-4)">
+          <button class="btn btn--cream btn--sm" type="button" data-whatsapp="enquiry">WhatsApp</button>
+          <button class="btn btn--ghost btn--sm" type="button" data-demo-note="Account area is a concept feature — production integration required.">Account</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p style="margin:0">&copy; <span data-year>2026</span> Izwelethu Butchery — demo concept. Not an official website.</p>
+      <ul class="footer__legal">
+        <li>Demo disclaimer: prices, menu, packs and services are unconfirmed.</li>
+        <li>No personal data is collected, stored or transmitted by this demo.</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<nav class="bottom-nav" aria-label="Quick navigation">
+  <a class="bottom-nav__item" href="index.html"><svg class="ico" aria-hidden="true"><use href="#ico-fire"></use></svg>Home</a>
+  <a class="bottom-nav__item" href="shop.html"><svg class="ico" aria-hidden="true"><use href="#ico-cart"></use></svg>Shop</a>
+  <a class="bottom-nav__item" href="shisanyama.html"><svg class="ico" aria-hidden="true"><use href="#ico-sparkle"></use></svg>Braai</a>
+  <a class="bottom-nav__item" href="cart.html"><svg class="ico" aria-hidden="true"><use href="#ico-box"></use></svg>Cart</a>
+  <button class="bottom-nav__item" type="button" data-drawer-open><svg class="ico" aria-hidden="true"><use href="#ico-menu"></use></svg>More</button>
+</nav>
+
+<div class="sticky-cta">
+  <button class="btn btn--ember btn--block" type="button" data-whatsapp="enquiry"
+    data-whatsapp-text="Hi Izwelethu, I would like to make an enquiry.">
+    <svg class="ico" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>
+    WhatsApp us
+  </button>
+</div>
+
+<div class="toast-stack" role="status" aria-live="polite"></div>
+
+<script src="js/demo-data.js" defer></script>
+<script src="js/products.js" defer></script>
+<script src="js/app.js" defer></script>
+<script src="js/cart.js" defer></script>
+<script src="js/whatsapp.js" defer></script>
+<script src="js/filters.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var year = document.querySelector('[data-year]');
+  if (year) year.textContent = String(new Date().getFullYear());
+  UI.initReveal();
+});
+</script>
+</body>
+</html>

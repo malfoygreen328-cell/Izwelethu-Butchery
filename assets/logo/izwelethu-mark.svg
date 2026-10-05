@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Izwelethu Butchery mark">
+  <rect width="120" height="120" rx="20" fill="#13100E"/>
+  <path d="M60 22 L86 44 L86 78 C86 96 74 104 60 110 C46 104 34 96 34 78 L34 44 Z" fill="#A8352B"/>
+  <path d="M60 22 L86 44 L86 56 L60 34 L34 56 L34 44 Z" fill="#C24A38"/>
+  <path d="M60 56 L74 66 L74 86 C74 94 68 98 60 101 C52 98 46 94 46 86 L46 66 Z" fill="#F3E7D3"/>
+  <path d="M46 22 L74 22 L74 30 L46 30 Z" fill="#E8B15A"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Izwelethu">
+  <rect width="64" height="64" rx="12" fill="#13100E"/>
+  <path d="M32 10 L50 24 L50 44 C50 55 43 60 32 64 C21 60 14 55 14 44 L14 24 Z" fill="#A8352B"/>
+  <path d="M32 26 L42 33 L42 45 C42 50 38 53 32 55 C26 53 22 50 22 45 L22 33 Z" fill="#F3E7D3"/>
+</svg>

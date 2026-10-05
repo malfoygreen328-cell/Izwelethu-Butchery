@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img">
+
+  <defs>
+    <linearGradient id="bg-bulk-chicken-box" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#13100E"/>
+      <stop offset="0.55" stop-color="#1C1714"/>
+      <stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="key-bulk-chicken-box" cx="0.5" cy="0.48999999999999994" r="0.62">
+      <stop offset="0" stop-color="#DE5A1C" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#F7A03C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0A0908" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig-bulk-chicken-box" cx="0.5" cy="0.48" r="0.78">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="metal-bulk-chicken-box" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8E4DE"/>
+      <stop offset="0.4" stop-color="#9A948C"/>
+      <stop offset="0.62" stop-color="#C9C3BB"/>
+      <stop offset="1" stop-color="#5E5852"/>
+    </linearGradient>
+    <linearGradient id="board-bulk-chicken-box" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#54392B"/>
+      <stop offset="1" stop-color="#3A2A20"/>
+    </linearGradient>
+    <linearGradient id="meat-bulk-chicken-box" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#C9634C"/>
+      <stop offset="0.45" stop-color="#A8352B"/>
+      <stop offset="1" stop-color="#661913"/>
+    </linearGradient>
+    <linearGradient id="meatDark-bulk-chicken-box" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#A8352B"/>
+      <stop offset="0.6" stop-color="#661913"/>
+      <stop offset="1" stop-color="#4A120E"/>
+    </linearGradient>
+    <linearGradient id="bone-bulk-chicken-box" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EFE2CB"/>
+      <stop offset="1" stop-color="#C9B795"/>
+    </linearGradient>
+    <linearGradient id="cream-bulk-chicken-box" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FBF3E6"/>
+      <stop offset="1" stop-color="#D9C7AC"/>
+    </linearGradient>
+    <linearGradient id="ember-bulk-chicken-box" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8B15A"/>
+      <stop offset="0.5" stop-color="#F7A03C"/>
+      <stop offset="1" stop-color="#DE5A1C"/>
+    </linearGradient>
+    <filter id="soft-bulk-chicken-box" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="softer-bulk-chicken-box" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow-bulk-chicken-box" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="grain-bulk-chicken-box" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="0.0030216171871870756" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg-bulk-chicken-box)"/>
+  <rect width="1200" height="900" fill="url(#key-bulk-chicken-box)"/>
+
+  <ellipse cx="600" cy="760" rx="360" ry="57.6" fill="#000" opacity="0.45" filter="url(#SOFT)"/>
+  <g filter="url(#shadow-bulk-chicken-box)">
+    <path d="M280 520 L920 520 L890 740 L310 740 Z" fill="#C9A77C"/>
+    <path d="M280 520 L920 520 L914 560 L286 560 Z" fill="#B08F66"/>
+    <path d="M280 605 Q600 592.0737505150028 920 608.336613967549" stroke="#000" stroke-opacity="0.16" stroke-width="4.467767970170826" fill="none" stroke-linecap="round"/><path d="M280 650 Q600 662.7860895488411 920 651.4705957099795" stroke="#000" stroke-opacity="0.16" stroke-width="2.0244278798345476" fill="none" stroke-linecap="round"/><path d="M280 695 Q600 694.8580435924232 920 692.5346438968554" stroke="#000" stroke-opacity="0.16" stroke-width="2.4556165453977883" fill="none" stroke-linecap="round"/>
+    <g stroke="#8E7048" stroke-width="8" opacity="0.8">
+      <path d="M470 560 L476 740 M660 560 L660 740"/>
+    </g>
+    <g fill="#E4D6BC" opacity="0.95">
+      <ellipse cx="360" cy="470" rx="58" ry="46"/><ellipse cx="478" cy="470" rx="58" ry="46"/><ellipse cx="596" cy="470" rx="58" ry="46"/><ellipse cx="714" cy="470" rx="58" ry="46"/><ellipse cx="832" cy="470" rx="58" ry="46"/>
+    </g>
+    <path d="M340 440 C420 400 720 404 800 442" stroke="#EFE2CB" stroke-opacity="0.5" stroke-width="6" fill="none"/>
+  </g>
+  <rect width="1200" height="900" fill="url(#vig-bulk-chicken-box)"/>
+  <rect width="1200" height="900" filter="url(#grain-bulk-chicken-box)" opacity="0.075" style="mix-blend-mode:overlay"/>
+</svg>

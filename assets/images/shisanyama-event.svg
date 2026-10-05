@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img">
+
+  <defs>
+    <linearGradient id="bg-shisanyama-event" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#13100E"/>
+      <stop offset="0.55" stop-color="#1C1714"/>
+      <stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="key-shisanyama-event" cx="0.5" cy="0.48999999999999994" r="0.62">
+      <stop offset="0" stop-color="#DE5A1C" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#F7A03C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0A0908" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig-shisanyama-event" cx="0.5" cy="0.48" r="0.78">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="metal-shisanyama-event" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8E4DE"/>
+      <stop offset="0.4" stop-color="#9A948C"/>
+      <stop offset="0.62" stop-color="#C9C3BB"/>
+      <stop offset="1" stop-color="#5E5852"/>
+    </linearGradient>
+    <linearGradient id="board-shisanyama-event" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#54392B"/>
+      <stop offset="1" stop-color="#3A2A20"/>
+    </linearGradient>
+    <linearGradient id="meat-shisanyama-event" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#C9634C"/>
+      <stop offset="0.45" stop-color="#A8352B"/>
+      <stop offset="1" stop-color="#661913"/>
+    </linearGradient>
+    <linearGradient id="meatDark-shisanyama-event" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#A8352B"/>
+      <stop offset="0.6" stop-color="#661913"/>
+      <stop offset="1" stop-color="#4A120E"/>
+    </linearGradient>
+    <linearGradient id="bone-shisanyama-event" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EFE2CB"/>
+      <stop offset="1" stop-color="#C9B795"/>
+    </linearGradient>
+    <linearGradient id="cream-shisanyama-event" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FBF3E6"/>
+      <stop offset="1" stop-color="#D9C7AC"/>
+    </linearGradient>
+    <linearGradient id="ember-shisanyama-event" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8B15A"/>
+      <stop offset="0.5" stop-color="#F7A03C"/>
+      <stop offset="1" stop-color="#DE5A1C"/>
+    </linearGradient>
+    <filter id="soft-shisanyama-event" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="softer-shisanyama-event" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow-shisanyama-event" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="grain-shisanyama-event" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="0.0035252186935395002" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg-shisanyama-event)"/>
+  <rect width="1200" height="900" fill="url(#key-shisanyama-event)"/>
+
+  <path d="M120 120 L1080 120 L1080 760 L120 760 Z" fill="#0A0908" opacity="0.35"/>
+  <g stroke="#0A0908" stroke-width="12" fill="none">
+    <path d="M120 160 L600 60 L1080 160"/>
+    <path d="M120 760 L120 160 M1080 760 L1080 160"/>
+  </g>
+  <g fill="#E8B15A">
+    <circle cx="220" cy="276" r="11" opacity="0.9"/><circle cx="220" cy="276" r="28" opacity="0.2" filter="url(#soft-shisanyama-event)"/><circle cx="330" cy="260" r="11" opacity="0.9"/><circle cx="330" cy="260" r="28" opacity="0.2" filter="url(#soft-shisanyama-event)"/><circle cx="440" cy="244" r="11" opacity="0.9"/><circle cx="440" cy="244" r="28" opacity="0.2" filter="url(#soft-shisanyama-event)"/><circle cx="550" cy="228" r="11" opacity="0.9"/><circle cx="550" cy="228" r="28" opacity="0.2" filter="url(#soft-shisanyama-event)"/><circle cx="660" cy="228" r="11" opacity="0.9"/><circle cx="660" cy="228" r="28" opacity="0.2" filter="url(#soft-shisanyama-event)"/><circle cx="770" cy="244" r="11" opacity="0.9"/><circle cx="770" cy="244" r="28" opacity="0.2" filter="url(#soft-shisanyama-event)"/><circle cx="880" cy="260" r="11" opacity="0.9"/><circle cx="880" cy="260" r="28" opacity="0.2" filter="url(#soft-shisanyama-event)"/><circle cx="990" cy="276" r="11" opacity="0.9"/><circle cx="990" cy="276" r="28" opacity="0.2" filter="url(#soft-shisanyama-event)"/>
+  </g>
+  <rect x="180" y="470" width="840" height="40" rx="14" fill="url(#board-shisanyama-event)"/>
+  <g transform="translate(260,470)">
+      <circle cx="0" cy="-66" r="34" fill="#0A0908"/>
+      <path d="M-38 0 C-38 -54 -20 -84 0 -84 C20 -84 38 -54 38 0 Z" fill="#0A0908"/>
+      <ellipse cx="0" cy="-96" rx="40" ry="8" fill="#DE5A1C" opacity="0.5"/>
+    </g><g transform="translate(370,470)">
+      <circle cx="0" cy="-66" r="34" fill="#0A0908"/>
+      <path d="M-38 0 C-38 -54 -20 -84 0 -84 C20 -84 38 -54 38 0 Z" fill="#0A0908"/>
+      <ellipse cx="0" cy="-96" rx="40" ry="8" fill="#DE5A1C" opacity="0.5"/>
+    </g><g transform="translate(480,470)">
+      <circle cx="0" cy="-66" r="34" fill="#0A0908"/>
+      <path d="M-38 0 C-38 -54 -20 -84 0 -84 C20 -84 38 -54 38 0 Z" fill="#0A0908"/>
+      <ellipse cx="0" cy="-96" rx="40" ry="8" fill="#DE5A1C" opacity="0.5"/>
+    </g><g transform="translate(590,470)">
+      <circle cx="0" cy="-66" r="34" fill="#0A0908"/>
+      <path d="M-38 0 C-38 -54 -20 -84 0 -84 C20 -84 38 -54 38 0 Z" fill="#0A0908"/>
+      <ellipse cx="0" cy="-96" rx="40" ry="8" fill="#DE5A1C" opacity="0.5"/>
+    </g><g transform="translate(700,470)">
+      <circle cx="0" cy="-66" r="34" fill="#0A0908"/>
+      <path d="M-38 0 C-38 -54 -20 -84 0 -84 C20 -84 38 -54 38 0 Z" fill="#0A0908"/>
+      <ellipse cx="0" cy="-96" rx="40" ry="8" fill="#DE5A1C" opacity="0.5"/>
+    </g><g transform="translate(810,470)">
+      <circle cx="0" cy="-66" r="34" fill="#0A0908"/>
+      <path d="M-38 0 C-38 -54 -20 -84 0 -84 C20 -84 38 -54 38 0 Z" fill="#0A0908"/>
+      <ellipse cx="0" cy="-96" rx="40" ry="8" fill="#DE5A1C" opacity="0.5"/>
+    </g><g transform="translate(920,470)">
+      <circle cx="0" cy="-66" r="34" fill="#0A0908"/>
+      <path d="M-38 0 C-38 -54 -20 -84 0 -84 C20 -84 38 -54 38 0 Z" fill="#0A0908"/>
+      <ellipse cx="0" cy="-96" rx="40" ry="8" fill="#DE5A1C" opacity="0.5"/>
+    </g>
+  <ellipse cx="600" cy="300" rx="420" ry="90" fill="#F7A03C" opacity="0.12" filter="url(#softer-shisanyama-event)"/>
+  <rect width="1200" height="900" fill="url(#vig-shisanyama-event)"/>
+  <rect width="1200" height="900" filter="url(#grain-shisanyama-event)" opacity="0.075" style="mix-blend-mode:overlay"/>
+</svg>

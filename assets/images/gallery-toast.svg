@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img">
+
+  <defs>
+    <linearGradient id="bg-gallery-toast" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#13100E"/>
+      <stop offset="0.55" stop-color="#1C1714"/>
+      <stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="key-gallery-toast" cx="0.5" cy="0.48999999999999994" r="0.62">
+      <stop offset="0" stop-color="#DE5A1C" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#F7A03C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0A0908" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig-gallery-toast" cx="0.5" cy="0.48" r="0.78">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="metal-gallery-toast" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8E4DE"/>
+      <stop offset="0.4" stop-color="#9A948C"/>
+      <stop offset="0.62" stop-color="#C9C3BB"/>
+      <stop offset="1" stop-color="#5E5852"/>
+    </linearGradient>
+    <linearGradient id="board-gallery-toast" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#54392B"/>
+      <stop offset="1" stop-color="#3A2A20"/>
+    </linearGradient>
+    <linearGradient id="meat-gallery-toast" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#C9634C"/>
+      <stop offset="0.45" stop-color="#A8352B"/>
+      <stop offset="1" stop-color="#661913"/>
+    </linearGradient>
+    <linearGradient id="meatDark-gallery-toast" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#A8352B"/>
+      <stop offset="0.6" stop-color="#661913"/>
+      <stop offset="1" stop-color="#4A120E"/>
+    </linearGradient>
+    <linearGradient id="bone-gallery-toast" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EFE2CB"/>
+      <stop offset="1" stop-color="#C9B795"/>
+    </linearGradient>
+    <linearGradient id="cream-gallery-toast" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FBF3E6"/>
+      <stop offset="1" stop-color="#D9C7AC"/>
+    </linearGradient>
+    <linearGradient id="ember-gallery-toast" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8B15A"/>
+      <stop offset="0.5" stop-color="#F7A03C"/>
+      <stop offset="1" stop-color="#DE5A1C"/>
+    </linearGradient>
+    <filter id="soft-gallery-toast" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="softer-gallery-toast" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow-gallery-toast" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="grain-gallery-toast" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="0.004028842784464359" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg-gallery-toast)"/>
+  <rect width="1200" height="900" fill="url(#key-gallery-toast)"/>
+
+  <ellipse cx="600" cy="700" rx="440" ry="120" fill="#DE5A1C" opacity="0.28" filter="url(#softer-gallery-toast)"/>
+  
+    <g filter="url(#shadow-gallery-toast)" transform="translate(420,430) scale(1)">
+      <path d="M-84 -120 L84 -120 L64 180 C60 226 -60 226 -64 180 Z" fill="url(#cream-gallery-toast)" opacity="0.35"/>
+      <path d="M-72 -40 L72 -40 L60 168 C56 206 -56 206 -60 168 Z" fill="#DE5A1C" opacity="0.72"/>
+      <path d="M-84 -120 L84 -120 L80 -80 L-80 -80 Z" fill="#D9C7AC" opacity="0.6"/>
+      <path d="M-46 60 L46 20 M-30 130 L40 96" stroke="#E8B15A" stroke-opacity="0.35" stroke-width="8" stroke-linecap="round"/>
+    </g>
+    <g filter="url(#shadow-gallery-toast)" transform="translate(600,400) scale(1.15)">
+      <path d="M-84 -120 L84 -120 L64 180 C60 226 -60 226 -64 180 Z" fill="url(#cream-gallery-toast)" opacity="0.35"/>
+      <path d="M-72 -40 L72 -40 L60 168 C56 206 -56 206 -60 168 Z" fill="#DE5A1C" opacity="0.72"/>
+      <path d="M-84 -120 L84 -120 L80 -80 L-80 -80 Z" fill="#D9C7AC" opacity="0.6"/>
+      <path d="M-46 60 L46 20 M-30 130 L40 96" stroke="#E8B15A" stroke-opacity="0.35" stroke-width="8" stroke-linecap="round"/>
+    </g>
+    <g filter="url(#shadow-gallery-toast)" transform="translate(780,440) scale(0.95)">
+      <path d="M-84 -120 L84 -120 L64 180 C60 226 -60 226 -64 180 Z" fill="url(#cream-gallery-toast)" opacity="0.35"/>
+      <path d="M-72 -40 L72 -40 L60 168 C56 206 -56 206 -60 168 Z" fill="#DE5A1C" opacity="0.72"/>
+      <path d="M-84 -120 L84 -120 L80 -80 L-80 -80 Z" fill="#D9C7AC" opacity="0.6"/>
+      <path d="M-46 60 L46 20 M-30 130 L40 96" stroke="#E8B15A" stroke-opacity="0.35" stroke-width="8" stroke-linecap="round"/>
+    </g>
+  <g fill="#E8B15A" opacity="0.85">
+    <circle cx="144" cy="417" r="5.0"/><circle cx="252" cy="420" r="10.3"/><circle cx="986" cy="275" r="6.6"/><circle cx="266" cy="349" r="10.8"/><circle cx="646" cy="161" r="8.3"/><circle cx="984" cy="150" r="11.8"/><circle cx="243" cy="326" r="6.1"/><circle cx="850" cy="201" r="6.3"/><circle cx="980" cy="408" r="9.9"/><circle cx="356" cy="377" r="5.6"/><circle cx="725" cy="412" r="9.3"/><circle cx="1046" cy="185" r="9.3"/>
+  </g>
+  <rect width="1200" height="900" fill="url(#vig-gallery-toast)"/>
+  <rect width="1200" height="900" filter="url(#grain-gallery-toast)" opacity="0.075" style="mix-blend-mode:overlay"/>
+</svg>

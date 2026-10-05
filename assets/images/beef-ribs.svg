@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img">
+
+  <defs>
+    <linearGradient id="bg-beef-ribs" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#13100E"/>
+      <stop offset="0.55" stop-color="#1C1714"/>
+      <stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="key-beef-ribs" cx="0.5" cy="0.48999999999999994" r="0.62">
+      <stop offset="0" stop-color="#DE5A1C" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#F7A03C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0A0908" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig-beef-ribs" cx="0.5" cy="0.48" r="0.78">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="metal-beef-ribs" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8E4DE"/>
+      <stop offset="0.4" stop-color="#9A948C"/>
+      <stop offset="0.62" stop-color="#C9C3BB"/>
+      <stop offset="1" stop-color="#5E5852"/>
+    </linearGradient>
+    <linearGradient id="board-beef-ribs" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#54392B"/>
+      <stop offset="1" stop-color="#3A2A20"/>
+    </linearGradient>
+    <linearGradient id="meat-beef-ribs" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#C9634C"/>
+      <stop offset="0.45" stop-color="#A8352B"/>
+      <stop offset="1" stop-color="#661913"/>
+    </linearGradient>
+    <linearGradient id="meatDark-beef-ribs" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#A8352B"/>
+      <stop offset="0.6" stop-color="#661913"/>
+      <stop offset="1" stop-color="#4A120E"/>
+    </linearGradient>
+    <linearGradient id="bone-beef-ribs" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EFE2CB"/>
+      <stop offset="1" stop-color="#C9B795"/>
+    </linearGradient>
+    <linearGradient id="cream-beef-ribs" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FBF3E6"/>
+      <stop offset="1" stop-color="#D9C7AC"/>
+    </linearGradient>
+    <linearGradient id="ember-beef-ribs" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8B15A"/>
+      <stop offset="0.5" stop-color="#F7A03C"/>
+      <stop offset="1" stop-color="#DE5A1C"/>
+    </linearGradient>
+    <filter id="soft-beef-ribs" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="softer-beef-ribs" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow-beef-ribs" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="grain-beef-ribs" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="0.0007554022595286369" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg-beef-ribs)"/>
+  <rect width="1200" height="900" fill="url(#key-beef-ribs)"/>
+
+  <ellipse cx="600" cy="720" rx="330" ry="52.800000000000004" fill="#000" opacity="0.45" filter="url(#SOFT)"/>
+  <g filter="url(#shadow-beef-ribs)">
+    <g stroke="url(#bone-beef-ribs)" stroke-width="36" stroke-linecap="round" fill="none">
+      <path d="M392 336 L452 646"/>
+      <path d="M508 320 L556 668"/>
+      <path d="M624 320 L668 664"/>
+      <path d="M736 344 L782 630"/>
+    </g>
+    <path d="M292 356 C300 236 430 168 592 176 C724 182 830 236 862 316 C888 380 848 434 764 452 C612 484 384 470 316 420 Z" fill="url(#meat-beef-ribs)"/>
+    <path d="M292 356 C300 236 430 168 592 176 C724 182 830 236 862 316" stroke="#F3B48C" stroke-opacity="0.5" stroke-width="5" fill="none"/>
+    <path d="M316 420 C384 470 612 484 764 452 C848 434 888 380 862 316" stroke="#3E110D" stroke-opacity="0.55" stroke-width="10" fill="none"/>
+    <path d="M200.55396165698767 312.22099650185555 q 65.59107431210577 -18.337682789657265 114.68582585919648 8.705797519534826" stroke="#F0C79A" stroke-opacity="0.57" stroke-width="2.925695737823844" fill="none" stroke-linecap="round"/><path d="M833.1553868949413 346.1402744567022 q 64.89517530426383 -26.984732397366315 72.82317474484444 11.743432085961103" stroke="#F0C79A" stroke-opacity="0.59" stroke-width="3.2034053578972816" fill="none" stroke-linecap="round"/><path d="M402.5304116308689 492.8730715904385 q 57.63057286851108 -26.3232601294294 88.54872429743409 17.231469620019197" stroke="#F0C79A" stroke-opacity="0.26" stroke-width="5.284894991666079" fill="none" stroke-linecap="round"/><path d="M508.1245381385088 344.94986560195684 q 47.53249720670283 -16.820808871649206 123.05891702417284 7.227544538676739" stroke="#F0C79A" stroke-opacity="0.62" stroke-width="3.6073044054210186" fill="none" stroke-linecap="round"/><path d="M257.0611936971545 600.3927808860317 q 62.17918172478676 -18.788973789662123 83.15372476819903 11.495402365922928" stroke="#F0C79A" stroke-opacity="0.49" stroke-width="4.991570936515927" fill="none" stroke-linecap="round"/><path d="M483.5597498342395 423.91141950152814 q 53.302446100860834 -24.061129759531468 88.99919505696744 18.56911162286997" stroke="#F0C79A" stroke-opacity="0.59" stroke-width="4.87292645405978" fill="none" stroke-linecap="round"/><path d="M773.1796342879534 460.8364522503689 q 52.807487128302455 -22.150275107007474 111.84815503191203 8.577000048011541" stroke="#F0C79A" stroke-opacity="0.63" stroke-width="3.2810550462454557" fill="none" stroke-linecap="round"/><path d="M745.5269254744053 262.86011996213347 q 45.52584451623261 -24.49400765867904 119.2327660927549 10.421121217310429" stroke="#F0C79A" stroke-opacity="0.50" stroke-width="5.553616045042872" fill="none" stroke-linecap="round"/><path d="M723.1367867439985 591.7267205379903 q 43.009572718292475 -30.769286829512566 111.87038625590503 19.018458280712366" stroke="#F0C79A" stroke-opacity="0.54" stroke-width="4.080845342949033" fill="none" stroke-linecap="round"/><path d="M266.50872733443975 299.94820567779243 q 35.61973580159247 -17.462162883020937 121.42907025758177 13.480914492160082" stroke="#F0C79A" stroke-opacity="0.63" stroke-width="3.870770065113902" fill="none" stroke-linecap="round"/><path d="M399.5989989489317 544.2171278363094 q 65.35104506649077 -29.38984226481989 85.64831119496375 7.8480991050601006" stroke="#F0C79A" stroke-opacity="0.57" stroke-width="5.599627644754946" fill="none" stroke-linecap="round"/><path d="M354.62494995445013 559.5847714366391 q 47.49158235266805 -14.180819968227297 98.68556338362396 15.779749505221844" stroke="#F0C79A" stroke-opacity="0.32" stroke-width="3.3019172502681613" fill="none" stroke-linecap="round"/><path d="M576.5178667381406 507.3023558780551 q 37.90159215219319 -23.106955238617957 113.6109334602952 17.230596646666527" stroke="#F0C79A" stroke-opacity="0.56" stroke-width="3.1195336561650038" fill="none" stroke-linecap="round"/><path d="M889.4387204200029 585.8756196079776 q 56.13238615915179 -25.0961635238491 85.22833114489913 20.68843373656273" stroke="#F0C79A" stroke-opacity="0.53" stroke-width="3.0864051543176174" fill="none" stroke-linecap="round"/><path d="M817.7721098065376 286.69330284465104 q 53.02392264828086 -16.315394041128457 107.8373227501288 10.511717539280653" stroke="#F0C79A" stroke-opacity="0.33" stroke-width="2.972547123208642" fill="none" stroke-linecap="round"/><path d="M819.0900834277272 264.0099993394688 q 47.53101075999439 -15.467498573940247 111.19845101609826 12.406182654201984" stroke="#F0C79A" stroke-opacity="0.53" stroke-width="5.465950775891542" fill="none" stroke-linecap="round"/>
+    <path d="M372 264.275 L808 286.275" stroke="#2A0E0A" stroke-opacity="0.58" stroke-width="14.025640771724284" stroke-linecap="round" fill="none"/><path d="M372 327.525 L808 349.525" stroke="#2A0E0A" stroke-opacity="0.59" stroke-width="9.163202481111512" stroke-linecap="round" fill="none"/><path d="M372 390.77500000000003 L808 412.77500000000003" stroke="#2A0E0A" stroke-opacity="0.49" stroke-width="14.524913670262322" stroke-linecap="round" fill="none"/><path d="M372 454.02500000000003 L808 476.02500000000003" stroke="#2A0E0A" stroke-opacity="0.47" stroke-width="15.497639095177874" stroke-linecap="round" fill="none"/>
+    <ellipse cx="470" cy="240" rx="120" ry="42" fill="#FFD3AC" opacity="0.14" filter="url(#soft-beef-ribs)"/>
+  </g>
+  <rect width="1200" height="900" fill="url(#vig-beef-ribs)"/>
+  <rect width="1200" height="900" filter="url(#grain-beef-ribs)" opacity="0.075" style="mix-blend-mode:overlay"/>
+</svg>

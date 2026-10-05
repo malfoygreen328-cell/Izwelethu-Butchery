@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img">
+
+  <defs>
+    <linearGradient id="bg-bulk-beef-box" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#13100E"/>
+      <stop offset="0.55" stop-color="#1C1714"/>
+      <stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="key-bulk-beef-box" cx="0.5" cy="0.48999999999999994" r="0.62">
+      <stop offset="0" stop-color="#DE5A1C" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#F7A03C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0A0908" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig-bulk-beef-box" cx="0.5" cy="0.48" r="0.78">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="metal-bulk-beef-box" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8E4DE"/>
+      <stop offset="0.4" stop-color="#9A948C"/>
+      <stop offset="0.62" stop-color="#C9C3BB"/>
+      <stop offset="1" stop-color="#5E5852"/>
+    </linearGradient>
+    <linearGradient id="board-bulk-beef-box" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#54392B"/>
+      <stop offset="1" stop-color="#3A2A20"/>
+    </linearGradient>
+    <linearGradient id="meat-bulk-beef-box" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#C9634C"/>
+      <stop offset="0.45" stop-color="#A8352B"/>
+      <stop offset="1" stop-color="#661913"/>
+    </linearGradient>
+    <linearGradient id="meatDark-bulk-beef-box" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#A8352B"/>
+      <stop offset="0.6" stop-color="#661913"/>
+      <stop offset="1" stop-color="#4A120E"/>
+    </linearGradient>
+    <linearGradient id="bone-bulk-beef-box" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EFE2CB"/>
+      <stop offset="1" stop-color="#C9B795"/>
+    </linearGradient>
+    <linearGradient id="cream-bulk-beef-box" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FBF3E6"/>
+      <stop offset="1" stop-color="#D9C7AC"/>
+    </linearGradient>
+    <linearGradient id="ember-bulk-beef-box" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8B15A"/>
+      <stop offset="0.5" stop-color="#F7A03C"/>
+      <stop offset="1" stop-color="#DE5A1C"/>
+    </linearGradient>
+    <filter id="soft-bulk-beef-box" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="softer-bulk-beef-box" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow-bulk-beef-box" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="grain-bulk-beef-box" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="0.0028956932947039604" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg-bulk-beef-box)"/>
+  <rect width="1200" height="900" fill="url(#key-bulk-beef-box)"/>
+
+  <ellipse cx="600" cy="760" rx="360" ry="57.6" fill="#000" opacity="0.45" filter="url(#SOFT)"/>
+  <g filter="url(#shadow-bulk-beef-box)">
+    <g transform="translate(330,520)">
+      <path d="M-150 0 L0 -70 L150 0 L0 70 Z" fill="#C9A77C"/>
+      <path d="M-150 0 L0 -70 L0 -170 L-150 -240 Z" fill="#B08F66"/>
+      <path d="M150 0 L0 -70 L0 -170 L150 -240 Z" fill="#8E7048"/>
+      <path d="M-150 -124.80000000000001 L0 -194.8 L150 -124.80000000000001" stroke="#7A5B36" stroke-width="12" fill="none"/>
+      <circle cx="0" cy="-270" r="42" fill="none" stroke="#8A2620" stroke-width="7"/>
+      <path d="M-22 -282 L22 -258 M22 -282 L-22 -258" stroke="#8A2620" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(600,540)">
+      <path d="M-138 0 L0 -64.4 L138 0 L0 64.4 Z" fill="#C9A77C"/>
+      <path d="M-138 0 L0 -64.4 L0 -156.4 L-138 -220.8 Z" fill="#B08F66"/>
+      <path d="M138 0 L0 -64.4 L0 -156.4 L138 -220.8 Z" fill="#8E7048"/>
+      <path d="M-138 -114.81600000000002 L0 -179.216 L138 -114.81600000000002" stroke="#7A5B36" stroke-width="12" fill="none"/>
+      <circle cx="0" cy="-245.20000000000005" r="42" fill="none" stroke="#8A2620" stroke-width="7"/>
+      <path d="M-22 -257.20000000000005 L22 -233.20000000000005 M22 -257.20000000000005 L-22 -233.20000000000005" stroke="#8A2620" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <path d="M420 430 C480 400 700 402 760 434" stroke="#DE5A1C" stroke-opacity="0.4" stroke-width="8" fill="none"/>
+  </g>
+  <rect width="1200" height="900" fill="url(#vig-bulk-beef-box)"/>
+  <rect width="1200" height="900" filter="url(#grain-bulk-beef-box)" opacity="0.075" style="mix-blend-mode:overlay"/>
+</svg>

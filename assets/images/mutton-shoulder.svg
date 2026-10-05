@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img">
+
+  <defs>
+    <linearGradient id="bg-mutton-shoulder" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#13100E"/>
+      <stop offset="0.55" stop-color="#1C1714"/>
+      <stop offset="1" stop-color="#0A0908"/>
+    </linearGradient>
+    <radialGradient id="key-mutton-shoulder" cx="0.5" cy="0.48999999999999994" r="0.62">
+      <stop offset="0" stop-color="#DE5A1C" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#F7A03C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0A0908" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig-mutton-shoulder" cx="0.5" cy="0.48" r="0.78">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="metal-mutton-shoulder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8E4DE"/>
+      <stop offset="0.4" stop-color="#9A948C"/>
+      <stop offset="0.62" stop-color="#C9C3BB"/>
+      <stop offset="1" stop-color="#5E5852"/>
+    </linearGradient>
+    <linearGradient id="board-mutton-shoulder" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#54392B"/>
+      <stop offset="1" stop-color="#3A2A20"/>
+    </linearGradient>
+    <linearGradient id="meat-mutton-shoulder" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#C9634C"/>
+      <stop offset="0.45" stop-color="#A8352B"/>
+      <stop offset="1" stop-color="#661913"/>
+    </linearGradient>
+    <linearGradient id="meatDark-mutton-shoulder" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#A8352B"/>
+      <stop offset="0.6" stop-color="#661913"/>
+      <stop offset="1" stop-color="#4A120E"/>
+    </linearGradient>
+    <linearGradient id="bone-mutton-shoulder" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EFE2CB"/>
+      <stop offset="1" stop-color="#C9B795"/>
+    </linearGradient>
+    <linearGradient id="cream-mutton-shoulder" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FBF3E6"/>
+      <stop offset="1" stop-color="#D9C7AC"/>
+    </linearGradient>
+    <linearGradient id="ember-mutton-shoulder" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8B15A"/>
+      <stop offset="0.5" stop-color="#F7A03C"/>
+      <stop offset="1" stop-color="#DE5A1C"/>
+    </linearGradient>
+    <filter id="soft-mutton-shoulder" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="softer-mutton-shoulder" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow-mutton-shoulder" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="grain-mutton-shoulder" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="0.0017626129556447268" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg-mutton-shoulder)"/>
+  <rect width="1200" height="900" fill="url(#key-mutton-shoulder)"/>
+
+  <ellipse cx="600" cy="700" rx="320" ry="51.2" fill="#000" opacity="0.45" filter="url(#SOFT)"/>
+  <g filter="url(#shadow-mutton-shoulder)">
+    <path d="M300 500 C300 366 440 300 620 302 C800 304 906 372 906 496 C906 616 800 668 610 668 C420 668 300 620 300 500 Z" fill="url(#meat-mutton-shoulder)"/>
+    <path d="M330 430 C420 358 700 348 830 420" stroke="#F2CBA0" stroke-opacity="0.35" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M470 306 L470 664 M700 306 L700 664" stroke="#EFE2CB" stroke-width="14" opacity="0.6"/>
+    <path d="M300 500 C300 366 440 300 620 302" stroke="#F3B48C" stroke-opacity="0.45" stroke-width="5" fill="none"/>
+    <circle cx="756.2" cy="480.8" r="4.5" fill="#F2CBA0" opacity="0.68"/><circle cx="503.7" cy="446.6" r="10.2" fill="#C9634C" opacity="0.68"/><circle cx="483.8" cy="541.5" r="10.9" fill="#C9634C" opacity="0.52"/><circle cx="667.5" cy="493.3" r="4.9" fill="#7A241C" opacity="0.45"/><circle cx="712.6" cy="575.1" r="8.7" fill="#F2CBA0" opacity="0.66"/><circle cx="803.7" cy="531.5" r="11.4" fill="#7A241C" opacity="0.38"/><circle cx="539.5" cy="579.9" r="10.8" fill="#7A241C" opacity="0.41"/><circle cx="479.3" cy="569.2" r="3.5" fill="#F2CBA0" opacity="0.35"/><circle cx="453.0" cy="487.7" r="3.2" fill="#C9634C" opacity="0.73"/><circle cx="802.4" cy="439.3" r="9.4" fill="#C9634C" opacity="0.75"/><circle cx="540.5" cy="382.0" r="5.5" fill="#C9634C" opacity="0.32"/><circle cx="549.4" cy="374.8" r="11.2" fill="#F2CBA0" opacity="0.44"/><circle cx="628.6" cy="525.7" r="3.8" fill="#C9634C" opacity="0.59"/><circle cx="597.5" cy="469.5" r="10.0" fill="#F2CBA0" opacity="0.52"/><circle cx="640.3" cy="527.3" r="8.3" fill="#F2CBA0" opacity="0.75"/><circle cx="790.0" cy="425.7" r="8.8" fill="#C9634C" opacity="0.63"/><circle cx="617.4" cy="566.2" r="3.7" fill="#C9634C" opacity="0.44"/><circle cx="592.9" cy="418.4" r="9.9" fill="#7A241C" opacity="0.28"/><circle cx="665.0" cy="510.9" r="6.4" fill="#F2CBA0" opacity="0.39"/><circle cx="719.8" cy="440.5" r="9.8" fill="#C9634C" opacity="0.52"/><circle cx="511.5" cy="399.8" r="5.2" fill="#F2CBA0" opacity="0.65"/><circle cx="790.0" cy="495.0" r="9.0" fill="#7A241C" opacity="0.35"/><circle cx="631.1" cy="528.0" r="7.3" fill="#F2CBA0" opacity="0.41"/><circle cx="693.9" cy="544.8" r="3.1" fill="#7A241C" opacity="0.58"/><circle cx="583.1" cy="443.9" r="11.2" fill="#7A241C" opacity="0.74"/><circle cx="508.3" cy="415.0" r="11.5" fill="#7A241C" opacity="0.39"/>
+  </g>
+  <rect width="1200" height="900" fill="url(#vig-mutton-shoulder)"/>
+  <rect width="1200" height="900" filter="url(#grain-mutton-shoulder)" opacity="0.075" style="mix-blend-mode:overlay"/>
+</svg>
